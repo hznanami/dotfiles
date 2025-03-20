@@ -1,0 +1,10 @@
+exec_always swaymsg seat - cursor set 9999 9999
+exec mako 
+exec echo "Xft.dpi: 140" | xrdb -merge
+exec "fcitx5 -d"
+# exec_always --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+# exec --no-startup-id dbus-update-activation-environment --all
+
+# clipboard manager
+## listen for clipboard changes and write to the history
+exec "wl-paste --watch cliphist store"

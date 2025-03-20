@@ -1,0 +1,12 @@
+[Default Applications]
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
+image/webp=swayimg.desktop
+image/png=swayimg.desktop
+image/jpeg=swayimg.desktop
+image/*=swayimg.desktop
+image/jxl=swayimg.desktop
+
+[Added Associations]
+image/webp=swayimg.desktop;imv.desktop;librewolf.desktop;imv-dir.desktop;
+image/png=imv-dir.desktop;imv.desktop;swayimg.desktop;
+image/jpeg=swayimg.desktop;

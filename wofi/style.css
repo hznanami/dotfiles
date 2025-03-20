@@ -1,0 +1,78 @@
+@import ".cache/wal/colors-wofi.css";
+
+window {
+    font-family: "Noto Sans CJK";
+    font-size: 24px;
+    margin: 0px;
+    border: 5px solid @color15;
+    background-color: @color10;
+    /* border-radius: 24px; */
+    /* opacity: 0.9; */
+}
+
+#input {
+    color: @color15;
+    font-weight: bold;
+    /* background: linear-gradient(45deg, @color14 30%, @color13 100%); */
+    background: @color2;
+    background-color: @color0;
+    outline: none;
+    /* border-radius: 15px; */
+    margin: 15px;
+    margin-bottom: 0px;
+    opacity: 0.3;
+}
+#input:focus {
+    border: 5px solid @color2;
+    margin-bottom: 0px;
+    color: @color2;
+    opacity: 1;
+}
+
+#inner-box {
+    margin: 0px;
+    border: 10px solid @color0;
+    color: @color15;
+    font-weight: bold;
+    background-color: @color0;
+    /* border-radius: 15px; */
+}
+
+#outer-box {
+    margin: 0px;
+    border: 5px solid @color2;
+    /* border-radius: 15px; */
+    background-color: @color0;
+}
+
+#scroll {
+    margin-top: 5px;
+    border: none;
+    /* border-radius: 15px; */
+    margin-bottom: 5px;
+    /* background: rgb(255,255,255); */
+}
+
+#text:selected {
+    color: @color15;
+    margin: 0px 0px;
+    border: none;
+    /* border-radius: 15px; */
+}
+
+#entry {
+    margin: 0px 0px;
+    border: none;
+    /* border-radius: 15px; */
+    background-color: transparent;
+    opacity: 0.3;
+}
+
+#entry:selected {
+    margin: 0px 0px;
+    border: none;
+    /* border-radius: 15px; */
+    /* background: linear-gradient(45deg, @color13 30%, @color15 100%); */
+    background: @color2;
+    opacity: 1;
+}

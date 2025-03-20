@@ -1,0 +1,872 @@
+Jan 02 01:43 : exception: Failed to open '/home/hz/.config/mpd/mpdstate': No such file or directory
+Jan 02 01:43 : update: added /paranoia - 鹿乃.flac
+Jan 02 01:43 : update: added /瞳 - 大原櫻子.flac
+Jan 02 01:43 : update: added /glow - 鹿乃.flac
+Jan 02 01:43 : update: added /Where Did U Go - G.E.M.邓紫棋.flac
+Jan 02 01:43 : update: added /intention - 鹿乃、U-ske.flac
+Jan 02 01:43 : update: added /地球最後の告白を - 鹿乃.flac
+Jan 02 01:43 : update: added /冬物語 - 三代目 J SOUL BROTHERS from EXILE TRIBE.flac
+Jan 02 01:43 : update: added /この世界で想うたった一人のひと - 宮脇詩音.flac
+Jan 02 01:43 : update: added /クライヤ - 鹿乃.mp3
+Jan 02 01:43 : update: added /雨の音 - 當山みれい.flac
+Jan 02 01:43 : update: added /アイロニ - 鹿乃.flac
+Jan 02 01:43 : update: added /もしも - 當山みれい,まるりとりゅうが.flac
+Jan 02 01:43 : update: added /decide - 鹿乃.flac
+Jan 02 01:43 : update: added /天ノ弱 - 鹿乃.flac
+Jan 02 01:43 : update: added /R.Y.U.S.E.I - 三代目 J SOUL BROTHERS from EXILE TRIBE.flac
+Jan 02 01:43 : update: added /最後のやさしさ - 宮脇詩音.flac
+Jan 02 01:43 : update: added /光の道標 - 鹿乃.flac
+Jan 02 01:43 : update: added /无颜女 - 小凌、徐良.flac
+Jan 02 01:43 : update: added /千年之恋 - F.I.R..flac
+Jan 02 01:43 : update: added /最後のわがまま - 宮脇詩音.flac
+Jan 02 01:43 : update: added /ドーナドーナのうた - 月乃.flac
+Jan 02 01:43 : update: added /ロミオとシンデレラ - 花たん.flac
+Jan 02 01:43 : update: added /ずっと、君と。 - 宮脇詩音.flac
+Jan 02 01:43 : update: added /Flower Dance - DJ OKAWARI.flac
+Jan 02 01:43 : update: added /月牙湾 - F.I.R..flac
+Jan 02 01:43 : update: added /真夏の太陽 - 大原櫻子.flac
+Jan 02 01:46 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 01:46 : player: played "ロミオとシンデレラ - 花たん.flac"
+Jan 02 01:47 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 01:47 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 01:49 : player: played "无颜女 - 小凌、徐良.flac"
+Jan 02 01:52 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 01:53 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 02 01:54 : player: played "无颜女 - 小凌、徐良.flac"
+Jan 02 01:58 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 02 01:58 : player: played "ロミオとシンデレラ - 花たん.flac"
+Jan 02 02:02 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 02 02:02 : player: played "无颜女 - 小凌、徐良.flac"
+Jan 02 02:14 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/12. 届かない恋 '13.flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/14. 恋のような.flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/13. 優しい嘘.flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/06. 大切な君へ.flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/01. 届かない恋 Live at Campus Fes (TV anime ver.).flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/11. Free and Dream.flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/09. SOUND OF DESTINY Live at Campus Fes (TV anime ver.).flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/07. closing '13.flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/03. I'm fallin' in love.flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/05. Twinkle Snow '13.flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/02. 悪女.flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/10. さよならのこと.flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/04. After All ~綴る想い~ '13.flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to access /home/hz/Music/08. WHITE ALBUM Live at Campus Fes (TV anime ver.).flac: Too many levels of symbolic links
+Jan 02 02:15 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 02:18 : update: added /12. 届かない恋 '13.flac
+Jan 02 02:18 : update: added /14. 恋のような.flac
+Jan 02 02:18 : update: added /13. 優しい嘘.flac
+Jan 02 02:18 : update: added /06. 大切な君へ.flac
+Jan 02 02:18 : update: added /01. 届かない恋 Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:18 : update: added /11. Free and Dream.flac
+Jan 02 02:18 : update: added /09. SOUND OF DESTINY Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:18 : update: added /07. closing '13.flac
+Jan 02 02:18 : update: added /03. I'm fallin' in love.flac
+Jan 02 02:18 : update: added /05. Twinkle Snow '13.flac
+Jan 02 02:18 : update: added /02. 悪女.flac
+Jan 02 02:18 : update: added /10. さよならのこと.flac
+Jan 02 02:18 : update: added /04. After All ~綴る想い~ '13.flac
+Jan 02 02:18 : update: added /08. WHITE ALBUM Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:18 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 02:23 : player: played "01. 届かない恋 Live at Campus Fes (TV anime ver.).flac"
+Jan 02 02:29 : update: removing 04. After All ~綴る想い~ '13.flac
+Jan 02 02:29 : update: removing 03. I'm fallin' in love.flac
+Jan 02 02:29 : update: removing 02. 悪女.flac
+Jan 02 02:29 : update: removing 01. 届かない恋 Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:29 : update: removing 13. 優しい嘘.flac
+Jan 02 02:29 : update: removing 12. 届かない恋 '13.flac
+Jan 02 02:29 : update: removing 11. Free and Dream.flac
+Jan 02 02:29 : update: removing 10. さよならのこと.flac
+Jan 02 02:29 : update: removing 09. SOUND OF DESTINY Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:29 : update: removing 08. WHITE ALBUM Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:29 : update: removing 07. closing '13.flac
+Jan 02 02:29 : update: removing 06. 大切な君へ.flac
+Jan 02 02:29 : update: removing 05. Twinkle Snow '13.flac
+Jan 02 02:29 : update: removing 14. 恋のような.flac
+Jan 02 02:29 : update: added /優しい嘘.flac
+Jan 02 02:29 : update: added /SOUND OF DESTINY Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:29 : update: added /Free and Dream.flac
+Jan 02 02:29 : update: added /closing '13.flac
+Jan 02 02:29 : update: added /さよならのこと.flac
+Jan 02 02:29 : update: added /After All ~綴る想い~ '13.flac
+Jan 02 02:29 : update: added /I'm fallin' in love.flac
+Jan 02 02:29 : update: added /WHITE ALBUM Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:29 : update: added /届かない恋 '13.flac
+Jan 02 02:29 : update: added /届かない恋 Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:29 : update: added /Twinkle Snow '13.flac
+Jan 02 02:29 : update: added /恋のような.flac
+Jan 02 02:29 : update: added /悪女.flac
+Jan 02 02:29 : update: added /大切な君へ.flac
+Jan 02 02:36 : update: removing After All ~綴る想い~ '13.flac
+Jan 02 02:36 : update: removing I'm fallin' in love.flac
+Jan 02 02:36 : update: removing 悪女.flac
+Jan 02 02:36 : update: removing 届かない恋 Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:36 : update: removing 恋のような.flac
+Jan 02 02:36 : update: removing 優しい嘘.flac
+Jan 02 02:36 : update: removing 届かない恋 '13.flac
+Jan 02 02:36 : update: removing Free and Dream.flac
+Jan 02 02:36 : update: removing さよならのこと.flac
+Jan 02 02:36 : update: removing SOUND OF DESTINY Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:36 : update: removing WHITE ALBUM Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:36 : update: removing closing '13.flac
+Jan 02 02:36 : update: removing 大切な君へ.flac
+Jan 02 02:36 : update: removing Twinkle Snow '13.flac
+Jan 02 02:36 : update: added /test.flac
+Jan 02 02:36 : update: removing test.flac
+Jan 02 02:43 : update: added /test.flac
+Jan 02 02:45 : update: added test/decide - 鹿乃.flac
+Jan 02 02:51 : update: removing test/decide - 鹿乃.flac
+Jan 02 02:53 : update: removing test.flac
+Jan 02 02:54 : update: added /優しい嘘.flac
+Jan 02 02:54 : update: added /SOUND OF DESTINY Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:54 : update: added /Free and Dream.flac
+Jan 02 02:54 : update: added /closing '13.flac
+Jan 02 02:54 : update: added /さよならのこと.flac
+Jan 02 02:54 : update: added /After All ~綴る想い~ '13.flac
+Jan 02 02:54 : update: added /I'm fallin' in love.flac
+Jan 02 02:54 : update: added /WHITE ALBUM Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:54 : update: added /届かない恋 '13.flac
+Jan 02 02:54 : update: added /届かない恋 Live at Campus Fes (TV anime ver.).flac
+Jan 02 02:54 : update: added /Twinkle Snow '13.flac
+Jan 02 02:54 : update: added /恋のような.flac
+Jan 02 02:54 : update: added /悪女.flac
+Jan 02 02:54 : update: added /大切な君へ.flac
+Jan 02 02:55 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 02:55 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 02:56 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 03:00 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 02 03:02 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 03:08 : player: played "恋のような.flac"
+Jan 02 03:08 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 02 03:14 : player: played "さよならのこと.flac"
+Jan 03 00:58 : player: played "ロミオとシンデレラ - 花たん.flac"
+Jan 03 01:06 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 03 01:06 : player: played "ロミオとシンデレラ - 花たん.flac"
+Jan 03 01:07 : player: played "无颜女 - 小凌、徐良.flac"
+Jan 03 01:09 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:15 : player: played "優しい嘘.flac"
+Jan 03 01:16 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:22 : player: played "届かない恋 Live at Campus Fes (TV anime ver.).flac"
+Jan 03 01:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 03 01:26 : player: played "无颜女 - 小凌、徐良.flac"
+Jan 03 01:30 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 03 01:34 : player: played "SOUND OF DESTINY Live at Campus Fes (TV anime ver.).flac"
+Jan 03 01:40 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:42 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:43 : player: played "Free and Dream.flac"
+Jan 03 01:44 : player: played "さよならのこと.flac"
+Jan 03 01:45 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:46 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 03 01:46 : player: played "この世界で想うたった一人のひと - 宮脇詩音.flac"
+Jan 03 01:46 : player: played "Free and Dream.flac"
+Jan 03 01:50 : player: played "Free and Dream.flac"
+Jan 03 01:51 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:54 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:54 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:54 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:54 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:54 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:54 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:54 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:54 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:55 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:55 : exception: Failed to open /home/hz/.config/mpd/playlists: No such file or directory
+Jan 03 01:56 : player: played "decide - 鹿乃.flac"
+Jan 03 03:08 : exception: Stored playlists are disabled
+Jan 03 03:10 : exception: Stored playlists are disabled
+Jan 03 03:10 : exception: Stored playlists are disabled
+Jan 03 03:15 : player: played "Twinkle Snow '13.flac"
+Jan 03 03:22 : player: played "Twinkle Snow '13.flac"
+Jan 03 03:28 : player: played "Twinkle Snow '13.flac"
+Jan 03 03:34 : player: played "Twinkle Snow '13.flac"
+Jan 04 03:19 : player: played "優しい嘘.flac"
+Jan 04 03:25 : player: played "優しい嘘.flac"
+Jan 04 03:30 : player: played "優しい嘘.flac"
+Jan 04 03:38 : exception: Stored playlists are disabled
+Jan 04 03:42 : player: played "ドーナドーナのうた - 月乃.flac"
+Jan 04 03:46 : player: played "ドーナドーナのうた - 月乃.flac"
+Jan 04 03:50 : player: played "ドーナドーナのうた - 月乃.flac"
+Jan 04 03:54 : player: played "ドーナドーナのうた - 月乃.flac"
+Jan 04 04:20 : player: played "decide - 鹿乃.flac"
+Jan 05 00:49 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 05 00:50 : player: played "decide - 鹿乃.flac"
+Jan 05 00:55 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 05 00:55 : player: played "decide - 鹿乃.flac"
+Jan 05 01:01 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 05 01:01 : player: played "decide - 鹿乃.flac"
+Jan 05 01:07 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 05 01:07 : player: played "decide - 鹿乃.flac"
+Jan 05 01:13 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 05 01:13 : player: played "decide - 鹿乃.flac"
+Jan 06 03:06 : player: played "decide - 鹿乃.flac"
+Jan 06 03:16 : exception: Not playing
+Jan 06 03:24 : player: played "Twinkle Snow '13.flac"
+Jan 06 03:27 : update: added /さよならのこと Piano Trio ver..flac
+Jan 06 03:27 : update: added /言葉にできない想い.flac
+Jan 06 03:27 : update: added /穏やかに過ぎゆく時.flac
+Jan 06 03:27 : update: added /言葉にできない想い Cello solo ver..flac
+Jan 06 03:27 : update: added /さよならのこと  (TV EDIT).flac
+Jan 06 03:27 : update: added /見果てぬ夢.flac
+Jan 06 03:27 : update: added /綺麗で儚いもの.flac
+Jan 06 03:27 : update: added /届かない恋 '13 (TV EDIT).flac
+Jan 06 03:27 : update: added /あの頃のように.flac
+Jan 06 03:27 : update: added /いつか見た景色.flac
+Jan 06 03:27 : update: added /氷の刃.flac
+Jan 06 03:27 : update: added /心はいつもあなたのそばに Quartet ver..flac
+Jan 06 03:27 : update: added /あの頃のように Quartet ver..flac
+Jan 06 03:27 : update: added /静かな冬の夜.flac
+Jan 06 03:27 : update: added /WHITE ALBUM Piano solo ver..flac
+Jan 06 03:27 : update: added /Twinkle Snow Piano Quartet ver..flac
+Jan 06 03:31 : update: added /冬の街路樹.flac
+Jan 06 03:31 : update: added /届かない恋 Piano solo ver..flac
+Jan 06 03:31 : update: added /雪に願いを.flac
+Jan 06 03:31 : update: added /boy meets girl and girl.flac
+Jan 06 03:31 : update: added /初めての夜.flac
+Jan 06 03:31 : update: added /ドラム3〜action〜.flac
+Jan 06 03:31 : update: added /Snow Crystal.flac
+Jan 06 03:31 : update: added /空回る青春.flac
+Jan 06 03:31 : update: added /ドラム1〜routine〜.flac
+Jan 06 03:31 : update: added /SLAPSTICK STREET.flac
+Jan 06 03:31 : update: added /SOUND OF DESTINY Piano Backing ver..flac
+Jan 06 03:31 : update: added /ドラム2〜practice〜.flac
+Jan 06 03:31 : update: added /FILL YOU.flac
+Jan 06 03:31 : update: added /ドラム4〜hard work〜.flac
+Jan 06 03:31 : update: added /WINTER VACATION.flac
+Jan 06 03:31 : update: added /若さ故の・・・.flac
+Jan 06 03:31 : update: added /イルミネーションタウン.flac
+Jan 06 03:31 : update: added /冬の街路樹 Waltz ver..flac
+Jan 06 03:31 : update: added /Wish.flac
+Jan 06 03:31 : update: added /STRAIN.flac
+Jan 06 03:31 : update: added /Dear Friends.flac
+Jan 06 03:31 : update: added /ドラム5〜inspire〜.flac
+Jan 06 03:31 : update: added /Stars fall like Snow.flac
+Jan 06 03:31 : update: added /静かな冬の夜 Synth ver..flac
+Jan 06 03:34 : update: added /デタラメなマイナスとプラスにおけるブレンド考.flac
+Jan 06 03:34 : update: added /デタラメなマイナスとプラスにおけるブレンド考 (Instrumental).flac
+Jan 06 03:34 : update: added /ぼなぺてぃーと♡S (Instrumental).flac
+Jan 06 03:34 : update: added /ぼなぺてぃーと♡S.flac
+Jan 06 03:35 : exception: Stored playlists are disabled
+Jan 06 03:40 : player: played "デタラメなマイナスとプラスにおけるブレンド考.flac"
+Jan 06 03:44 : player: played "デタラメなマイナスとプラスにおけるブレンド考.flac"
+Jan 06 03:45 : player: played "デタラメなマイナスとプラスにおけるブレンド考.flac"
+Jan 06 20:49 : exception: Stored playlists are disabled
+Jan 06 20:57 : player: played "言葉にできない想い.flac"
+Jan 06 21:13 : player: played "言葉にできない想い.flac"
+Jan 06 21:15 : player: played "言葉にできない想い.flac"
+Jan 06 21:18 : exception: Stored playlists are disabled
+Jan 06 21:18 : exception: Stored playlists are disabled
+Jan 06 21:19 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jan 06 21:25 : player: played "大切な君へ.flac"
+Jan 06 21:30 : player: played "大切な君へ.flac"
+Jan 06 22:23 : player: played "恋のような.flac"
+Jan 06 22:31 : player: played "優しい嘘.flac"
+Jan 06 22:33 : player: played "言葉にできない想い.flac"
+Jan 06 22:35 : player: played "言葉にできない想い.flac"
+Jan 06 22:37 : player: played "言葉にできない想い.flac"
+Jan 06 22:39 : player: played "言葉にできない想い.flac"
+Jan 06 22:42 : player: played "言葉にできない想い.flac"
+Jan 06 22:44 : player: played "言葉にできない想い.flac"
+Jan 06 22:48 : player: played "言葉にできない想い.flac"
+Jan 06 22:50 : player: played "言葉にできない想い.flac"
+Jan 06 22:53 : player: played "言葉にできない想い.flac"
+Jan 06 22:55 : player: played "言葉にできない想い.flac"
+Jan 06 22:57 : player: played "言葉にできない想い.flac"
+Jan 06 22:59 : player: played "言葉にできない想い.flac"
+Jan 06 23:01 : player: played "言葉にできない想い.flac"
+Jan 06 23:03 : player: played "言葉にできない想い.flac"
+Jan 06 23:06 : player: played "言葉にできない想い.flac"
+Jan 06 23:08 : player: played "言葉にできない想い.flac"
+Jan 06 23:10 : player: played "言葉にできない想い.flac"
+Jan 06 23:12 : player: played "言葉にできない想い.flac"
+Jan 06 23:15 : player: played "綺麗で儚いもの.flac"
+Jan 06 23:17 : player: played "綺麗で儚いもの.flac"
+Jan 06 23:19 : player: played "綺麗で儚いもの.flac"
+Jan 06 23:21 : player: played "綺麗で儚いもの.flac"
+Jan 06 23:23 : player: played "綺麗で儚いもの.flac"
+Jan 06 23:24 : player: played "綺麗で儚いもの.flac"
+Jan 07 21:31 : player: played "言葉にできない想い.flac"
+Jan 07 21:34 : player: played "言葉にできない想い.flac"
+Jan 07 21:36 : player: played "言葉にできない想い.flac"
+Jan 07 21:38 : player: played "言葉にできない想い.flac"
+Jan 07 21:40 : player: played "言葉にできない想い.flac"
+Jan 07 21:42 : player: played "言葉にできない想い.flac"
+Jan 07 21:44 : player: played "言葉にできない想い.flac"
+Jan 07 21:46 : player: played "言葉にできない想い.flac"
+Jan 07 21:49 : player: played "言葉にできない想い.flac"
+Jan 07 22:18 : exception: Stored playlists are disabled
+Jan 07 22:22 : player: played "Where Did U Go - G.E.M.邓紫棋.flac"
+Jan 07 23:00 : player: played "I'm fallin' in love.flac"
+Jan 07 23:29 : player: played "届かない恋 Piano solo ver..flac"
+Jan 07 23:31 : player: played "届かない恋 Piano solo ver..flac"
+Jan 07 23:31 : exception: Stored playlists are disabled
+Jan 07 23:36 : player: played "Where Did U Go - G.E.M.邓紫棋.flac"
+Jan 08 00:41 : player: played "Where Did U Go - G.E.M.邓紫棋.flac"
+Jan 08 00:42 : exception: Stored playlists are disabled
+Jan 08 00:47 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 08 00:51 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 08 00:56 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 08 01:57 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 09 01:27 : exception: Stored playlists are disabled
+Jan 09 01:32 : player: played "地球最後の告白を - 鹿乃.flac"
+Jan 09 01:36 : player: played "地球最後の告白を - 鹿乃.flac"
+Jan 09 01:37 : exception: Stored playlists are disabled
+Jan 09 01:37 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jan 09 01:42 : player: played "クライヤ - 鹿乃.mp3"
+Jan 09 01:46 : player: played "クライヤ - 鹿乃.mp3"
+Jan 09 01:51 : player: played "クライヤ - 鹿乃.mp3"
+Jan 09 01:56 : player: played "クライヤ - 鹿乃.mp3"
+Jan 09 02:00 : player: played "クライヤ - 鹿乃.mp3"
+Jan 09 02:05 : player: played "クライヤ - 鹿乃.mp3"
+Jan 09 02:08 : exception: Stored playlists are disabled
+Jan 09 02:13 : player: played "アイロニ - 鹿乃.flac"
+Jan 09 02:17 : player: played "アイロニ - 鹿乃.flac"
+Jan 09 02:21 : player: played "アイロニ - 鹿乃.flac"
+Jan 09 02:28 : player: played "届かない恋 '13.flac"
+Jan 09 02:31 : player: played "届かない恋 '13.flac"
+Jan 09 03:47 : exception: Stored playlists are disabled
+Jan 09 03:49 : exception: Stored playlists are disabled
+Jan 09 03:53 : exception: Stored playlists are disabled
+Jan 09 04:00 : player: played "冬の街路樹.flac"
+Jan 09 04:02 : player: played "冬の街路樹.flac"
+Jan 09 04:03 : player: played "冬の街路樹.flac"
+Jan 10 02:36 : player: played "言葉にできない想い.flac"
+Jan 10 02:38 : player: played "言葉にできない想い.flac"
+Jan 10 02:38 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jan 10 02:40 : player: played "言葉にできない想い.flac"
+Jan 10 02:43 : player: played "言葉にできない想い.flac"
+Jan 10 02:45 : player: played "言葉にできない想い.flac"
+Jan 10 02:47 : player: played "言葉にできない想い.flac"
+Jan 10 02:49 : player: played "言葉にできない想い.flac"
+Jan 10 02:51 : player: played "言葉にできない想い.flac"
+Jan 10 02:53 : player: played "言葉にできない想い.flac"
+Jan 10 02:55 : player: played "言葉にできない想い.flac"
+Jan 10 02:58 : player: played "言葉にできない想い.flac"
+Jan 10 03:00 : player: played "言葉にできない想い.flac"
+Jan 10 03:02 : player: played "言葉にできない想い.flac"
+Jan 10 03:04 : player: played "言葉にできない想い.flac"
+Jan 10 03:06 : player: played "言葉にできない想い.flac"
+Jan 10 03:08 : player: played "言葉にできない想い.flac"
+Jan 10 03:10 : player: played "言葉にできない想い.flac"
+Jan 10 03:13 : player: played "言葉にできない想い.flac"
+Jan 10 03:15 : player: played "言葉にできない想い.flac"
+Jan 10 03:17 : player: played "言葉にできない想い.flac"
+Jan 10 03:19 : player: played "言葉にできない想い.flac"
+Jan 10 03:21 : player: played "言葉にできない想い.flac"
+Jan 10 03:23 : player: played "言葉にできない想い.flac"
+Jan 10 03:26 : player: played "言葉にできない想い.flac"
+Jan 10 03:28 : player: played "言葉にできない想い.flac"
+Jan 10 03:30 : player: played "言葉にできない想い.flac"
+Jan 10 03:32 : player: played "言葉にできない想い.flac"
+Jan 10 03:34 : player: played "言葉にできない想い.flac"
+Jan 10 03:36 : player: played "言葉にできない想い.flac"
+Jan 10 03:38 : player: played "言葉にできない想い.flac"
+Jan 10 03:41 : player: played "言葉にできない想い.flac"
+Jan 10 03:45 : player: played "綺麗で儚いもの.flac"
+Jan 10 03:50 : exception: Stored playlists are disabled
+Jan 10 03:58 : player: played "さよならのこと Piano Trio ver..flac"
+Jan 10 23:30 : exception: Stored playlists are disabled
+Jan 10 23:34 : exception: Stored playlists are disabled
+Jan 10 23:43 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 10 23:43 : player: played "この世界で想うたった一人のひと - 宮脇詩音.flac"
+Jan 10 23:54 : player: played "最後のわがまま - 宮脇詩音.flac"
+Jan 11 00:07 : exception: Stored playlists are disabled
+Jan 11 00:07 : exception: Stored playlists are disabled
+Jan 11 00:07 : exception: Stored playlists are disabled
+Jan 11 00:07 : exception: Stored playlists are disabled
+Jan 11 00:07 : exception: Stored playlists are disabled
+Jan 11 00:07 : exception: Stored playlists are disabled
+Jan 11 00:07 : exception: Stored playlists are disabled
+Jan 11 00:08 : exception: Stored playlists are disabled
+Jan 11 00:08 : exception: Stored playlists are disabled
+Jan 11 00:08 : exception: Stored playlists are disabled
+Jan 11 00:08 : exception: Stored playlists are disabled
+Jan 11 00:08 : exception: Stored playlists are disabled
+Jan 11 00:08 : exception: Stored playlists are disabled
+Jan 11 00:08 : exception: Stored playlists are disabled
+Jan 11 00:08 : exception: Stored playlists are disabled
+Jan 11 00:08 : exception: Stored playlists are disabled
+Jan 11 00:08 : exception: Stored playlists are disabled
+Jan 11 00:08 : exception: Stored playlists are disabled
+Jan 11 00:10 : player: played "最後のわがまま - 宮脇詩音.flac"
+Jan 11 00:15 : player: played "最後のわがまま - 宮脇詩音.flac"
+Jan 11 00:21 : player: played "最後のわがまま - 宮脇詩音.flac"
+Jan 11 14:36 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 11 14:44 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 11 15:26 : player: played "言葉にできない想い.flac"
+Jan 11 16:52 : player: played "言葉にできない想い.flac"
+Jan 11 21:41 : player: played "言葉にできない想い.flac"
+Jan 11 21:44 : player: played "言葉にできない想い.flac"
+Jan 11 21:46 : player: played "言葉にできない想い.flac"
+Jan 11 21:48 : player: played "言葉にできない想い.flac"
+Jan 12 02:21 : player: played "言葉にできない想い.flac"
+Jan 13 01:26 : exception: Stored playlists are disabled
+Jan 13 01:32 : player: played "ぼなぺてぃーと♡S.flac"
+Jan 13 01:36 : player: played "ぼなぺてぃーと♡S.flac"
+Jan 13 01:40 : player: played "ぼなぺてぃーと♡S.flac"
+Jan 13 01:45 : player: played "ぼなぺてぃーと♡S.flac"
+Jan 13 01:49 : player: played "ぼなぺてぃーと♡S.flac"
+Jan 13 01:55 : player: played "優しい嘘.flac"
+Jan 13 02:01 : player: played "言葉にできない想い.flac"
+Jan 13 02:03 : player: played "言葉にできない想い.flac"
+Jan 13 02:05 : player: played "言葉にできない想い.flac"
+Jan 13 02:07 : player: played "言葉にできない想い.flac"
+Jan 13 02:09 : player: played "言葉にできない想い.flac"
+Jan 13 02:11 : player: played "言葉にできない想い.flac"
+Jan 13 02:14 : player: played "言葉にできない想い.flac"
+Jan 13 02:17 : player: played "綺麗で儚いもの.flac"
+Jan 13 02:19 : player: played "綺麗で儚いもの.flac"
+Jan 13 02:42 : player: played "綺麗で儚いもの.flac"
+Jan 13 02:45 : player: played "綺麗で儚いもの.flac"
+Jan 13 02:47 : player: played "綺麗で儚いもの.flac"
+Jan 13 02:49 : player: played "綺麗で儚いもの.flac"
+Jan 13 02:51 : player: played "綺麗で儚いもの.flac"
+Jan 13 02:53 : player: played "綺麗で儚いもの.flac"
+Jan 13 02:55 : player: played "綺麗で儚いもの.flac"
+Jan 13 03:11 : player: played "綺麗で儚いもの.flac"
+Jan 14 02:52 : exception: Stored playlists are disabled
+Jan 14 02:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jan 14 02:54 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jan 14 02:58 : player: played "クライヤ - 鹿乃.mp3"
+Jan 14 03:02 : player: played "クライヤ - 鹿乃.mp3"
+Jan 14 03:09 : player: played "アイロニ - 鹿乃.flac"
+Jan 14 03:29 : exception: Stored playlists are disabled
+Jan 14 03:34 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 14 03:40 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 14 03:46 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 14 04:05 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 15 02:31 : player: played "雪に願いを.flac"
+Jan 15 02:34 : player: played "言葉にできない想い.flac"
+Jan 15 02:36 : player: played "言葉にできない想い.flac"
+Jan 15 02:38 : player: played "言葉にできない想い.flac"
+Jan 15 02:40 : player: played "言葉にできない想い.flac"
+Jan 15 02:43 : player: played "言葉にできない想い.flac"
+Jan 15 02:45 : player: played "言葉にできない想い.flac"
+Jan 15 02:47 : player: played "言葉にできない想い.flac"
+Jan 15 02:49 : player: played "言葉にできない想い.flac"
+Jan 15 02:51 : player: played "言葉にできない想い.flac"
+Jan 15 02:53 : player: played "言葉にできない想い.flac"
+Jan 15 02:55 : player: played "言葉にできない想い.flac"
+Jan 15 02:58 : player: played "言葉にできない想い.flac"
+Jan 15 03:00 : player: played "言葉にできない想い.flac"
+Jan 15 03:02 : player: played "言葉にできない想い.flac"
+Jan 15 03:04 : player: played "言葉にできない想い.flac"
+Jan 15 03:06 : exception: Stored playlists are disabled
+Jan 15 03:07 : player: played "Wish.flac"
+Jan 15 03:10 : player: played "見果てぬ夢.flac"
+Jan 15 03:12 : player: played "見果てぬ夢.flac"
+Jan 15 03:14 : player: played "見果てぬ夢.flac"
+Jan 15 03:16 : player: played "見果てぬ夢.flac"
+Jan 15 03:18 : player: played "見果てぬ夢.flac"
+Jan 15 03:20 : player: played "見果てぬ夢.flac"
+Jan 15 03:23 : player: played "見果てぬ夢.flac"
+Jan 15 03:25 : player: played "見果てぬ夢.flac"
+Jan 15 03:27 : player: played "見果てぬ夢.flac"
+Jan 15 03:29 : player: played "見果てぬ夢.flac"
+Jan 15 03:31 : player: played "見果てぬ夢.flac"
+Jan 15 03:33 : player: played "見果てぬ夢.flac"
+Jan 15 03:36 : player: played "見果てぬ夢.flac"
+Jan 15 03:36 : player: played "見果てぬ夢.flac"
+Jan 16 01:22 : exception: Not playing
+Jan 16 01:22 : exception: Not playing
+Jan 16 01:24 : player: played "WHITE ALBUM Piano solo ver..flac"
+Jan 16 01:26 : player: played "WHITE ALBUM Piano solo ver..flac"
+Jan 16 01:28 : player: played "WHITE ALBUM Piano solo ver..flac"
+Jan 16 01:31 : player: played "WHITE ALBUM Piano solo ver..flac"
+Jan 16 03:04 : player: played "WHITE ALBUM Piano solo ver..flac"
+Jan 17 16:25 : player: played "綺麗で儚いもの.flac"
+Jan 17 16:27 : player: played "綺麗で儚いもの.flac"
+Jan 17 16:29 : player: played "綺麗で儚いもの.flac"
+Jan 17 17:47 : player: played "綺麗で儚いもの.flac"
+Jan 19 03:29 : player: played "綺麗で儚いもの.flac"
+Jan 19 03:32 : player: played "綺麗で儚いもの.flac"
+Jan 19 03:34 : player: played "綺麗で儚いもの.flac"
+Jan 19 03:37 : player: played "言葉にできない想い Cello solo ver..flac"
+Jan 19 03:39 : player: played "あの頃のように Quartet ver..flac"
+Jan 19 03:42 : player: played "見果てぬ夢.flac"
+Jan 19 03:44 : player: played "見果てぬ夢.flac"
+Jan 19 03:46 : player: played "見果てぬ夢.flac"
+Jan 19 03:48 : player: played "見果てぬ夢.flac"
+Jan 19 03:50 : player: played "見果てぬ夢.flac"
+Jan 19 03:52 : player: played "見果てぬ夢.flac"
+Jan 19 03:55 : player: played "見果てぬ夢.flac"
+Jan 19 03:57 : player: played "見果てぬ夢.flac"
+Jan 19 04:08 : player: played "見果てぬ夢.flac"
+Jan 20 16:36 : player: played "恋のような.flac"
+Jan 20 16:38 : player: played "届かない恋 Piano solo ver..flac"
+Jan 20 16:39 : player: played "届かない恋 Piano solo ver..flac"
+Jan 20 16:52 : player: played "言葉にできない想い.flac"
+Jan 20 17:30 : player: played "言葉にできない想い.flac"
+Jan 20 22:27 : exception: Stored playlists are disabled
+Jan 20 22:39 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Jan 20 22:40 : player: played "decide - 鹿乃.flac"
+Jan 20 22:45 : player: played "glow - 鹿乃.flac"
+Jan 20 22:50 : player: played "glow - 鹿乃.flac"
+Jan 20 22:58 : player: played "glow - 鹿乃.flac"
+Jan 21 20:58 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jan 21 20:58 : player: played "ドーナドーナのうた - 月乃.flac"
+Jan 21 21:32 : player: played "ドーナドーナのうた - 月乃.flac"
+Jan 22 21:45 : player: played "Twinkle Snow '13.flac"
+Jan 23 02:34 : player: played "Twinkle Snow '13.flac"
+Jan 24 21:12 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jan 24 21:13 : player: played "ドーナドーナのうた - 月乃.flac"
+Jan 24 23:13 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 29 01:41 : exception: Stored playlists are disabled
+Jan 29 01:47 : player: played "もしも - 當山みれい,まるりとりゅうが.flac"
+Jan 29 02:02 : player: played "届かない恋 '13.flac"
+Jan 29 02:07 : player: played "届かない恋 '13.flac"
+Jan 29 05:03 : player: played "届かない恋 '13.flac"
+Jan 31 03:22 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 31 03:30 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 31 03:34 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 31 03:39 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 31 04:33 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Jan 31 22:36 : exception: Stored playlists are disabled
+Jan 31 22:38 : player: played "さよならのこと  (TV EDIT).flac"
+Jan 31 22:40 : player: played "さよならのこと  (TV EDIT).flac"
+Jan 31 22:46 : player: played "さよならのこと.flac"
+Jan 31 22:55 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 31 23:01 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 31 23:06 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 31 23:12 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 31 23:18 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 31 23:23 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 31 23:29 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 31 23:35 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 31 23:40 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 31 23:46 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 31 23:51 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Jan 31 23:57 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 00:03 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 00:08 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 00:14 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 00:20 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 00:25 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 00:31 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 00:37 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 00:42 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 00:48 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 00:54 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 00:59 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 01:05 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 01:11 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 01:16 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 01:22 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 01:28 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 01:33 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 01:39 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 01:45 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 01:50 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 01:56 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 02:01 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 02:07 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 02:13 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 02:18 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 02:24 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 02:30 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 02:35 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 02:41 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 02:47 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 02:52 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 02:58 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 03:04 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 03:09 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 01 05:01 : player: played "ずっと、君と。 - 宮脇詩音.flac"
+Feb 02 21:01 : player: played "さよならのこと.flac"
+Feb 03 01:14 : player: played "Where Did U Go - G.E.M.邓紫棋.flac"
+Feb 03 14:54 : player: played "Where Did U Go - G.E.M.邓紫棋.flac"
+Feb 03 14:58 : player: played "Where Did U Go - G.E.M.邓紫棋.flac"
+Feb 03 15:02 : player: played "Where Did U Go - G.E.M.邓紫棋.flac"
+Feb 03 15:05 : player: played "Where Did U Go - G.E.M.邓紫棋.flac"
+Feb 03 15:09 : player: played "Where Did U Go - G.E.M.邓紫棋.flac"
+Feb 03 17:41 : player: played "Where Did U Go - G.E.M.邓紫棋.flac"
+Feb 04 00:46 : player: played "ドーナドーナのうた - 月乃.flac"
+Feb 04 00:51 : player: played "ドーナドーナのうた - 月乃.flac"
+Feb 04 01:39 : player: played "ドーナドーナのうた - 月乃.flac"
+Feb 05 02:05 : player: played "ドーナドーナのうた - 月乃.flac"
+Feb 05 02:18 : exception: Stored playlists are disabled
+Feb 05 02:21 : player: played "いつか見た景色.flac"
+Feb 05 02:24 : player: played "いつか見た景色.flac"
+Feb 05 02:26 : player: played "いつか見た景色.flac"
+Feb 05 02:31 : player: played "さよならのこと Piano Trio ver..flac"
+Feb 05 02:35 : player: played "さよならのこと Piano Trio ver..flac"
+Feb 05 02:38 : player: played "さよならのこと Piano Trio ver..flac"
+Feb 05 02:42 : player: played "さよならのこと Piano Trio ver..flac"
+Feb 05 02:45 : player: played "さよならのこと Piano Trio ver..flac"
+Feb 05 02:51 : player: played "Twinkle Snow Piano Quartet ver..flac"
+Feb 05 02:53 : player: played "Twinkle Snow Piano Quartet ver..flac"
+Feb 05 02:55 : player: played "Twinkle Snow Piano Quartet ver..flac"
+Feb 05 02:57 : player: played "Twinkle Snow Piano Quartet ver..flac"
+Feb 05 03:00 : player: played "Twinkle Snow Piano Quartet ver..flac"
+Feb 05 03:02 : player: played "Twinkle Snow Piano Quartet ver..flac"
+Feb 05 03:04 : player: played "Twinkle Snow Piano Quartet ver..flac"
+Feb 05 03:06 : player: played "Twinkle Snow Piano Quartet ver..flac"
+Feb 05 03:08 : player: played "Twinkle Snow Piano Quartet ver..flac"
+Feb 05 03:11 : player: played "冬の街路樹.flac"
+Feb 05 03:13 : player: played "イルミネーションタウン.flac"
+Feb 05 03:15 : player: played "イルミネーションタウン.flac"
+Feb 05 03:17 : player: played "イルミネーションタウン.flac"
+Feb 05 03:19 : player: played "イルミネーションタウン.flac"
+Feb 05 03:21 : player: played "イルミネーションタウン.flac"
+Feb 05 03:23 : player: played "イルミネーションタウン.flac"
+Feb 05 03:25 : player: played "イルミネーションタウン.flac"
+Feb 05 03:27 : player: played "イルミネーションタウン.flac"
+Feb 05 03:29 : player: played "イルミネーションタウン.flac"
+Feb 05 03:31 : player: played "イルミネーションタウン.flac"
+Feb 05 03:33 : player: played "イルミネーションタウン.flac"
+Feb 05 03:35 : player: played "イルミネーションタウン.flac"
+Feb 05 03:37 : player: played "イルミネーションタウン.flac"
+Feb 05 03:41 : player: played "イルミネーションタウン.flac"
+Feb 10 03:56 : player: played "さよならのこと Piano Trio ver..flac"
+Feb 10 03:59 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 04:18 : player: played "氷の刃.flac"
+Feb 15 01:23 : player: played "氷の刃.flac"
+Feb 15 01:25 : player: played "氷の刃.flac"
+Feb 15 01:27 : player: played "氷の刃.flac"
+Feb 15 01:29 : player: played "氷の刃.flac"
+Feb 15 01:31 : player: played "氷の刃.flac"
+Feb 15 01:33 : player: played "氷の刃.flac"
+Feb 15 01:35 : player: played "氷の刃.flac"
+Feb 15 01:35 : player: played "氷の刃.flac"
+Feb 15 01:46 : player: played "氷の刃.flac"
+Feb 15 01:48 : player: played "氷の刃.flac"
+Feb 15 01:50 : player: played "氷の刃.flac"
+Feb 15 01:52 : player: played "氷の刃.flac"
+Feb 15 01:54 : player: played "氷の刃.flac"
+Feb 15 01:56 : player: played "氷の刃.flac"
+Feb 15 01:58 : player: played "氷の刃.flac"
+Feb 15 02:00 : player: played "氷の刃.flac"
+Feb 15 02:02 : player: played "氷の刃.flac"
+Feb 15 02:04 : player: played "氷の刃.flac"
+Feb 15 02:06 : player: played "氷の刃.flac"
+Feb 15 02:08 : player: played "氷の刃.flac"
+Feb 15 02:09 : player: played "氷の刃.flac"
+Feb 15 02:15 : player: played "氷の刃.flac"
+Feb 15 02:17 : player: played "氷の刃.flac"
+Feb 15 02:19 : player: played "氷の刃.flac"
+Feb 15 02:21 : player: played "氷の刃.flac"
+Feb 15 02:23 : player: played "氷の刃.flac"
+Feb 15 02:26 : player: played "Snow Crystal.flac"
+Feb 15 02:27 : player: played "Snow Crystal.flac"
+Feb 15 02:28 : player: played "Snow Crystal.flac"
+Feb 15 03:49 : player: played "イルミネーションタウン.flac"
+Feb 15 16:22 : player: played "氷の刃.flac"
+Feb 15 16:24 : player: played "氷の刃.flac"
+Feb 15 16:26 : player: played "氷の刃.flac"
+Feb 15 16:28 : player: played "氷の刃.flac"
+Feb 15 16:30 : player: played "氷の刃.flac"
+Feb 15 16:31 : player: played "氷の刃.flac"
+Feb 15 16:33 : player: played "氷の刃.flac"
+Feb 15 16:35 : player: played "氷の刃.flac"
+Feb 15 16:37 : player: played "氷の刃.flac"
+Feb 15 16:39 : player: played "氷の刃.flac"
+Feb 15 16:41 : player: played "氷の刃.flac"
+Feb 15 16:43 : player: played "氷の刃.flac"
+Feb 15 16:45 : player: played "氷の刃.flac"
+Feb 15 16:47 : player: played "氷の刃.flac"
+Feb 15 16:49 : player: played "氷の刃.flac"
+Feb 15 16:51 : player: played "氷の刃.flac"
+Feb 15 16:53 : player: played "氷の刃.flac"
+Feb 15 16:55 : player: played "氷の刃.flac"
+Feb 15 16:57 : player: played "氷の刃.flac"
+Feb 15 16:59 : player: played "氷の刃.flac"
+Feb 15 17:01 : player: played "氷の刃.flac"
+Feb 15 17:01 : player: played "氷の刃.flac"
+Feb 17 02:12 : player: played "氷の刃.flac"
+Feb 17 02:14 : player: played "氷の刃.flac"
+Feb 17 02:16 : player: played "氷の刃.flac"
+Feb 17 02:18 : player: played "氷の刃.flac"
+Feb 17 02:20 : player: played "氷の刃.flac"
+Feb 17 02:22 : player: played "氷の刃.flac"
+Feb 17 02:24 : player: played "氷の刃.flac"
+Feb 17 02:26 : player: played "氷の刃.flac"
+Feb 17 02:28 : player: played "氷の刃.flac"
+Feb 17 02:30 : player: played "氷の刃.flac"
+Feb 17 02:32 : player: played "氷の刃.flac"
+Feb 17 02:34 : player: played "氷の刃.flac"
+Feb 17 02:35 : player: played "氷の刃.flac"
+Feb 17 02:37 : player: played "氷の刃.flac"
+Feb 17 02:39 : player: played "氷の刃.flac"
+Feb 17 02:41 : player: played "氷の刃.flac"
+Feb 17 02:43 : player: played "氷の刃.flac"
+Feb 17 02:45 : player: played "氷の刃.flac"
+Feb 17 02:47 : player: played "氷の刃.flac"
+Feb 17 02:49 : player: played "氷の刃.flac"
+Feb 17 04:43 : player: played "氷の刃.flac"
+Feb 18 16:11 : player: played "氷の刃.flac"
+Feb 18 16:13 : player: played "氷の刃.flac"
+Feb 18 16:15 : player: played "氷の刃.flac"
+Feb 18 17:12 : player: played "氷の刃.flac"
+Mar 06 03:03 : player: played "氷の刃.flac"
+Mar 06 03:05 : player: played "氷の刃.flac"
+Mar 06 03:07 : player: played "氷の刃.flac"
+Mar 06 03:09 : player: played "氷の刃.flac"
+Mar 06 03:11 : player: played "氷の刃.flac"
+Mar 06 03:13 : player: played "氷の刃.flac"
+Mar 06 03:15 : player: played "氷の刃.flac"
+Mar 06 03:17 : player: played "氷の刃.flac"
+Mar 06 03:19 : player: played "氷の刃.flac"
+Mar 06 03:21 : player: played "氷の刃.flac"
+Mar 06 03:23 : player: played "氷の刃.flac"
+Mar 06 03:25 : player: played "氷の刃.flac"
+Mar 06 03:27 : player: played "氷の刃.flac"
+Mar 06 03:28 : player: played "氷の刃.flac"
+Mar 06 03:30 : player: played "氷の刃.flac"
+Mar 06 03:32 : player: played "氷の刃.flac"
+Mar 06 03:34 : player: played "氷の刃.flac"
+Mar 06 03:36 : player: played "氷の刃.flac"
+Mar 06 03:38 : player: played "氷の刃.flac"
+Mar 06 03:40 : player: played "氷の刃.flac"
+Mar 06 03:42 : player: played "氷の刃.flac"
+Mar 06 03:44 : player: played "氷の刃.flac"
+Mar 06 03:46 : player: played "氷の刃.flac"
+Mar 06 03:48 : player: played "氷の刃.flac"
+Mar 06 03:50 : player: played "氷の刃.flac"
+Mar 06 03:52 : player: played "氷の刃.flac"
+Mar 06 03:54 : player: played "氷の刃.flac"
+Mar 06 03:56 : player: played "氷の刃.flac"
+Mar 06 03:58 : player: played "氷の刃.flac"
+Mar 06 04:00 : player: played "氷の刃.flac"
+Mar 06 04:02 : player: played "氷の刃.flac"
+Mar 06 04:04 : player: played "氷の刃.flac"
+Mar 06 04:06 : player: played "氷の刃.flac"
+Mar 06 04:07 : player: played "氷の刃.flac"
+Mar 06 04:09 : player: played "氷の刃.flac"
+Mar 06 04:11 : player: played "氷の刃.flac"
+Mar 06 04:13 : player: played "氷の刃.flac"
+Mar 06 04:15 : player: played "氷の刃.flac"
+Mar 06 04:17 : player: played "氷の刃.flac"
+Mar 06 04:19 : player: played "氷の刃.flac"
+Mar 06 04:21 : player: played "氷の刃.flac"
+Mar 06 04:23 : player: played "氷の刃.flac"
+Mar 06 04:25 : player: played "氷の刃.flac"
+Mar 07 01:39 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 07 01:54 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 14 03:03:34 : update: added /冬の街路樹.flac
+Mar 14 03:03:34 : update: added /さよならのこと Piano Trio ver..flac
+Mar 14 03:03:34 : update: added /届かない恋 Piano solo ver..flac
+Mar 14 03:03:34 : update: added /雪に願いを.flac
+Mar 14 03:03:34 : update: added /言葉にできない想い.flac
+Mar 14 03:03:34 : update: added /穏やかに過ぎゆく時.flac
+Mar 14 03:03:34 : update: added /boy meets girl and girl.flac
+Mar 14 03:03:34 : update: added /言葉にできない想い Cello solo ver..flac
+Mar 14 03:03:34 : update: added /初めての夜.flac
+Mar 14 03:03:34 : update: added /paranoia - 鹿乃.flac
+Mar 14 03:03:34 : update: added /優しい嘘.flac
+Mar 14 03:03:34 : update: added /瞳 - 大原櫻子.flac
+Mar 14 03:03:34 : update: added /さよならのこと  (TV EDIT).flac
+Mar 14 03:03:34 : update: added /glow - 鹿乃.flac
+Mar 14 03:03:34 : update: added /見果てぬ夢.flac
+Mar 14 03:03:34 : update: added /SOUND OF DESTINY Live at Campus Fes (TV anime ver.).flac
+Mar 14 03:03:34 : update: added /ドラム3〜action〜.flac
+Mar 14 03:03:34 : update: added /Where Did U Go - G.E.M.邓紫棋.flac
+Mar 14 03:03:34 : update: added /Free and Dream.flac
+Mar 14 03:03:34 : update: added /綺麗で儚いもの.flac
+Mar 14 03:03:34 : update: added /intention - 鹿乃、U-ske.flac
+Mar 14 03:03:34 : update: added /Snow Crystal.flac
+Mar 14 03:03:35 : update: added /届かない恋 '13 (TV EDIT).flac
+Mar 14 03:03:35 : update: added /空回る青春.flac
+Mar 14 03:03:35 : update: added /地球最後の告白を - 鹿乃.flac
+Mar 14 03:03:35 : update: added /あの頃のように.flac
+Mar 14 03:03:35 : update: added /closing '13.flac
+Mar 14 03:03:35 : update: added /デタラメなマイナスとプラスにおけるブレンド考.flac
+Mar 14 03:03:35 : update: added /冬物語 - 三代目 J SOUL BROTHERS from EXILE TRIBE.flac
+Mar 14 03:03:35 : update: added /ドラム1〜routine〜.flac
+Mar 14 03:03:35 : update: added /この世界で想うたった一人のひと - 宮脇詩音.flac
+Mar 14 03:03:35 : update: added /SLAPSTICK STREET.flac
+Mar 14 03:03:35 : update: added /クライヤ - 鹿乃.mp3
+Mar 14 03:03:35 : update: added /雨の音 - 當山みれい.flac
+Mar 14 03:03:35 : update: added /いつか見た景色.flac
+Mar 14 03:03:35 : update: added /アイロニ - 鹿乃.flac
+Mar 14 03:03:35 : update: added /SOUND OF DESTINY Piano Backing ver..flac
+Mar 14 03:03:35 : update: added /もしも - 當山みれい,まるりとりゅうが.flac
+Mar 14 03:03:35 : update: added /さよならのこと.flac
+Mar 14 03:03:35 : update: added /decide - 鹿乃.flac
+Mar 14 03:03:35 : update: added /ドラム2〜practice〜.flac
+Mar 14 03:03:35 : update: added /FILL YOU.flac
+Mar 14 03:03:35 : update: added /After All ~綴る想い~ '13.flac
+Mar 14 03:03:35 : update: added /I'm fallin' in love.flac
+Mar 14 03:03:35 : update: added /天ノ弱 - 鹿乃.flac
+Mar 14 03:03:35 : update: added /デタラメなマイナスとプラスにおけるブレンド考 (Instrumental).flac
+Mar 14 03:03:35 : update: added /R.Y.U.S.E.I - 三代目 J SOUL BROTHERS from EXILE TRIBE.flac
+Mar 14 03:03:35 : update: added /ドラム4〜hard work〜.flac
+Mar 14 03:03:35 : update: added /WINTER VACATION.flac
+Mar 14 03:03:35 : update: added /WHITE ALBUM Live at Campus Fes (TV anime ver.).flac
+Mar 14 03:03:35 : update: added /最後のやさしさ - 宮脇詩音.flac
+Mar 14 03:03:35 : update: added /若さ故の・・・.flac
+Mar 14 03:03:35 : update: added /ぼなぺてぃーと♡S (Instrumental).flac
+Mar 14 03:03:35 : update: added /氷の刃.flac
+Mar 14 03:03:35 : update: added /心はいつもあなたのそばに Quartet ver..flac
+Mar 14 03:03:35 : update: added /光の道標 - 鹿乃.flac
+Mar 14 03:03:35 : update: added /イルミネーションタウン.flac
+Mar 14 03:03:35 : update: added /无颜女 - 小凌、徐良.flac
+Mar 14 03:03:35 : update: added /ぼなぺてぃーと♡S.flac
+Mar 14 03:03:35 : update: added /冬の街路樹 Waltz ver..flac
+Mar 14 03:03:35 : update: added /Wish.flac
+Mar 14 03:03:35 : update: added /あの頃のように Quartet ver..flac
+Mar 14 03:03:35 : update: added /STRAIN.flac
+Mar 14 03:03:35 : update: added /Dear Friends.flac
+Mar 14 03:03:35 : update: added /ドラム5〜inspire〜.flac
+Mar 14 03:03:35 : update: added /千年之恋 - F.I.R..flac
+Mar 14 03:03:35 : update: added /届かない恋 '13.flac
+Mar 14 03:03:35 : update: added /届かない恋 Live at Campus Fes (TV anime ver.).flac
+Mar 14 03:03:35 : update: added /最後のわがまま - 宮脇詩音.flac
+Mar 14 03:03:35 : update: added /静かな冬の夜.flac
+Mar 14 03:03:35 : update: added /ドーナドーナのうた - 月乃.flac
+Mar 14 03:03:35 : update: added /Twinkle Snow '13.flac
+Mar 14 03:03:35 : update: added /恋のような.flac
+Mar 14 03:03:35 : update: added /Stars fall like Snow.flac
+Mar 14 03:03:35 : update: added /ロミオとシンデレラ - 花たん.flac
+Mar 14 03:03:35 : update: added /ずっと、君と。 - 宮脇詩音.flac
+Mar 14 03:03:35 : update: added /WHITE ALBUM Piano solo ver..flac
+Mar 14 03:03:35 : update: added /Flower Dance - DJ OKAWARI.flac
+Mar 14 03:03:35 : update: added /Twinkle Snow Piano Quartet ver..flac
+Mar 14 03:03:35 : update: added /悪女.flac
+Mar 14 03:03:35 : update: added /大切な君へ.flac
+Mar 14 03:03:35 : update: added /月牙湾 - F.I.R..flac
+Mar 14 03:03:35 : update: added /静かな冬の夜 Synth ver..flac
+Mar 14 03:03:35 : update: added /真夏の太陽 - 大原櫻子.flac
+Mar 14 03:43:40 : exception: Stored playlists are disabled
+Mar 14 03:48:54 : player: played "届かない恋 Live at Campus Fes (TV anime ver.).flac"
+Mar 14 03:50:46 : exception: Stored playlists are disabled
+Mar 14 03:57:31 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 14 03:59:30 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 14 21:35:41 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 15 02:33:17 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 15 02:54:12 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 15 02:58:50 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 15 03:03:28 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 15 03:17:00 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 15 03:21:39 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 15 03:26:17 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 15 03:30:56 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 15 03:35:34 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 15 04:21:13 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 17 23:27:28 : exception: Stored playlists are disabled
+Mar 18 00:24:38 : player: played "Twinkle Snow '13.flac"
+Mar 19 00:33:18 : player: played "Twinkle Snow '13.flac"
+Mar 19 00:40:14 : player: played "Twinkle Snow '13.flac"
+Mar 19 00:47:09 : player: played "Twinkle Snow '13.flac"
+Mar 19 00:54:04 : player: played "Twinkle Snow '13.flac"
+Mar 19 01:01:59 : exception: Stored playlists are disabled
+Mar 19 01:06:33 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 19 01:07:15 : player: played "光の道標 - 鹿乃.flac"
+Mar 19 01:11:37 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 19 01:12:22 : player: played "光の道標 - 鹿乃.flac"
+Mar 19 01:16:43 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 19 01:22:00 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 19 01:27:58 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 19 01:32:37 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 19 01:37:15 : player: played "WHITE ALBUM Live at Campus Fes (TV anime ver.).flac"
+Mar 19 01:40:51 : exception: Stored playlists are disabled
+Mar 19 01:46:22 : player: played "さよならのこと.flac"
+Mar 19 01:51:41 : player: played "さよならのこと.flac"
+Mar 19 01:57:00 : player: played "さよならのこと.flac"
+Mar 19 02:02:18 : player: played "さよならのこと.flac"
+Mar 19 02:07:37 : player: played "さよならのこと.flac"
+Mar 19 02:12:56 : player: played "さよならのこと.flac"
+Mar 19 02:18:15 : player: played "さよならのこと.flac"
+Mar 19 02:22:59 : exception: Stored playlists are disabled
+Mar 19 02:39:35 : exception: Stored playlists are disabled
+Mar 19 02:42:20 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Mar 19 02:43:00 : player: played "intention - 鹿乃、U-ske.flac"
+Mar 19 03:48:19 : player: played "intention - 鹿乃、U-ske.flac"

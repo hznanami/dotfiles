@@ -1,0 +1,6 @@
+[font]
+size = 19
+
+[[font.normal]]
+family = "JetBrainsMono Nerd Font"
+style = "SemiBold"

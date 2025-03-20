@@ -1,0 +1,202 @@
+{
+    // "layer": "top",
+    "position": "top",
+    // "height": 35,
+    "spacing": 0,
+    // "margin-top": 5,
+    // "margin-left": 10,
+    // "margin-right": 10,
+    // "margin-bottom": -5,
+    "exclusive": true,
+
+
+    // Choose the order of the modules
+
+    "modules-left":["clock","sway/scratchpad","tray"],
+
+    "modules-center": ["sway/workspaces"],
+
+    "modules-right":["custom/media", "network", "pulseaudio","battery","custom/power"],
+
+    // Modules configuration
+
+    "sway/workspaces": {
+        "disable-scroll": false,
+        "all-outputs": false,
+        "format": "{icon}",        
+        "format-icons": {
+          "focused": " ",
+          "urgent": " ",
+          "default": " "
+        },
+        "icon-size": 14
+      },
+	"sway/scratchpad": {
+        "tooltip": false,
+        "format": "[{count}]",
+        "show-empty": false,
+        "tooltip": true,
+        "tooltip-format": "{app}: {title}"
+    },
+    "keyboard-state": {
+        "numlock": true,
+        "capslock": true,
+        "format": "{name} {icon} ",
+        "format-icons": {
+            "locked": "",
+            "unlocked": ""
+        }
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10,
+        "tooltip": true
+    },
+    "clock": {
+        "format": "     {:%I:%M}",
+        "format-alt": "     {:%Y-%m-%d}",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "",
+        "tooltip": true
+    },
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC}°C {icon}",
+        "format": "{icon}",
+        "format-icons": [""],
+        "tooltip": true
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{icon}",
+        "format-icons": ["", ""],
+        "tooltip": true
+    },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}",
+        "format-charging": " ",
+        "format-plugged": " ",
+        "format-alt": "{capacity}%",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["  ","  ","  ","  ","  "],
+        "tooltip": true
+    },
+    "battery#bat2": {
+        "bat": "BAT2",
+        "tooltip": false
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon}",
+        "format-bluetooth": "{icon}",
+        "format-bluetooth-muted": "{icon} {format_source}",
+        "format-muted": "{format_source}",
+        "format-source": "",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": " ",
+            "hands-free": " ",
+            "headset": " ",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", " "]
+        },
+        "on-click": "pavucontrol",
+	"on-scroll-up": "~/.config/sway/scripts/volumecontrol.sh -o i",
+        "on-scroll-down": "~/.config/sway/scripts/volumecontrol.sh -o d",
+        "tooltip-format": "{icon} {volume}%"
+    },
+    "custom/media": {
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 30,
+        "format-icons": {
+            "spotify": " ",
+            "default": ""
+        },
+        "escape": true,
+        "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
+        "on-click": "notify-send 'Play-Pause' `(playerctl play-pause)`"
+    },
+    "custom/launcher":{
+        "format": "",
+        "on-click": "wofi --show drun -p",
+        "on-click-right": "killall wofi",
+        "tooltip": false
+    },
+    "custom/power":{
+        "format": "  ",
+        "on-click": "wlogout",
+        "tooltip": false
+    },
+    "custom/snip":{
+        "format": "",
+        "on-click": "grimshot --notify save area $HOME/Pictures/$(zenity --entry --text 'Set filename:' --entry-text '.png')"
+    },
+    "custom/wallpaper":{
+        "format": "",
+        "on-click": "bash ~/.config/system_scripts/pkill_bc"
+    },
+    "network":{
+    	"format-wifi": "󰤨 ",
+        "format-ethernet": "󱘖 ",
+        "tooltip-format": "{essid} 󱘖 {ipaddr}  {bandwidthUpBytes}  {bandwidthDownBytes}",
+        "format-linked": "󱘖 {ifname} (No IP)",
+        "format-disconnected": "  Disconnected",
+        "format-alt": "󰤨 {signalStrength}%",
+        "on-click-right": "iwgtk",
+        "max-length": 30,
+        "escape": true,
+        "interval": 15
+    },
+
+	"mpd": {
+    	"format": "{stateIcon}  {title} - {artist}",
+    	"format-disconnected": "Disconnected ",
+    	"format-stopped": "  Stopped",
+    	"interval": 10,
+    	"consume-icons": {
+    	    "on": " " // Icon shows only when "consume" is on
+    	},
+    	"random-icons": {
+    	    "off": "<span color=\"#f53c3c\"></span> ", // Icon grayed out when "random" is off
+    	    "on": " "
+    	},
+    	"repeat-icons": {
+    	    "on": " "
+    	},
+    	"single-icons": {
+    	    "on": "1 "
+    	},
+    	"state-icons": {
+    	    "paused": "",
+    	    "playing": ""
+    	},
+    	"tooltip-format": "MPD (connected)",
+    	"tooltip-format-disconnected": "MPD (disconnected)",
+		"on-click": "mpc play",
+		"on-click-right": "mpc pause"
+	}
+}
+

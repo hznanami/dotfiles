@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+WALLPAPERS_PATH=$HOME/Pictures/wallpaper/
+SWAYBG_DIR=$HOME/.config/sway/config.d/output
+
+LOCAL_PATH=$HOME/.config/
+DOT_PATH=$HOME/shared-across/dotfiles/
+CONFIG_PATH=$HOME/.config/

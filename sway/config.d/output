@@ -1,0 +1,21 @@
+# Font set
+font pango:Noto Sans CJK 10 
+
+# Wallpaper
+output * bg $HOME/Pictures/wallpaper/122267359_p0.png fill
+
+# Bar
+bar {
+	swaybar_command waybar
+}
+
+# Display
+output eDP-1 scale 1
+# output * adaptive_sync on
+
+# Hide mouse
+# seat * hide_cursor 10000
+# seat * hide_cursor when-typing enable
+
+# Disable xwayland
+# xwayland disable

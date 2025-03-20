@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+WALLPAPERS_PATH=$HOME/Pictures/wallpaper/
+HYPR_DIR=$HOME/.config/hypr/hyprpaper.conf
+
+LOCAL_PATH=$HOME/.config/
+DOT_PATH=$HOME/shared-across/dotfiles/
+CONFIG_PATH=$HOME/.config/
