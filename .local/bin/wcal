@@ -1,0 +1,15 @@
+#!/usr/bin/sh
+# @author nate zhou
+# @since 2024,2025
+# Send XDG notification
+
+date_today=$(date +%-d)
+
+msg_summary=$(date '+%Y-%m-%d %A')
+
+# highlight today's date in Pango
+msg_body=$(cal | tail -7 | sed "s|$date_today|<big><u><b>$date_today</b></u></big>|")
+
+# This script is also used in `./i3blocks-time`, so the replace id is "3301"
+notify-send -u low -r 3301 -t 12000 "$msg_summary" "$msg_body"
+

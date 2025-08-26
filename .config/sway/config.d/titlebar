@@ -1,0 +1,5 @@
+title_align center
+# default_border normal 0
+default_floating_border pixel 3
+titlebar_padding 1
+# titlebar_border_thickness 0

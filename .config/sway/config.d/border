@@ -1,0 +1,9 @@
+# Window border
+
+# Border
+default_border pixel 3
+
+# Gaps
+gaps inner 4
+gaps outer 2
+

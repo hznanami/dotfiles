@@ -1,0 +1,21 @@
+#!/usr/bin/sh
+# @author nate zhou
+# @since 2025
+
+. "${HOME}/.cache/wal/colors.sh"
+icon="󰥔 "
+color="$color1"
+
+# ` `(U+2009) is the Thin Space
+echo "$icon $(date '+%_I:%M ')"
+echo
+echo "$color"
+
+case $BLOCK_BUTTON in
+    3) $HOME/.local/bin/wcal
+        ;;
+    4) dunstctl close >/dev/null &
+        ;;
+    5) dunstctl history-pop >/dev/null &
+        ;;
+esac

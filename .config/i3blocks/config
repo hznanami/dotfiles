@@ -1,0 +1,49 @@
+# Global properties
+separator=true
+separator_block_width=15
+markup=pango
+
+# [mpdupdate]
+# command= i3blocks-mpdupdate
+# # -2 will respawn the command as soon as it terminates
+# interval=0
+# signal=9
+
+# modules
+########
+# [mpdupdate]
+# command= i3blocks-mpdupdate
+# interval=once
+# signal=9
+
+[playerctl]
+command= i3blocks-playerctl
+interval=2
+singal=9
+
+[mpd]
+command= i3blocks-mpd
+interval=1
+signal=8
+
+[volume]
+command= sleep 2 && i3blocks-volume
+interval=once
+signal=1
+
+[wifi]
+command= i3blocks-wifi
+interval=10
+signal=11
+separator_block_width=0
+
+[battery]
+command= i3blocks-battery
+interval=5
+signal=12
+
+########
+[time]
+command= i3blocks-time
+interval=5
+signal=17

@@ -1,0 +1,25 @@
+sort=-time
+layer=overlay
+background-color=#0d0912D9
+width=500
+height=400
+border-size=3
+border-color=#986170
+border-radius=0
+icons=1
+max-icon-size=50
+default-timeout=15000
+font="Source Han Sans CN" 15
+ignore-timeout=0
+text-color=#986170
+margin=13,30
+padding=12,20
+text-alignment=left
+anchor=top-right
+
+[urgency=low]
+width=230
+height=300
+font="Noto Sans CJK SC" 20
+text-alignment=center
+default-timeout=5000

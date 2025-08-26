@@ -1,0 +1,50 @@
+#!/usr/bin/sh
+# @author nate zhou
+# @since 2025
+
+. "${HOME}/.cache/wal/colors.sh"
+BAT="BAT0"
+POWER="/sys/class/power_supply"
+
+status="$(cat $POWER/$BAT/status)"
+level="$(cat $POWER/$BAT/capacity)"
+color="$color1"
+
+case "$status" in
+    "Discharging")
+        case "$level" in
+            [0-5]) icon="󰂎";;
+            [6-9]) icon="󰁺";;
+            1[0-9]) icon="󰁻";;
+            2[0-9]) icon="󰁼";;
+            3[0-9]) icon="󰁽";;
+            4[0-9]) icon="󰁽";;
+            5[0-9]) icon="󰁾";;
+            6[0-9]) icon="󰁿";;
+            7[0-9]) icon="󰂀";;
+            8[0-9]) icon="󰂁";;
+            9[0-9]) icon="󰂂";;
+            100)    icon="󰁹";;
+        esac
+        ;;
+    "Not charging")
+        icon=""
+        ;;
+    "Charging")
+        icon="󰂄"
+        ;;
+esac
+
+
+# ` `(U+2009) is the Thin Space
+echo "$icon" " $level"%
+echo
+echo "$color"
+
+case $BLOCK_BUTTON in
+    3) notify-send -u low -r 3301 "$icon $(basename $0)" "$status $level%\n$(upower -i /org/freedesktop/UPower/devices/battery_$BAT | grep  'time to empty:' | sed -E 's/[ \t]+/ /g')"
+        ;;
+    1) pkill +SIGRTMIN+12 i3blocks &
+        ;;
+esac
+

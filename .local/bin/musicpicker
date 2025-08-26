@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# relative path to mpd's music directory *must* be used. absolute path will not be read by mpd.
+
+. "${HOME}/.cache/wal/colors.sh"
+icon=""
+
+file="$(mpc listall | wmenu -i -l 10 -p "Select song:" -f "Source Sans 3 Bold 12" -S $color1 -s $background -n $color1 -M $color1 -N $background
+)" || exit 0
+notify-send "$icon    $file" && mpc insert "$file" && mpc next >/dev/null
