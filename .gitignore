@@ -16,6 +16,7 @@
 !.config/rtorrent/rtorrent.rc
 .config/sway/config1.bak
 .config/sway/scripts/*
+.config/sway/config.d/output
 !.config/sway/scripts/app-switch.sh
 !.config/sway/scripts/brightness.sh
 !.config/sway/scripts/brightnesscontrol.sh
