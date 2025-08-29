@@ -17,6 +17,9 @@
 .config/sway/config1.bak
 .config/sway/scripts/*
 .config/sway/config.d/output
+.config/sway/config.d/bar
+.config/sway/config.d/keybind
+.config/sway/config.d/color
 !.config/sway/scripts/app-switch.sh
 !.config/sway/scripts/brightness.sh
 !.config/sway/scripts/brightnesscontrol.sh
