@@ -11,7 +11,7 @@ SCRIPTSDIR=$HOME/.config/sway/scripts
 #done
 
 # Lauch notification daemon (mako)
-$HOME/.config/mako/update-theme.sh &
+$HOME/.config/sway/scripts/update-mako-theme.sh &
 
 # Lauch fcitx5
 $HOME/.config/sway/scripts/fcitx5-pywal.sh &
