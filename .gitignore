@@ -16,6 +16,7 @@
 !.config/rtorrent/rtorrent.rc
 .config/sway/config1.bak
 .config/sway/scripts/*
+!.config/sway/scripts/update-mako.theme.sh
 .config/sway/config.d/output
 .config/sway/config.d/bar
 .config/sway/config.d/keybind
