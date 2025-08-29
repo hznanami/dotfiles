@@ -67,3 +67,5 @@ function ra() {
 # source /usr/share/bash-completion/completions/fzf
 # source /usr/share/fzf/key-bindings.bash
 eval "$(fzf --bash)"
+
+export GPG_TTY=$(tty)
