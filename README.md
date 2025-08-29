@@ -3,8 +3,6 @@
 <img src="./screenshot/screenshot2.png"/>
 <img src="./screenshot/screenshot3.png"/>
 <img src="./screenshot/screenshot4.png"/>
-<<<<<<< HEAD
-=======
 
 <br>
 
@@ -64,4 +62,3 @@ List of programs and tools I use
 [gununixchad](https://github.com/gnuunixchad/dotfiles) - Referenced and used a portion of the configuration and scripts with custom modifications
 
 [BreadOnPenguins](https://github.com/BreadOnPenguins/scripts) - A portion of the script was referenced and used with modifications
->>>>>>> 6e13dc8 (Adjusting the spacing)
