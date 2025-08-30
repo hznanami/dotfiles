@@ -37,8 +37,12 @@ List of programs and tools I use
 | File Manager      | [yazi](https://github.com/sxyazi/yazi)    |
 | Browser           | [librewolf](https://codeberg.org/librewolf/source) / [qutebrowser](https://github.com/qutebrowser/qutebrowser)    |
 | Launcher          | [wmenu](https://codeberg.org/adnano/wmenu)    |
+| Fuzzy Finder      | [fzf](https://github.com/junegunn/fzf)    |
+| Notification      | [mako](https://github.com/emersion/mako)    |
 | Lockscreen        | [swaylock](https://github.com/swaywm/swaylock)    |
-| Music Player      | [mpd](https://github.com/MusicPlayerDaemon/MPD) / [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
+| Music player      | [mpd](https://github.com/MusicPlayerDaemon/MPD) / [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
+| Video player      | [mpv](https://github.com/mpv-player/mpv)    |
+| Image Viewer      | [swayimg](https://github.com/artemsen/swayimg)    |
 | Color Theme       | [pywal16](https://github.com/eylles/pywal16)    |
 | Init system       | [openrc](https://github.com/OpenRC/openrc)    |
 
