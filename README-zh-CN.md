@@ -65,6 +65,6 @@ git clone https://github.com/hznanami/dotfiles.git
 
 [gununixchad](https://github.com/gnuunixchad/dotfiles) - 参考并使用了部分配置和脚本，并进行了自定义修改
 
-[BreadOnPenguins](https://github.com/BreadOnPenguins/scripts) - 参考并使用了部分脚本，但作了修改
+[BreadOnPenguins](https://github.com/BreadOnPenguins/scripts) - 参考并使用了部分脚本，并作了修改
 
 
