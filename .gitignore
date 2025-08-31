@@ -31,4 +31,5 @@
 !.config/sway/scripts/refresh.sh
 .config/wal/colorschemes/
 .config/wal/templates/colors-wmenu-sh
+.config/mako/config
 .config/mako/icons/config.default
