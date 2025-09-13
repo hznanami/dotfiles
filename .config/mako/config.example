@@ -20,6 +20,6 @@ anchor=top-right
 [urgency=low]
 width=230
 height=300
-font="Noto Sans CJK SC" 20
+font="Source Han Sans CN" 20
 text-alignment=center
 default-timeout=5000
