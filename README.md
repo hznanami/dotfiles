@@ -35,7 +35,7 @@ List of programs and tools I use
 | Shell             | [bash](https://www.gnu.org/software/bash/bash.html)    |
 | Terminal          | [foot](https://codeberg.org/dnkl/foot)    |
 | Bar               | swaybar    |
-| Bar status        | [i3blocks](https://github.com/vivien/i3blocks)    |
+| Status bar        | [i3blocks](https://github.com/vivien/i3blocks)    |
 | Editor            | [neovim](https://github.com/neovim/neovim)    |
 | File Manager      | [yazi](https://github.com/sxyazi/yazi)    |
 | Browser           | [librewolf](https://codeberg.org/librewolf/source) / [qutebrowser](https://github.com/qutebrowser/qutebrowser)    |
