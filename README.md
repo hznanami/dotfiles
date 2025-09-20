@@ -36,6 +36,7 @@ List of programs and tools I use
 | Terminal          | [foot](https://codeberg.org/dnkl/foot)    |
 | Bar               | swaybar    |
 | Status bar        | [i3blocks](https://github.com/vivien/i3blocks)    |
+| Wallpaper utility | [swaybg](https://github.com/swaywm/swaybg)    |
 | Editor            | [neovim](https://github.com/neovim/neovim)    |
 | File Manager      | [yazi](https://github.com/sxyazi/yazi)    |
 | Browser           | [librewolf](https://codeberg.org/librewolf/source) / [qutebrowser](https://github.com/qutebrowser/qutebrowser)    |
@@ -47,6 +48,7 @@ List of programs and tools I use
 | Video player      | [mpv](https://github.com/mpv-player/mpv)    |
 | Image Viewer      | [swayimg](https://github.com/artemsen/swayimg)    |
 | Color Theme       | [pywal16](https://github.com/eylles/pywal16)    |
+| BitTorrent client | [rtorrent](https://github.com/rakshasa/rtorrent)    |
 | Init system       | [openrc](https://github.com/OpenRC/openrc)    |
 
 <br>

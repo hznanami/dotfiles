@@ -33,6 +33,7 @@ git clone https://github.com/hznanami/dotfiles.git
 | 終端              | [foot](https://codeberg.org/dnkl/foot)    |
 | Bar               | swaybar    |
 | Bar狀態           | [i3blocks](https://github.com/vivien/i3blocks)    |
+| 壁紙工具          | [swaybg](https://github.com/swaywm/swaybg)    |
 | 編輯器            | [neovim](https://github.com/neovim/neovim)    |
 | 檔案管理器        | [yazi](https://github.com/sxyazi/yazi)    |
 | 瀏覽器            | [librewolf](https://codeberg.org/librewolf/source) / [qutebrowser](https://github.com/qutebrowser/qutebrowser)    |
@@ -44,6 +45,7 @@ git clone https://github.com/hznanami/dotfiles.git
 | 影片播放器        | [mpv](https://github.com/mpv-player/mpv)    |
 | 圖片查看器        | [swayimg](https://github.com/artemsen/swayimg)    |
 | 主題配色          | [pywal16](https://github.com/eylles/pywal16)    |
+| BitTorrent用戶端  | [rtorrent](https://github.com/rakshasa/rtorrent)    |
 | 初始化系統        | [openrc](https://github.com/OpenRC/openrc)    |
 
 <br>
