@@ -1,17 +1,17 @@
 # Font set
-# font pango:Source Sans 3 Bold 10 
+font pango:Source Sans 3 Bold 10 
 
-# Wallpaper
-# output * bg $HOME/Pictures/wallpaper/112924536_p0.jpg fill
+Wallpaper
+output * bg $HOME/Pictures/wallpaper/112924536_p0.jpg fill
 
-# Display
+Display
 # output eDP-1 scale 1
 # output * adaptive_sync on
 
-# Hide mouse
+Hide mouse
 # seat * hide_cursor 10000
 # seat * hide_cursor when-typing enable
 
-# Disable xwayland
+Disable xwayland
 # xwayland disable
 
