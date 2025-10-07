@@ -6,9 +6,9 @@ bar {
     position top
     separator_symbol " | "
 
-    When the status_command prints a new line to stdout, swaybar updates.
-    The default just shows the current date and time.
-    status_command while date +'%_I:%M'; do sleep 1; done
+    # When the status_command prints a new line to stdout, swaybar updates.
+    # The default just shows the current date and time.
+    # status_command while date +'%_I:%M'; do sleep 1; done
 
     colors {
     	font pango:Source Sans 3 Semibold 11

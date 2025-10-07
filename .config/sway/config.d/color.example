@@ -3,7 +3,7 @@
 # Include wallpaper main background color
 include $HOME/.cache/wal/colors-sway
 
-class                 border   backgr.  text     indicator  child_border
+# class                 border   backgr.  text     indicator  child_border
 client.focused          $color9  $color9  #ffffff  $color9    $color9
 client.focused_inactive #333333  #5f676a  #ffffff  #484e50    #5f676a
 client.unfocused        #333333  #222222  #888888  #292d2e    #222222
