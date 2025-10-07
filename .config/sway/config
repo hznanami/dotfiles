@@ -5,4 +5,12 @@
 # Read `man 5 sway` for a complete reference.
 
 # Include all config, all config in fold config.d
-include $HOME/.config/sway/config.d/*
+include $HOME/.config/sway/config.d/bar
+include $HOME/.config/sway/config.d/border
+include $HOME/.config/sway/config.d/color
+include $HOME/.config/sway/config.d/input
+include $HOME/.config/sway/config.d/keybind
+include $HOME/.config/sway/config.d/output
+include $HOME/.config/sway/config.d/startup
+include $HOME/.config/sway/config.d/titlebar
+include $HOME/.config/sway/config.d/windowrule
