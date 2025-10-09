@@ -29,27 +29,29 @@ git clone https://github.com/hznanami/dotfiles.git
 
 List of programs and tools I use
 
-| Component         | Program    |
-|-------------------|------------|
-| Winodws Manager   | [sway](https://github.com/swaywm/sway)    |
-| Shell             | [bash](https://www.gnu.org/software/bash/bash.html)    |
-| Terminal          | [foot](https://codeberg.org/dnkl/foot)    |
-| Bar               | swaybar    |
-| Status bar        | [i3blocks](https://github.com/vivien/i3blocks)    |
-| Wallpaper utility | [swaybg](https://github.com/swaywm/swaybg)    |
-| Editor            | [neovim](https://github.com/neovim/neovim)    |
-| File Manager      | [yazi](https://github.com/sxyazi/yazi)    |
-| Browser           | [librewolf](https://codeberg.org/librewolf/source) / [qutebrowser](https://github.com/qutebrowser/qutebrowser)    |
-| Launcher          | [wmenu](https://codeberg.org/adnano/wmenu)    |
-| Fuzzy Finder      | [fzf](https://github.com/junegunn/fzf)    |
-| Notification      | [mako](https://github.com/emersion/mako)    |
-| Lockscreen        | [swaylock](https://github.com/swaywm/swaylock)    |
-| Music player      | [mpd](https://github.com/MusicPlayerDaemon/MPD) / [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
-| Video player      | [mpv](https://github.com/mpv-player/mpv)    |
-| Image Viewer      | [swayimg](https://github.com/artemsen/swayimg)    |
-| Color Theme       | [pywal16](https://github.com/eylles/pywal16)    |
-| BitTorrent client | [rtorrent](https://github.com/rakshasa/rtorrent)    |
-| Init system       | [openrc](https://github.com/OpenRC/openrc)    |
+| Component                | Program    |
+|--------------------------|------------|
+| Winodws Manager          | [sway](https://github.com/swaywm/sway)    |
+| Shell                    | [bash](https://www.gnu.org/software/bash/bash.html)    |
+| Terminal                 | [foot](https://codeberg.org/dnkl/foot)    |
+| Bar                      | swaybar    |
+| Status bar               | [i3blocks](https://github.com/vivien/i3blocks)    |
+| Wallpaper utility        | [swaybg](https://github.com/swaywm/swaybg)    |
+| Editor                   | [neovim](https://github.com/neovim/neovim)    |
+| File Manager             | [yazi](https://github.com/sxyazi/yazi)    |
+| Browser                  | [librewolf](https://codeberg.org/librewolf/source) / [qutebrowser](https://github.com/qutebrowser/qutebrowser)    |
+| Launcher                 | [wmenu](https://codeberg.org/adnano/wmenu)    |
+| Fuzzy Finder             | [fzf](https://github.com/junegunn/fzf)    |
+| Notification             | [mako](https://github.com/emersion/mako)    |
+| Lockscreen               | [swaylock](https://github.com/swaywm/swaylock)    |
+| Music player             | [mpd](https://github.com/MusicPlayerDaemon/MPD) / [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
+| Video player             | [mpv](https://github.com/mpv-player/mpv)    |
+| Image Viewer             | [swayimg](https://github.com/artemsen/swayimg)    |
+| Color Theme              | [pywal16](https://github.com/eylles/pywal16)    |
+| BitTorrent client        | [rtorrent](https://github.com/rakshasa/rtorrent)    |
+| Screen recording         | [wf-recorder](https://github.com/ammen99/wf-recorder)    |
+| Privilege escalation tool| [doas](https://github.com/Duncaen/OpenDoas)    |
+| Init system              | [openrc](https://github.com/OpenRC/openrc)    |
 
 <br>
 

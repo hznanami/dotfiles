@@ -44,8 +44,10 @@ git clone https://github.com/hznanami/dotfiles.git
 | 音乐播放器        | [mpd](https://github.com/MusicPlayerDaemon/MPD) / [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
 | 视频播放器        | [mpv](https://github.com/mpv-player/mpv)    |
 | 图片查看器        | [swayimg](https://github.com/artemsen/swayimg)    |
+| 屏幕录制          | [wf-recorder](https://github.com/ammen99/wf-recorder)    |
 | 主题配色          | [pywal16](https://github.com/eylles/pywal16)    |
 | BitTorrent客户端  | [rtorrent](https://github.com/rakshasa/rtorrent)    |
+| 提权工具          | [doas](https://github.com/Duncaen/OpenDoas)    |
 | 初始化系统        | [openrc](https://github.com/OpenRC/openrc)    |
 
 <br>
