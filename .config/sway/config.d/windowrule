@@ -2,14 +2,14 @@
 for_window [app_id="mpv"] floating enable
 # for_window [app_id="thunar"] floating enable
 # for_window [app_id="imv"] floating enable
-for_window [title="^.*"] title_format ""
+# for_window [title="^.*"] title_format ""
 
 # Border
 # for_window [app_id="LibreWolf"] border none
 # for_window [app_id="mpv"] border none
 
 # Window Size
-for_window [app_id="thunar"] resize set 1280 720
+# for_window [app_id="thunar"] resize set 1280 720
 
 # Transparent
 # for_window [app_id="neovide"] opacity 0.87
