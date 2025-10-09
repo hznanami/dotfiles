@@ -47,9 +47,9 @@ List of programs and tools I use
 | Music player             | [mpd](https://github.com/MusicPlayerDaemon/MPD) / [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
 | Video player             | [mpv](https://github.com/mpv-player/mpv)    |
 | Image Viewer             | [swayimg](https://github.com/artemsen/swayimg)    |
+| Screen recording         | [wf-recorder](https://github.com/ammen99/wf-recorder)    |
 | Color Theme              | [pywal16](https://github.com/eylles/pywal16)    |
 | BitTorrent client        | [rtorrent](https://github.com/rakshasa/rtorrent)    |
-| Screen recording         | [wf-recorder](https://github.com/ammen99/wf-recorder)    |
 | Privilege escalation tool| [doas](https://github.com/Duncaen/OpenDoas)    |
 | Init system              | [openrc](https://github.com/OpenRC/openrc)    |
 
