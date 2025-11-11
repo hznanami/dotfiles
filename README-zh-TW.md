@@ -36,18 +36,19 @@ git clone https://github.com/hznanami/dotfiles.git
 | 壁紙工具          | [swaybg](https://github.com/swaywm/swaybg)    |
 | 編輯器            | [neovim](https://github.com/neovim/neovim)    |
 | 檔案管理器        | [yazi](https://github.com/sxyazi/yazi)    |
-| 瀏覽器            | [librewolf](https://codeberg.org/librewolf/source) / [qutebrowser](https://github.com/qutebrowser/qutebrowser)    |
+| 瀏覽器            | [librewolf](https://codeberg.org/librewolf/source)    |
 | 啟動器            | [wmenu](https://codeberg.org/adnano/wmenu)    |
 | 模糊尋找器        | [fzf](https://github.com/junegunn/fzf)    |
 | 通知              | [mako](https://github.com/emersion/mako)    |
 | 鎖定螢幕          | [swaylock](https://github.com/swaywm/swaylock)    |
-| 音樂播放器        | [mpd](https://github.com/MusicPlayerDaemon/MPD) / [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
+| 音樂播放器        | [mpd](https://github.com/MusicPlayerDaemon/MPD) & [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
 | 影片播放器        | [mpv](https://github.com/mpv-player/mpv)    |
 | 圖片查看器        | [swayimg](https://github.com/artemsen/swayimg)    |
 | 螢幕錄製          | [wf-recorder](https://github.com/ammen99/wf-recorder)    |
 | 主題配色          | [pywal16](https://github.com/eylles/pywal16)    |
 | BitTorrent用戶端  | [rtorrent](https://github.com/rakshasa/rtorrent)    |
 | 提權工具          | [doas](https://github.com/Duncaen/OpenDoas)    |
+| Dotfiles管理      | [stow](https://github.com/aspiers/stow) & [git](https://github.com/git/git)    |
 | 初始化系統        | [openrc](https://github.com/OpenRC/openrc)    |
 
 <br>

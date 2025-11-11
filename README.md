@@ -39,18 +39,19 @@ List of programs and tools I use
 | Wallpaper utility        | [swaybg](https://github.com/swaywm/swaybg)    |
 | Editor                   | [neovim](https://github.com/neovim/neovim)    |
 | File Manager             | [yazi](https://github.com/sxyazi/yazi)    |
-| Browser                  | [librewolf](https://codeberg.org/librewolf/source) / [qutebrowser](https://github.com/qutebrowser/qutebrowser)    |
+| Browser                  | [librewolf](https://codeberg.org/librewolf/source)    |
 | Launcher                 | [wmenu](https://codeberg.org/adnano/wmenu)    |
 | Fuzzy Finder             | [fzf](https://github.com/junegunn/fzf)    |
 | Notification             | [mako](https://github.com/emersion/mako)    |
 | Lockscreen               | [swaylock](https://github.com/swaywm/swaylock)    |
-| Music player             | [mpd](https://github.com/MusicPlayerDaemon/MPD) / [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
+| Music player             | [mpd](https://github.com/MusicPlayerDaemon/MPD) & [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
 | Video player             | [mpv](https://github.com/mpv-player/mpv)    |
 | Image Viewer             | [swayimg](https://github.com/artemsen/swayimg)    |
 | Screen recording         | [wf-recorder](https://github.com/ammen99/wf-recorder)    |
 | Color Theme              | [pywal16](https://github.com/eylles/pywal16)    |
 | BitTorrent client        | [rtorrent](https://github.com/rakshasa/rtorrent)    |
 | Privilege escalation tool| [doas](https://github.com/Duncaen/OpenDoas)    |
+| Dotfiles Manager         | [stow](https://github.com/aspiers/stow) & [git](https://github.com/git/git)    |
 | Init system              | [openrc](https://github.com/OpenRC/openrc)    |
 
 <br>
