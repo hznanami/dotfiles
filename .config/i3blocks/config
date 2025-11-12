@@ -18,12 +18,12 @@ markup=pango
 
 [playerctl]
 command= i3blocks-playerctl
-interval=2
+interval=5
 singal=9
 
 [mpd]
 command= i3blocks-mpd
-interval=1
+interval=5
 signal=8
 
 [volume]
