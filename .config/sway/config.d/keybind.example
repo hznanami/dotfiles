@@ -291,7 +291,7 @@ bindsym $mod+y exec foot yazi
 bindsym $mod+u exec mpv --player-operation-mode=pseudo-gui
 bindsym $mod+period exec foot ncmpcpp
 bindsym $mod+n exec foot nvim
-bindsym $mod+m exec musicpicker
+bindsym $mod+m exec mpc toggle
 bindsym $mod+comma exec sysmenu
 
 # Volume Key
