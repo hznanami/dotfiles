@@ -27,6 +27,14 @@ git clone --recurse-submodules https://codeberg.org/hznanami/dotfiles.git
 git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 ```
 
+### Applying Configuration
+
+The configuration files in this repository can be:
+
+1. Symlinked to your home directory
+2. Managed with a dotfiles manager like GNU [Stow](https://github.com/aspiers/stow)
+3. Manually copied to the appropriate locations
+
 <br>
 
 ## Programs

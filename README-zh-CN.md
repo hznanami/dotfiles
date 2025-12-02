@@ -24,6 +24,13 @@ git clone --recurse-submodules https://codeberg.org/hznanami/dotfiles.git
 git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 ```
 
+### 应用该配置
+
+该资源库中的配置文件可以是：
+
+1. 链接到您的主目录
+2. 使用点文件管理器（如 GNU [Stow](https://github.com/aspiers/stow)）进行管理
+3. 手动复制到适当位置
 
 <br>
 
