@@ -11,16 +11,20 @@
 
 ## Usage
 
+> [!Note] 
+> - Since this repository contains the [mpv-file-browser](https://github.com/CogentRedTester/mpv-file-browser) third-party project, if you need to clone it, please add the `--recurse-submodules` parameter. 
+> - If you don't need the mpv plugin project, just git clone it.
+
 ### Clone this repository on codeberg
 
 ```
-git clone https://codeberg.org/hznanami/dotfiles.git
+git clone --recurse-submodules https://codeberg.org/hznanami/dotfiles.git
 ```
 
 ### Or on github
 
 ```
-git clone https://github.com/hznanami/dotfiles.git
+git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 ```
 
 <br>

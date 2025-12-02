@@ -8,16 +8,20 @@
 
 ## 使用方法
 
+> [!Note]
+> - 由於該倉庫包含[mpv-file-browser](https://github.com/CogentRedTester/mpv-file-browser)第三方項目，如果需要複製包含該項目請加入`--recurse-submodules`參數
+> - 如果不需要該mpv插件項目，直接git clone即可
+
 ### 在codeberg上複製此版本庫
 
 ```
-git clone https://codeberg.org/hznanami/dotfiles.git
+git clone --recurse-submodules https://codeberg.org/hznanami/dotfiles.git
 ```
 
 ### 或者在github上 
 
 ```
-git clone https://github.com/hznanami/dotfiles.git
+git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 ```
 
 <br>
