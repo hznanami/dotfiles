@@ -1,4 +1,6 @@
-exec_always swaymsg seat - cursor set 9999 540
+# The pixel coordinates of the cursor at startup, with an example resolution configuration of 1920x1080.
+exec_always swaymsg seat - cursor set 1870 540
+
 exec mako 
 # exec echo "Xft.dpi: 140" | xrdb -merge
 exec "fcitx5 -d"
