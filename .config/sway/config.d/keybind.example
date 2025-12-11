@@ -250,12 +250,17 @@ mode "cursor" {
 	bindsym Shift+$up seat - cursor move 0 -10
 
 	# set cursor location
-	bindsym a seat - cursor set -9999 540
-	bindsym d seat - cursor set 9999 540
-	bindsym w seat - cursor set 960 -9999
-	bindsym s seat - cursor set 960 9999
-	bindsym g seat - cursor set 9999 9999
-	bindsym Shift+g seat - cursor set 960 540
+	bindsym Shift+a seat - cursor set -9999 540
+	bindsym Shift+d seat - cursor set 9999 540
+	bindsym Shift+w seat - cursor set 960 -9999
+	bindsym Shift+s seat - cursor set 960 9999
+	bindsym Shift+g seat - cursor set 9999 9999
+	bindsym g seat - cursor set 960 540
+
+	bindsym a seat - cursor set 50 540
+	bindsym d seat - cursor set 1870 540
+	bindsym w seat - cursor set 960 100
+	bindsym s seat - cursor set 960 980
 
     # Left click (click won't work as a keybindings if with $mod key)
     bindsym o seat - cursor press button1, seat - cursor release button1
@@ -281,7 +286,7 @@ mode "cursor" {
 bindsym $mod+x mode "cursor"
 
 # Mormal mode
-bindsym $mod+o seat - cursor press button1, seat - cursor release button1
+# bindsym $mod+o seat - cursor press button1, seat - cursor release button1
 
 # App Key
 bindsym $mod+i exec librewolf
