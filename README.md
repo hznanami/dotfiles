@@ -69,13 +69,17 @@ List of programs and tools I use
 <br>
 
 ## Wallpapers used in screenshots 
-<https://www.pixiv.net/artworks/98623904>
+Screenshot 1:
+- <https://www.pixiv.net/artworks/98623904>
 
-<https://www.pixiv.net/artworks/47305056>
+Screenshot 2:
+- <https://www.pixiv.net/artworks/47305056>
 
-<https://www.pixiv.net/artworks/117800137>
+Screenshot 3:
+- <https://www.pixiv.net/artworks/117800137>
 
-<https://www.pixiv.net/artworks/112924536>
+Screenshot 4:
+- <https://www.pixiv.net/artworks/112924536>
 
 <br>
 
