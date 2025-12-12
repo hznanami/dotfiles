@@ -56,7 +56,8 @@ List of programs and tools I use
 | Fuzzy Finder             | [fzf](https://github.com/junegunn/fzf)    |
 | Notification             | [mako](https://github.com/emersion/mako)    |
 | Lockscreen               | [swaylock](https://github.com/swaywm/swaylock)    |
-| Music player             | [mpd](https://github.com/MusicPlayerDaemon/MPD) & [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
+| Music Player Daemon      | [mpd](https://github.com/MusicPlayerDaemon/MPD)    |
+| MPD Client               | [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
 | Video player             | [mpv](https://github.com/mpv-player/mpv)    |
 | Image Viewer             | [swayimg](https://github.com/artemsen/swayimg)    |
 | Screen recording         | [wf-recorder](https://github.com/ammen99/wf-recorder)    |

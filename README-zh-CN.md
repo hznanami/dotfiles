@@ -53,7 +53,8 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 | 模糊查找器        | [fzf](https://github.com/junegunn/fzf)    |
 | 通知              | [mako](https://github.com/emersion/mako)    |
 | 锁屏              | [swaylock](https://github.com/swaywm/swaylock)    |
-| 音乐播放器        | [mpd](https://github.com/MusicPlayerDaemon/MPD) & [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
+| 音乐播放器守护进程| [mpd](https://github.com/MusicPlayerDaemon/MPD)    |
+| MPD客户端         | [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    |
 | 视频播放器        | [mpv](https://github.com/mpv-player/mpv)    |
 | 图片查看器        | [swayimg](https://github.com/artemsen/swayimg)    |
 | 屏幕录制          | [wf-recorder](https://github.com/ammen99/wf-recorder)    |
