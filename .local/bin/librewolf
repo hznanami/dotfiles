@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+exec bwrap \
+    --unshare-all --die-with-parent --share-net \
+    --hostname sandbox  \
+    --ro-bind / /   \
+    --dev /sys  \
+    --dev-bind /dev /dev \
+    --proc /proc    \
+    --ro-bind /sys /sys     \
+    --bind $HOME/.local/share/sandbox/librewolf /home   \
+    --bind /run/user/$UID /run/user/$UID     \
+    --ro-bind ~/.config/fontconfig ~/.config/fontconfig     \
+    --ro-bind ~/.config/pipewire ~/.config/pipewire \
+    --ro-bind ~/.config/dconf ~/.config/dconf   \
+    --bind ~/.cache/fontconfig ~/.cache/fontconfig      \
+    --bind ~/Downloads ~/Downloads  \
+    --bind ~/Music ~/Music  \
+    --bind ~/Pictures ~/Pictures  \
+    --bind ~/.config/gtk-3.0 ~/.config/gtk-3.0  \
+    /usr/bin/librewolf
