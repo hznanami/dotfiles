@@ -10,6 +10,7 @@ exec bwrap \
     --ro-bind /sys /sys     \
     --bind $HOME/.local/share/sandbox/librewolf /home   \
     --bind /run/user/$UID /run/user/$UID     \
+    --bind /tmp /tmp    \
     --ro-bind ~/.config/fontconfig ~/.config/fontconfig     \
     --ro-bind ~/.config/pipewire ~/.config/pipewire \
     --ro-bind ~/.config/dconf ~/.config/dconf   \
