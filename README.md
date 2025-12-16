@@ -68,7 +68,6 @@ List of programs and tools I use
 | Dotfiles Manager         | [stow](https://github.com/aspiers/stow) & [git](https://github.com/git/git)    |
 | Init system              | [openrc](https://github.com/OpenRC/openrc)    |
 
-<br>
 
 ### For bubblewrap
 

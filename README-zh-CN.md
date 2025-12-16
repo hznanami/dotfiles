@@ -65,7 +65,6 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 | Dotfiles管理      | [stow](https://github.com/aspiers/stow) & [git](https://github.com/git/git)    |
 | 初始化系统        | [openrc](https://github.com/OpenRC/openrc)    |
 
-<br>
 
 ### 对于bubblewrap
 
