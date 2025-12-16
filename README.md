@@ -63,9 +63,16 @@ List of programs and tools I use
 | Screen recording         | [wf-recorder](https://github.com/ammen99/wf-recorder)    |
 | Color Theme              | [pywal16](https://github.com/eylles/pywal16)    |
 | BitTorrent client        | [rtorrent](https://github.com/rakshasa/rtorrent)    |
+| Sandbox tool             | [bubblewrap](https://github.com/containers/bubblewrap)    |
 | Privilege escalation tool| [doas](https://github.com/Duncaen/OpenDoas)    |
 | Dotfiles Manager         | [stow](https://github.com/aspiers/stow) & [git](https://github.com/git/git)    |
 | Init system              | [openrc](https://github.com/OpenRC/openrc)    |
+
+<br>
+
+### For bubblewrap
+
+This repository's `librewolf`, `Heroic Games Launcher` are sandboxed using the bubblwrap tool and configured to replace the default startup command path to the user's path environment, and they are all running in unprivileged sandboxed container environments, with the main purpose of isolating the `/home` directory
 
 <br>
 

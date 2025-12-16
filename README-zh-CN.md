@@ -60,9 +60,16 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 | 屏幕录制          | [wf-recorder](https://github.com/ammen99/wf-recorder)    |
 | 主题配色          | [pywal16](https://github.com/eylles/pywal16)    |
 | BitTorrent客户端  | [rtorrent](https://github.com/rakshasa/rtorrent)    |
+| 沙箱工具          | [bubblewrap](https://github.com/containers/bubblewrap)    |
 | 提权工具          | [doas](https://github.com/Duncaen/OpenDoas)    |
 | Dotfiles管理      | [stow](https://github.com/aspiers/stow) & [git](https://github.com/git/git)    |
 | 初始化系统        | [openrc](https://github.com/OpenRC/openrc)    |
+
+<br>
+
+### 对于bubblewrap
+
+本仓库的`librewolf`、`Heroic Games Launcher` 使用bubblwrap工具进行沙箱化，并配置到用户path环境替换默认启动命令路径，它们都运行在无特权的沙箱容器环境中，主要目的是隔离`/home`目录
 
 <br>
 
