@@ -1,6 +1,6 @@
 # dotfiles
 
-[中文-简体](README-zh-CN.md) - [中文-繁體(臺灣)](README-zh-TW.md)
+[简体中文(zh-CN)](README-zh-CN.md) - [繁體中文(zh-TW)](README-zh-TW.md)
 
 <img src="./screenshot/screenshot1.png"/>
 <img src="./screenshot/screenshot2.png"/>
