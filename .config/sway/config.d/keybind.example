@@ -154,9 +154,9 @@ bindsym $mod+p exec '$HOME/.config/sway/scripts/select-wallpaper.sh'
     # Next and Prev workspace
     bindsym $mod+Tab workspace next
     bindsym $mod+BracketRight workspace next
+    bindsym $mod+Alt+l workspace next
     bindsym $mod+BracketLeft workspace prev
     bindsym $mod+Backspace workspace prev
-    bindsym $mod+Alt+l workspace next
     bindsym $mod+Alt+h workspace prev
 
 	# Select workspace
