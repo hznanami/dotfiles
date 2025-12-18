@@ -156,6 +156,8 @@ bindsym $mod+p exec '$HOME/.config/sway/scripts/select-wallpaper.sh'
     bindsym $mod+BracketRight workspace next
     bindsym $mod+BracketLeft workspace prev
     bindsym $mod+Backspace workspace prev
+    bindsym $mod+Alt+l workspace next
+    bindsym $mod+Alt+h workspace prev
 
 	# Select workspace
     bindsym $mod+Shift+Tab exec '$HOME/.config/sway/scripts/app-switch.sh'
