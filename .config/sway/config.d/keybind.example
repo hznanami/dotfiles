@@ -290,15 +290,37 @@ bindsym $mod+x mode "cursor"
 # Mormal mode
 # bindsym $mod+o seat - cursor press button1, seat - cursor release button1
 
+#
 # App Key
+#
+# Browser
 bindsym $mod+i exec librewolf
 bindsym $mod+Shift+i exec qutebrowser
-# bindsym $mod+o exec thunar
+
+# File manager
+bindsym $mod+o exec foot lf
 bindsym $mod+y exec foot yazi
+
+# Media player
 bindsym $mod+u exec mpv --player-operation-mode=pseudo-gui
-bindsym $mod+period exec foot ncmpcpp
+
+# EDITOR
 bindsym $mod+n exec foot nvim
-bindsym $mod+m exec mpc toggle
+
+# Music
+bindsym $mod+period exec foot ncmpcpp
+
+# mpd
+bindsym $mod+F9 exec mpd && pkill -SIGRTMIN+8 i3blocks # Start mpd daemon
+bindsym $mod+F10 exec mpd --kill && pkill -SIGRTMIN+8 i3blocks # Stop mpd daemon
+
+# Music control
+bindsym $mod+m exec mpc toggle && pkill -SIGRTMIN+8 i3blocks
+bindsym $mod+Shift+m exec mpc stop && pkill -SIGRTMIN+8 i3blocks
+bindsym $mod+semicolon exec mpc prev && pkill -SIGRTMIN+8 i3blocks
+bindsym $mod+apostrophe exec mpc next && pkill -SIGRTMIN+8 i3blocks
+
+# Custom scripts
 bindsym $mod+comma exec sysmenu
 
 # Volume Key
