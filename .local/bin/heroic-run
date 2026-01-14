@@ -16,4 +16,4 @@ exec bwrap \
     --ro-bind ~/.config/dconf ~/.config/dconf   \
     --bind ~/.cache/fontconfig ~/.cache/fontconfig      \
     --bind ~/.config/gtk-3.0 ~/.config/gtk-3.0  \
-    /usr/bin/heroic-run
+    /usr/bin/heroic-run --ozone-platform=wayland
