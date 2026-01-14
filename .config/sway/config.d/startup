@@ -9,7 +9,7 @@ exec "fcitx5 -d"
 
 # clipboard manager
 ## listen for clipboard changes and write to the history
-# exec "wl-paste --watch cliphist store"
+exec "wl-paste --watch cliphist store"
 
 # openrc pipewire
 exec gentoo-pipewire-launcher restart &
