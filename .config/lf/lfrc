@@ -1,0 +1,34 @@
+# vim:ft=lf
+# lfrc
+# @author nate zhou
+# since 2025
+
+source ~/.config/lf/rifle.conf
+source ~/.config/lf/commands.conf
+source ~/.config/lf/bindings.conf
+# source ~/.config/lf/teleport.conf
+# source ~/.config/lf/local.conf
+
+set watch true
+set shell /usr/bin/sh
+set shellopts '-eu'
+set ifs "\n"
+set filtermethod regex
+
+set preview true
+set previewer ~/.config/lf/previewer
+set previewer_timeout 1000
+set cleaner ~/.config/lf/cleaner
+set preload true
+set icons true
+set rulerfile true
+set sixel true
+
+set info size
+set dircounts true
+set dirfirst true
+set relativenumber true
+set truncatepct 50
+set ratios 2:3
+set drawbox
+
