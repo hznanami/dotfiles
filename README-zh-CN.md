@@ -47,7 +47,7 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 | Bar状态           | [i3blocks](https://github.com/vivien/i3blocks)    |
 | 壁纸工具          | [swaybg](https://github.com/swaywm/swaybg)    |
 | 编辑器            | [neovim](https://github.com/neovim/neovim)    |
-| 文件管理器        | [yazi](https://github.com/sxyazi/yazi)    |
+| 文件管理器        | [lf](https://github.com/gokcehan/lf)    |
 | 浏览器            | [librewolf](https://codeberg.org/librewolf/source)    |
 | 启动器            | [wmenu](https://codeberg.org/adnano/wmenu)    |
 | 模糊查找器        | [fzf](https://github.com/junegunn/fzf)    |

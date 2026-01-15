@@ -50,7 +50,7 @@ List of programs and tools I use
 | Status bar               | [i3blocks](https://github.com/vivien/i3blocks)    |
 | Wallpaper utility        | [swaybg](https://github.com/swaywm/swaybg)    |
 | Editor                   | [neovim](https://github.com/neovim/neovim)    |
-| File Manager             | [yazi](https://github.com/sxyazi/yazi)    |
+| File Manager             | [lf](https://github.com/gokcehan/lf)    |
 | Browser                  | [librewolf](https://codeberg.org/librewolf/source)    |
 | Launcher                 | [wmenu](https://codeberg.org/adnano/wmenu)    |
 | Fuzzy Finder             | [fzf](https://github.com/junegunn/fzf)    |
