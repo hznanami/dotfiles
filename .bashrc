@@ -63,6 +63,11 @@ function ra() {
 	rm -f -- "$tmp"
 }
 
+# lf
+LFCD="$HOME/.config/lf/lfcd.sh"                                #  pre-built binary, make sure to use absolute path
+if [ -f "$LFCD" ]; then
+    source "$LFCD"
+fi
 # fzf
 # source /usr/share/bash-completion/completions/fzf
 # source /usr/share/fzf/key-bindings.bash
