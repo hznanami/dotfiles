@@ -29,6 +29,6 @@ set dircounts true
 set dirfirst true
 set relativenumber true
 set truncatepct 50
-set ratios 2:3
+set ratios 1:4:3
 set drawbox
 
