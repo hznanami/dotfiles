@@ -4,7 +4,7 @@ source "$HOME/.cache/wal/colors-foot.ini"
 
 image() {
 	geometry="$(($2-2))x$3"
-	chafa "$1" -f sixel -s "$geometry" --animate false --symbols block -t 1 --bg "$background"
+	chafa "$1" -f sixel -s "$geometry" --animate false --symbols block -t 1 --bg "$background" --work 1
 }
 
 batorcat() {
