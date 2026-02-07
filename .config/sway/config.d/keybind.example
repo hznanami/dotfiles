@@ -319,6 +319,8 @@ bindsym $mod+m exec mpc toggle && pkill -SIGRTMIN+8 i3blocks
 bindsym $mod+Shift+m exec mpc stop && pkill -SIGRTMIN+8 i3blocks
 bindsym $mod+semicolon exec mpc prev && pkill -SIGRTMIN+8 i3blocks
 bindsym $mod+apostrophe exec mpc next && pkill -SIGRTMIN+8 i3blocks
+bindsym $mod+Shift+semicolon exec mpc seek -5 # Fast-forward 5s
+bindsym $mod+Shift+apostrophe exec mpc seek +5 # Rewind 5s
 
 # Custom scripts
 bindsym $mod+comma exec sysmenu
@@ -333,6 +335,9 @@ bindsym XF86MonBrightnessDown exec $HOME/.config/sway/scripts/brightness.sh --de
 bindsym XF86MonBrightnessUp exec $HOME/.config/sway/scripts/brightness.sh --inc
 bindsym $mod+F5 exec brightnessctl s 0%
 bindsym $mod+F6 exec brightnessctl s 100%
+
+# Resource monitor
+bindsym $mod+z exec foot btop
 
 # adjust window gaps
 bindsym $mod+Shift+minus exec "swaymsg gaps inner current minus 2"
