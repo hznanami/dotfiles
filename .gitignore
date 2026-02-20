@@ -6,6 +6,7 @@
 .config/btop/btop.log
 .config/dconf/
 .config/fcitx/
+.config/fcitx5/crash.log
 .config/mpd/*
 !.config/mpd/mpd.conf
 .config/ncmpcpp/*
