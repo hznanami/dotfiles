@@ -10,7 +10,6 @@ exec bwrap \
     --ro-bind /usr/bin /usr/bin \
     --ro-bind /etc /etc \
     --ro-bind /usr/share /usr/share \
-    --ro-bind /opt/heroic* /opt/heroic*   \
     --dev /dev \
     --dev-bind /dev/dri /dev/dri \
     --dev-bind /dev/nvidia0 /dev/nvidia0    \
