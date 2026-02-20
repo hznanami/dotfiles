@@ -40,5 +40,9 @@
     {
 	"key": "o",
 	"command": ["script-binding", "file_browser/dynamic/close"]
+    },
+    {
+	"key": "/",
+	"command": ["script-binding", "file_browser/dynamic/find/find"]
     }
 ]
