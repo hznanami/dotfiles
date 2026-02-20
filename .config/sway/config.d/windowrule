@@ -1,5 +1,6 @@
 # Floating
 for_window [app_id="mpv"] floating enable
+for_window [title="floating_term"] floating enable
 # for_window [app_id="thunar"] floating enable
 # for_window [app_id="imv"] floating enable
 # for_window [title="^.*"] title_format ""
