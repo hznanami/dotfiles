@@ -47,7 +47,6 @@
         },
         {
             "type": "packages",
-            "format": "{} (emerge)",
             "key": " ",
             "keyColor": "33"  
         },
