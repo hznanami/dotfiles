@@ -42,9 +42,9 @@ trackers.use_udp.set = yes
 throttle.max_uploads.set = 100
 throttle.max_uploads.global.set = 250
 
-throttle.min_peers.normal.set = 20
-throttle.max_peers.normal.set = 60
-throttle.min_peers.seed.set = 30
+throttle.min_peers.normal.set = 40
+throttle.max_peers.normal.set = 39
+throttle.min_peers.seed.set = 0
 throttle.max_peers.seed.set = 80
 trackers.numwant.set = 500
 
@@ -56,7 +56,7 @@ protocol.encryption.set = allow_incoming,try_outgoing,enable_retry
 ## a ceiling of handles reserved for rTorrent's internal needs!
 network.http.max_open.set = 50
 network.max_open_files.set = 600
-network.max_open_sockets.set = 300
+network.max_open_sockets.set = 100
 
 
 ## Memory resource usage (increase if you have a large number of items loaded,
