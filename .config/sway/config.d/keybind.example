@@ -299,7 +299,6 @@ bindsym $mod+Shift+i exec qutebrowser
 
 # File manager
 bindsym $mod+o exec foot lf
-bindsym $mod+y exec foot yazi
 
 # Media player
 bindsym $mod+u exec mpv --player-operation-mode=pseudo-gui
