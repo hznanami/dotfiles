@@ -1,15 +1,14 @@
 {
   "bufferline.nvim": { "branch": "main", "commit": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3" },
   "dashboard-nvim": { "branch": "master", "commit": "0775e567b6c0be96d01a61795f7b64c1758262f6" },
-  "fzf-lua": { "branch": "main", "commit": "cae96b04f6cad98a3ad24349731df5e56b384c3c" },
-  "indent-blankline.nvim": { "branch": "master", "commit": "005b56001b2cb30bfa61b7986bc50657816ba4ba" },
-  "lazy.nvim": { "branch": "main", "commit": "85c7ff3711b730b4030d03144f6db6375044ae82" },
+  "fzf-lua": { "branch": "main", "commit": "1eba927866251bae1b61dffc5b673b8dbd0f3f48" },
+  "indent-blankline.nvim": { "branch": "master", "commit": "d28a3f70721c79e3c5f6693057ae929f3d9c0a03" },
+  "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lualine.nvim": { "branch": "master", "commit": "47f91c416daef12db467145e16bed5bbfe00add8" },
-  "nvim-autopairs": { "branch": "master", "commit": "7a2c97cccd60abc559344042fefb1d5a85b3e33b" },
-  "nvim-surround": { "branch": "main", "commit": "fcfa7e02323d57bfacc3a141f8a74498e1522064" },
+  "nvim-autopairs": { "branch": "master", "commit": "59bce2eef357189c3305e25bc6dd2d138c1683f5" },
+  "nvim-surround": { "branch": "main", "commit": "ce4ad4a8909d7f4537803c8f09b79e78c49a6cc4" },
   "nvim-treesitter": { "branch": "master", "commit": "42fc28ba918343ebfd5565147a42a26580579482" },
-  "nvim-web-devicons": { "branch": "master", "commit": "8dcb311b0c92d460fac00eac706abd43d94d68af" },
-  "pywal16.nvim": { "branch": "main", "commit": "b21a36cfcbe4581176b79fe46b88ae42ae0fe520" },
-  "render-markdown.nvim": { "branch": "main", "commit": "b2b135347e299ffbf7f4123fb7811899b0c9f4b8" },
-  "yazi.nvim": { "branch": "main", "commit": "8c1fb0eac0bb20f162100315c6f1090077bcaf08" }
+  "nvim-web-devicons": { "branch": "master", "commit": "737cf6c657898d0c697311d79d361288a1343d50" },
+  "pywal16.nvim": { "branch": "main", "commit": "99aeadcd54301f3340c62520263166cd83fb5863" },
+  "render-markdown.nvim": { "branch": "main", "commit": "1641b434bda26e0f4e3610985b3357fc213cf834" }
 }
