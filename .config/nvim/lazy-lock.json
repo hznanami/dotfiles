@@ -10,5 +10,6 @@
   "nvim-treesitter": { "branch": "master", "commit": "42fc28ba918343ebfd5565147a42a26580579482" },
   "nvim-web-devicons": { "branch": "master", "commit": "737cf6c657898d0c697311d79d361288a1343d50" },
   "pywal16.nvim": { "branch": "main", "commit": "99aeadcd54301f3340c62520263166cd83fb5863" },
-  "render-markdown.nvim": { "branch": "main", "commit": "1641b434bda26e0f4e3610985b3357fc213cf834" }
+  "render-markdown.nvim": { "branch": "main", "commit": "1641b434bda26e0f4e3610985b3357fc213cf834" },
+  "tfm.nvim": { "branch": "main", "commit": "a74ac5333f030db3603d9f076d220e8d24621365" }
 }
