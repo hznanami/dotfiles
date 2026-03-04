@@ -6,13 +6,14 @@
 status="$(cat /sys/class/net/w*/operstate 2>/dev/null)"
 color="$color1"
 
-level="$(awk '/^\s*w/ {print int($3 * 100 / 70)"%"}' /proc/net/wireless)"
+# level="$(awk '/^\s*w/ {print int($3 * 100 / 70)"%"}' /proc/net/wireless)"
+level=$(iw dev ${BLOCK_INSTANCE:-wlan0} link | grep 'dBm$' | grep -Eoe '-[0-9]{2}' | awk '{print  ($1 > -50 ? 100 :($1 < -100 ? 0 : ($1+100)*2))}')
 
 [ "$status" = "up" ] && icon="󰖩 " || icon="󰖪 " level=""
 
 
 # ` `(U+2009) is the Thin Space
-echo "$icon"  "$level"
+echo "$icon"  "$level%"
 echo
 echo "$color"
 
