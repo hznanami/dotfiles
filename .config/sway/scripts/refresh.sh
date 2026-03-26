@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCRIPTSDIR=$HOME/.config/sway/scripts
+# SCRIPTSDIR=$HOME/.config/sway/scripts
 
 # Kill already running process
 #_ps=(waybar)
@@ -18,4 +18,4 @@ $HOME/.config/sway/scripts/fcitx5-pywal.sh &
 
 # Lauch statusbar (waybar)
 #${SCRIPTSDIR}/Waybar.sh &
-sleep 0.5 && swaymsg reload
+# sleep 0.5 && swaymsg reload
