@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
-source $HOME/.config/sway/scripts/variables
 
+# Load variables
+source "$HOME/.config/sway/scripts/variables"
 
-NEW_WALL=$(find $HOME/Pictures/wallpaper/ -type f | sed 's#.*/##' | shuf -n1)
+# Random wallpaper file
+FULL_PATH=$(find "$WALLPAPERS_PATH" -type f \( -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" -o -name "*.webp" \) | shuf -n1)
 
+NEW_WALL=$(basename "$FULL_PATH")
 
-sed -i "5s/[0-9]\+.*$/${NEW_WALL} fill/" $HOME/.config/sway/config.d/output
+# Update configuration using regex
+sed -i "s|bg .* fill|bg $FULL_PATH fill|" "$HOME/.config/sway/config.d/output"
 
-pkill swaybg
-#exec $HOME/.config/sway/scripts/pywalswaybg.sh &
-wal -q -i $WALLPAPERS_PATH$NEW_WALL 
+# Generate colors with pywal and refresh
+wal -qt -i "$FULL_PATH" --contrast 1.0
+
 sleep 1
-exec $HOME/.config/sway/scripts/refresh.sh
-
+exec "$HOME/.config/sway/scripts/refresh.sh"
