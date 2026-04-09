@@ -12,7 +12,7 @@ NEW_WALL=$(basename "$FULL_PATH")
 sed -i "s|bg .* fill|bg $FULL_PATH fill|" "$HOME/.config/sway/config.d/output"
 
 # Generate colors with pywal and refresh
-wal -qt -i "$FULL_PATH" --contrast 1.0
+wal -qt -i "$FULL_PATH" --contrast 2.5
 
 sleep 1
 exec "$HOME/.config/sway/scripts/refresh.sh"

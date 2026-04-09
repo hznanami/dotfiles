@@ -24,7 +24,7 @@ FULL_PATH="${WALLPAPERS_PATH%/}/$NEW_WALL"
 sed -i "s|bg .* fill|bg $FULL_PATH fill|" "$HOME/.config/sway/config.d/output"
 
 # Generate colors with pywal and refresh
-wal -qt -i "$FULL_PATH" --contrast 1.0
+wal -qt -i "$FULL_PATH" --contrast 2.5
 
 sleep 1
 bash "$HOME/.config/sway/scripts/refresh.sh"
