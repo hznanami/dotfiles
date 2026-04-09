@@ -71,7 +71,7 @@ List of programs and tools I use
 
 ### For bubblewrap
 
-This repository's `librewolf`, `Heroic Games Launcher` are sandboxed using the bubblwrap tool and configured to replace the default startup command path to the user's path environment, and they are all running in unprivileged sandboxed container environments, with the main purpose of isolating the `/home` directory
+The `librewolf` components in this repository are sandboxed using the bubblwrap tool and configured to replace the default startup command path with the user’s path environment variable; they all run in a sandboxed container environment with no privileges, primarily to isolate the `/home` directory.
 
 <br>
 

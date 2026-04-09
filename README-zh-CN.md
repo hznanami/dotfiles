@@ -68,7 +68,7 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 
 ### 对于bubblewrap
 
-本仓库的`librewolf`、`Heroic Games Launcher` 使用bubblwrap工具进行沙箱化，并配置到用户path环境替换默认启动命令路径，它们都运行在无特权的沙箱容器环境中，主要目的是隔离`/home`目录
+本仓库的`librewolf`使用bubblwrap工具进行沙箱化，并配置到用户path环境替换默认启动命令路径，它们都运行在无特权的沙箱容器环境中，主要目的是隔离`/home`目录，并对其他不必要的目录进行隔离
 
 <br>
 
