@@ -34,7 +34,7 @@ bind -m vi-insert 'Control-p: previous-history'
 
 # Alias
 alias vim=nvim
-alias q=exit
+alias ex=exit
 
 # History
 HISTSIZE=2000
