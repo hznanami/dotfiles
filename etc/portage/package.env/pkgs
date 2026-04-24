@@ -1,0 +1,9 @@
+# gcc
+media-sound/ncmpcpp gcc-custom.conf
+media-libs/mesa gcc-custom.conf
+# sys-kernel/gentoo-kernel gcc-custom.conf
+
+# llvm
+www-client/librewolf llvm.conf
+x11-misc/matugen llvm.conf
+media-sound/rmpc llvm.conf
