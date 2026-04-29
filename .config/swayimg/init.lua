@@ -1,4 +1,4 @@
-require("config/main/main")
+require("config/global/config")
 require("config/modes/viewer/config")
 require("config/modes/viewer/bindings")
 require("config/modes/gallery/config")
