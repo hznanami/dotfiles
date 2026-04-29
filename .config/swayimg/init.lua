@@ -1,0 +1,6 @@
+require("config/main/main")
+require("config/modes/viewer/config")
+require("config/modes/viewer/bindings")
+require("config/modes/gallery/config")
+require("config/modes/gallery/bindings")
+require("config/modes/slideshow/config")
