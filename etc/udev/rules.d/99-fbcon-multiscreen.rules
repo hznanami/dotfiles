@@ -1,0 +1,9 @@
+# Map tty1 and tty2 to external display (NVIDIA fb1)
+ACTION=="add", SUBSYSTEM=="graphics", KERNEL=="fb1", RUN+="/usr/bin/con2fbmap 1 1"
+ACTION=="add", SUBSYSTEM=="graphics", KERNEL=="fb1", RUN+="/usr/bin/con2fbmap 2 1"
+
+# Map tty3 through tty6 to internal display (Intel fb0)
+ACTION=="add", SUBSYSTEM=="graphics", KERNEL=="fb0", RUN+="/usr/bin/con2fbmap 3 0"
+ACTION=="add", SUBSYSTEM=="graphics", KERNEL=="fb0", RUN+="/usr/bin/con2fbmap 4 0"
+ACTION=="add", SUBSYSTEM=="graphics", KERNEL=="fb0", RUN+="/usr/bin/con2fbmap 5 0"
+ACTION=="add", SUBSYSTEM=="graphics", KERNEL=="fb0", RUN+="/usr/bin/con2fbmap 6 0"
