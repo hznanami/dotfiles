@@ -10,6 +10,7 @@ fi
 PATH="$HOME/.local/bin:${PATH}"
 export FZF_DEFAULT_OPTS='--color=16'
 export FZF_COMPLETION_TRIGGER='\\'
+export FZF_DEFAULT_OPTS="--bind='ctrl-d:half-page-down,ctrl-u:half-page-up,ctrl-f:page-down,ctrl-b:page-up'"
 
 # Auto-launch Sway on TTY1 login
 if [ "$(tty)" = "/dev/tty1" ]; then
