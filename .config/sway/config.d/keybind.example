@@ -53,7 +53,7 @@ bindsym $mod+p exec foot -T floating_term --window-size-pixels=1280x520 $HOME/.c
     # bindsym $mod+u exec $menu
 
     # Quit run
-    bindsym $mod+d exec wmenu-run -i -f "Source Sans 3 Bold 12.5" -S $color1 -s $background -n $color1 -N $background
+    bindsym $mod+d exec wmenu-run -i -f "Source Sans 3 Bold 13.5" -S $color1 -s $background -n $color1 -N $background
 
     # Start your launcher (Nvidia)
     # bindsym $mod+Shift+u exec prime-run $menu
