@@ -16,8 +16,8 @@ bar {
         statusline #eeeeee
     	separator $color1
         background $backgroundCC
-        inactive_workspace $color180 $color180 #5c5c5c
+        # inactive_workspace $color180 $color180 #5c5c5c
         inactive_workspace #32323280 #32323280 #5c5c5c
-	active_workspace #323232 #323232 #eeeeee
+	    # active_workspace #323232 #323232 #eeeeee
     }
 }
