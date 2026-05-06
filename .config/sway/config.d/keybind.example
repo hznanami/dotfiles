@@ -72,7 +72,7 @@ bindsym $mod+p exec foot -T floating_term --window-size-pixels=1280x520 $HOME/.c
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+e exec swaymsg exit
 
     # logout
     # bindsym $mod+m exec wlogout
