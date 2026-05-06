@@ -298,16 +298,16 @@ bindsym $mod+i exec librewolf
 bindsym $mod+Shift+i exec qutebrowser
 
 # File manager
-bindsym $mod+o exec foot lf
+bindsym $mod+o exec foot -T floating_term lf
 
 # Media player
 bindsym $mod+u exec mpv --player-operation-mode=pseudo-gui
 
 # EDITOR
-bindsym $mod+n exec foot nvim
+bindsym $mod+n exec foot -T floating_term nvim
 
 # Music
-bindsym $mod+period exec foot ncmpcpp
+bindsym $mod+period exec foot -T floating_term ncmpcpp
 
 # mpd
 bindsym $mod+F9 exec mpd && pkill -SIGRTMIN+8 i3blocks # Start mpd daemon
@@ -336,7 +336,7 @@ bindsym $mod+F5 exec brightnessctl s 0%
 bindsym $mod+F6 exec brightnessctl s 100%
 
 # Resource monitor
-bindsym $mod+z exec foot btop
+bindsym $mod+z exec foot -T floating_term btop
 
 # adjust window gaps
 bindsym $mod+Shift+minus exec "swaymsg gaps inner current minus 2"
