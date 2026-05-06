@@ -316,10 +316,10 @@ bindsym $mod+F10 exec mpd --kill && pkill -SIGRTMIN+8 i3blocks # Stop mpd daemon
 # Music control
 bindsym $mod+m exec mpc toggle && pkill -SIGRTMIN+8 i3blocks
 bindsym $mod+Shift+m exec mpc stop && pkill -SIGRTMIN+8 i3blocks
-bindsym $mod+semicolon exec mpc prev && pkill -SIGRTMIN+8 i3blocks
-bindsym $mod+apostrophe exec mpc next && pkill -SIGRTMIN+8 i3blocks
-bindsym $mod+Shift+semicolon exec mpc seek -5 # Fast-forward 5s
-bindsym $mod+Shift+apostrophe exec mpc seek +5 # Rewind 5s
+bindsym $mod+Shift+semicolon exec mpc prev && pkill -SIGRTMIN+8 i3blocks
+bindsym $mod+Shift+apostrophe exec mpc next && pkill -SIGRTMIN+8 i3blocks
+bindsym $mod+semicolon exec mpc seek -5 # Fast-forward 5s
+bindsym $mod+apostrophe exec mpc seek +5 # Rewind 5s
 
 # Custom scripts
 bindsym $mod+comma exec sysmenu
