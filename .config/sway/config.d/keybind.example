@@ -23,7 +23,7 @@ include $HOME/.cache/wal/colors-wmenu
 
 # Switch Wallpaper
 bindsym $mod+Shift+p exec '$HOME/.config/sway/scripts/random-wallpaper.sh'
-bindsym $mod+p exec foot -T floating_term $HOME/.config/sway/scripts/select-wallpaper.sh
+bindsym $mod+p exec foot -T floating_term --window-size-pixels=1280x520 $HOME/.config/sway/scripts/select-wallpaper.sh
 
 ### Input configuration
 #

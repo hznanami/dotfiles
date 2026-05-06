@@ -1,7 +1,6 @@
 # Floating
 for_window [app_id="mpv"] floating enable
 for_window [title="floating_term"] floating enable
-for_window [title="select_wallpaper"] floating enable
 # for_window [app_id="thunar"] floating enable
 # for_window [app_id="imv"] floating enable
 # for_window [title="^.*"] title_format ""
@@ -12,7 +11,6 @@ for_window [title="select_wallpaper"] floating enable
 
 # Window Size
 # for_window [app_id="thunar"] resize set 1280 720
-for_window [title="select_wallpaper"] resize set 1280 520
 
 # Transparent
 # for_window [app_id="neovide"] opacity 0.87
