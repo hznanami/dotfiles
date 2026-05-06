@@ -60,8 +60,6 @@ fi
 # Use chafa with Sixel output
 if command -v chafa > /dev/null; then
   chafa -s "$dim" "$file" --work 1 --animate false
-  # Add a new line character so that fzf can display multiple images in the preview window
-  echo
 # Cannot find any suitable method to preview the image
 else
   file "$file"
