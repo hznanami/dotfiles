@@ -195,7 +195,8 @@ bindsym $mod+p exec foot -T floating_term --window-size-pixels=1280x520 $HOME/.c
     # You can send windows there and get them back later.
 
     # Move the currently focused window to the scratchpad
-    bindsym $mod+minus move scratchpad
+    bindsym $mod+minus floating enable,resize set 1600px 900px,move scratchpad
+    bindsym $mod+Shift+minus move scratchpad
 
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
