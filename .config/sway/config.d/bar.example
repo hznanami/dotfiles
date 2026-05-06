@@ -12,12 +12,12 @@ bar {
 
     colors {
     	font pango:Source Sans 3 Semibold 11
-        focused_workspace  $color1 $color1 #eeeeee
+        focused_workspace  $color1 $color1 $background
         statusline #eeeeee
     	separator $color1
-        background $backgroundCC
+        background $backgroundE6
         # inactive_workspace $color180 $color180 #5c5c5c
-        inactive_workspace #32323280 #32323280 #5c5c5c
+        inactive_workspace $backgroundE6 $backgroundE6 $color1
 	    # active_workspace #323232 #323232 #eeeeee
     }
 }
