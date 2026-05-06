@@ -10,7 +10,7 @@ PREVIEW_BIN="fzf-preview"
 NEW_WALL=$(ls "$WALLPAPERS_PATH" | fzf \
     --prompt=" Select Wallpaper: " \
     --preview "bash $PREVIEW_BIN '$WALLPAPERS_PATH/{}'" \
-    --preview-window=right:60%:rounded \
+    --preview-window=right:60%:sharp:noinfo \
     --layout=reverse)
 
 # Check for empty selection
