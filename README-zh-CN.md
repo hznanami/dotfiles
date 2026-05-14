@@ -87,7 +87,7 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 
 <br>
 
-## 特别感谢
+## 使用到的项目
 
 [gununixchad](https://github.com/gnuunixchad/dotfiles) - 参考并使用了部分配置和脚本，并进行了自定义修改
 

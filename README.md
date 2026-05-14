@@ -90,7 +90,7 @@ Screenshot 4:
 
 <br>
 
-## Special Thanks
+## Projects Used
 
 [gununixchad](https://github.com/gnuunixchad/dotfiles) - Referenced and used a portion of the configuration and scripts with custom modifications
 
