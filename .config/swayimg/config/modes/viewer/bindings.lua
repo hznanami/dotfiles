@@ -44,14 +44,12 @@ swayimg.viewer.on_mouse("ScrollDown", function()
 end)
 
 swayimg.viewer.on_key("i", function()
-    -- local pos = swayimg.get_mouse_pos()
     local scale = swayimg.viewer.get_scale()
     scale = scale + scale / 10
     swayimg.viewer.set_abs_scale(scale);
 end)
 
 swayimg.viewer.on_key("o", function()
-    -- local pos = swayimg.get_mouse_pos()
     local scale = swayimg.viewer.get_scale()
     scale = scale - scale / 10
     swayimg.viewer.set_abs_scale(scale);
