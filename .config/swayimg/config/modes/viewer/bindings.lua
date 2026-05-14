@@ -1,6 +1,6 @@
 -- Key and mouse bindings in viewer mode (example only, not all):
 
--- bind Escape key for exit
+-- bind q key for exit
 swayimg.viewer.on_key("q", function()
   swayimg.exit()
 end)
