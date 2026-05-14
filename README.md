@@ -71,7 +71,7 @@ List of programs and tools I use
 
 ### For bubblewrap
 
-The `librewolf` components in this repository are sandboxed using the bubblwrap tool and configured to replace the default startup command path with the user’s path environment variable; they all run in a sandboxed container environment with no privileges, primarily to isolate the `/home` directory.
+The `librewolf` components in this repository are sandboxed using the bubblewrap tool and configured to replace the default startup command path with the user’s path environment variable; they all run in a sandboxed container environment with no privileges, primarily to isolate the `/home` directory.
 
 <br>
 
@@ -92,6 +92,6 @@ Screenshot 4:
 
 ## Projects Used
 
-[gununixchad](https://github.com/gnuunixchad/dotfiles) - Referenced and used a portion of the configuration and scripts with custom modifications
+[gnuunixchad](https://github.com/gnuunixchad/dotfiles) - Referenced and used a portion of the configuration and scripts with custom modifications
 
 [BreadOnPenguins](https://github.com/BreadOnPenguins/scripts) - A portion of the script was referenced and used with modifications

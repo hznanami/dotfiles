@@ -68,7 +68,7 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 
 ### 对于bubblewrap
 
-本仓库的`librewolf`使用bubblwrap工具进行沙箱化，并配置到用户path环境替换默认启动命令路径，它们都运行在无特权的沙箱容器环境中，主要目的是隔离`/home`目录，并对其他不必要的目录进行隔离
+本仓库的`librewolf`使用bubblewrap工具进行沙箱化，并配置到用户path环境替换默认启动命令路径，它们都运行在无特权的沙箱容器环境中，主要目的是隔离`/home`目录，并对其他不必要的目录进行隔离
 
 <br>
 
@@ -89,7 +89,7 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 
 ## 使用到的项目
 
-[gununixchad](https://github.com/gnuunixchad/dotfiles) - 参考并使用了部分配置和脚本，并进行了自定义修改
+[gnuunixchad](https://github.com/gnuunixchad/dotfiles) - 参考并使用了部分配置和脚本，并进行了自定义修改
 
 [BreadOnPenguins](https://github.com/BreadOnPenguins/scripts) - 参考并使用了部分脚本，并作了修改
 
