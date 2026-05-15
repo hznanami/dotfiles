@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 6.18.25 Kernel Configuration
+# Linux/x86 6.18.29 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Gentoo 15.2.1_p20260214 p5) 15.2.1 20260214"
 CONFIG_CC_IS_GCC=y
@@ -2583,7 +2583,7 @@ CONFIG_NVME_HOST_AUTH=y
 # CONFIG_DW_XDATA_PCIE is not set
 # CONFIG_PCI_ENDPOINT_TEST is not set
 # CONFIG_XILINX_SDFEC is not set
-# CONFIG_NTSYNC is not set
+CONFIG_NTSYNC=m
 # CONFIG_NSM is not set
 # CONFIG_C2PORT is not set
 
