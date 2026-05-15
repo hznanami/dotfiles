@@ -292,6 +292,22 @@ bindsym $mod+x mode "cursor"
 # bindsym $mod+o seat - cursor press button1, seat - cursor release button1
 
 #
+# Temporary remapping mode
+#
+mode "nav" {
+    # Temporarily map hjkl to arrow keys
+    bindsym h exec --no-startup-id wtype -k left
+    bindsym j exec --no-startup-id wtype -k down
+    bindsym k exec --no-startup-id wtype -k up
+    bindsym l exec --no-startup-id wtype -k right
+
+    # Exit mode
+    bindsym Escape mode "default"
+    bindsym q mode "default"
+}
+bindsym $mod+g mode "nav"
+
+#
 # adjust window gaps
 #
 mode "gaps" {
