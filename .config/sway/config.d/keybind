@@ -362,9 +362,9 @@ bindsym $mod+t exec notify-send -u low "   $(date "+%_I:%M")"
 
 # screenshot
 ## take a screenshot with a selected part
-bindsym $mod+g exec --no-startup-id slurp | grim -g - && notify-send "grim" "Screenshot taken."
+bindsym $mod+F8 exec --no-startup-id slurp | grim -g - && notify-send "grim" "Screenshot taken."
 # take a screenshot with all monitors
-bindsym $mod+Shift+g exec --no-startup-id grim && notify-send "grim" "Screenshot taken."
+bindsym $mod+F7 exec --no-startup-id grim && notify-send "grim" "Screenshot taken."
 
 # use wmenu to select form the clipboard
 bindsym $mod+c exec --no-startup-id 'cliphist list | wmenu -l 10 -i -f "Source Sans 3 Bold 12.5" -S $color1 -s $background -n $color1 -N $background | cliphist decode | wl-copy'
