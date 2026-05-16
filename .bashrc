@@ -63,4 +63,7 @@ fi
 # source /usr/share/fzf/key-bindings.bash
 eval "$(fzf --bash)"
 
+# zoxide
+eval "$(zoxide init bash)"
+
 export GPG_TTY=$(tty)
