@@ -16,7 +16,7 @@ fi
 
 
 # PS1='\[\e[01;32m\]\u [\W] \$\[\e[00m\] '
-PS1=' \[\e[01;31m\]\W \[\e[00m\]> '
+PS1=' \[\e[01;36m\]\W \[\e[00m\]> '
 # Put your fun stuff here.
 complete -F _root_command doas
 # alias poweroff='doas poweroff'

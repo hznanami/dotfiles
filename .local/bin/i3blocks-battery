@@ -8,7 +8,7 @@ POWER="/sys/class/power_supply"
 
 status="$(cat $POWER/$BAT/status)"
 level="$(cat $POWER/$BAT/capacity)"
-color="$color1"
+color="$color6"
 
 case "$status" in
     "Discharging")

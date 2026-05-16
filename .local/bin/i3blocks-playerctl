@@ -3,7 +3,7 @@
 # Source pywal16
 . "${HOME}/.cache/wal/colors.sh"
 icon="󰈹"
-color="$color1"
+color="$color6"
 
 # playerctl loop ensures that when a track is skipped in the music player itself, it still updates on bar
 pidof -x playerctl-loop >/dev/null 2>&1 || playerctl-loop >/dev/null 2>&1 &

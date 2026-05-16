@@ -4,7 +4,7 @@
 
 . "${HOME}/.cache/wal/colors.sh"
 icon="󰥔 "
-color="$color1"
+color="$color6"
 
 # ` `(U+2009) is the Thin Space
 echo "$icon $(date '+%_I:%M ')"

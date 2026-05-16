@@ -6,7 +6,7 @@
 play_icon=" "
 pause_icon=""
 stop_icon=""
-color="$color1"
+color="$color6"
 pid="${HOME}/.config/mpd/mpd.pid"
 # sed: remove parentheses`()`, trailing spaces, and ampersand `&` because they break pango
 title="$(mpc current -f "[%title%]" | sed 's/([^()]*)//g; s/[[:space:]-]*$//; s/[&]//g' | cut -c1-40 )"
@@ -15,10 +15,10 @@ title="$(mpc current -f "[%title%]" | sed 's/([^()]*)//g; s/[[:space:]-]*$//; s/
 # ` `(U+2009) is the Thin Space
 if [ -f "$pid" ] ; then
 	if [ -z "$(mpc status | sed -n '2p')" ] ; then
-		echo "<span foreground='$color1'>$stop_icon  no song</span>" 
+		echo "<span foreground='$color6'>$stop_icon  no song</span>" 
 		echo
 	else
-		echo "<span foreground='$color1'>$play_icon</span>""<small>$title</small>"
+		echo "<span foreground='$color6'>$play_icon</span>""<small>$title</small>"
 		echo
 		if [[ -z "$title" || "$(mpc status | sed -n '2p' )" =~ '[paused]' ]]; then
             color="#888888"

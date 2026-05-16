@@ -1,7 +1,7 @@
 #!/bin/sh
 
 . "${HOME}/.cache/wal/colors.sh"
-color="$color1"
+color="$color6"
 # playerctl loop ensures that when a track is skipped in the music player itself, it still updates on bar
 pidof -x playerctl-loop >/dev/null 2>&1 || playerctl-loop >/dev/null 2>&1 &
 
@@ -22,7 +22,7 @@ for PLAYER in $PLAYERS; do
 		echo "$ICON" $(playerctl metadata --player $PLAYER --format "$META")
 done
 
-echo "$color1"
+echo "$color6"
 
 # just display what's paused in mpd, in case nothing is playing
 ICON=""

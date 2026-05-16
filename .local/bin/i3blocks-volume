@@ -9,10 +9,10 @@ muted="$(echo $status | grep 'MUTED')"
 #exec_always "$HOME"/.local/bin/wobd
 # wobfifo="/tmp/wob.fifo"
 
-[ -z "$muted" ] && icon="  " color="$color1"|| icon=" " color="#888888"
+[ -z "$muted" ] && icon="  " color="$color6"|| icon=" " color="#888888"
 
 # ` `(U+2009) is the Thin Space
-echo "<span foreground='$color1'>$icon</span>"  "$volume"%
+echo "<span foreground='$color6'>$icon</span>"  "$volume"%
 echo
 echo "$color"
 

@@ -8,8 +8,8 @@ conffile="$HOME/.config/mako/config"
 declare -A colors
 colors=(
     ["background-color"]="${background}D9"
-    ["text-color"]="$color1"
-    ["border-color"]="$color9"
+    ["text-color"]="$color6"
+    ["border-color"]="$color14"
 )
 
 for color_name in "${!colors[@]}"; do
