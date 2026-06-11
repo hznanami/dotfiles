@@ -19,6 +19,7 @@ if [ "$(tty)" = "/dev/tty1" ]; then
         export LANG=zh_CN.UTF-8
         export XDG_CURRENT_DESKTOP=sway
         export WLR_RENDERER=vulkan
+        export WLR_DRM_DEVICES=$(realpath /dev/dri/by-path/pci-0000:01:00.0-card)
         exec dbus-launch --exit-with-session sway --unsupported-gpu
     fi
 fi
