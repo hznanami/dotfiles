@@ -69,10 +69,6 @@ List of programs and tools I use
 | Init system              | [openrc](https://github.com/OpenRC/openrc)    |
 
 
-### For bubblewrap
-
-The `librewolf` components in this repository are sandboxed using the bubblewrap tool and configured to replace the default startup command path with the user’s path environment variable; they all run in a sandboxed container environment with no privileges, primarily to isolate the `/home` directory.
-
 <br>
 
 ## Wallpapers used in screenshots 
