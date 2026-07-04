@@ -17,12 +17,9 @@ set filtermethod regex
 
 set preview true
 set previewer ~/.config/lf/previewer
-set previewer_timeout 1000
 set cleaner ~/.config/lf/cleaner
 set preload true
 set icons true
-set rulerfile true
-set sixel true
 
 set info size
 set dircounts true
