@@ -16,10 +16,10 @@ markup=pango
 # interval=once
 # signal=9
 
-[playerctl]
-command= i3blocks-playerctl
-interval=5
-singal=9
+# [playerctl]
+# command= i3blocks-playerctl
+# interval=5
+# singal=9
 
 [mpd]
 command= i3blocks-mpd
