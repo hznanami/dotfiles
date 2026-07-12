@@ -344,6 +344,9 @@ bindsym $mod+n exec foot -T floating_term nvim
 # Music
 bindsym $mod+period exec foot -T floating_term ncmpcpp
 
+# Flatpak applications
+bindsym $mod+Shift+d exec wmenu-flatpak
+
 # mpd
 bindsym $mod+F9 exec mpd && pkill -SIGRTMIN+8 i3blocks # Start mpd daemon
 bindsym $mod+F10 exec mpd --kill && pkill -SIGRTMIN+8 i3blocks # Stop mpd daemon
