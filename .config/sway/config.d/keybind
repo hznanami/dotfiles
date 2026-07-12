@@ -160,7 +160,7 @@ bindsym $mod+p exec foot -T floating_term --window-size-pixels=1280x520 $HOME/.c
     bindsym $mod+Alt+h workspace prev
 
 	# Select workspace
-    bindsym $mod+Shift+Tab exec '$HOME/.config/sway/scripts/app-switch.sh'
+    bindsym $mod+slash exec '$HOME/.config/sway/scripts/app-switch.sh'
 
 #
 # Layout stuff:
