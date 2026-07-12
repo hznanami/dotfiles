@@ -329,7 +329,7 @@ bindsym $mod+backslash mode "gaps"
 # App Key
 #
 # Browser
-bindsym $mod+i exec librewolf
+bindsym $mod+i exec flatpak run io.gitlab.librewolf-community
 bindsym $mod+Shift+i exec qutebrowser
 
 # File manager
