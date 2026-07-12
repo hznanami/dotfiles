@@ -7,7 +7,19 @@ windows=$(swaymsg -t get_tree --raw | jq -r '
   "\(.app_id) - \(.name)  #\(.id)|\(.id)|\(.workspace // "")"
 ')
 
-selected=$(echo "$windows" | cut -d'|' -f1 | wmenu -l 10 -p "Switch to:" -i -f "Source Sans 3 Bold 12.5" -S $color1 -n $color1 -M $color1 -N $background)
+TOTAL_ITEMS=$(echo "$windows" | wc -l)
+
+LINES_PER_PAGE=10
+
+if [ "$TOTAL_ITEMS" -lt "$LINES_PER_PAGE" ]; then
+    DISPLAY_LINES=$TOTAL_ITEMS
+else
+    DISPLAY_LINES=$LINES_PER_PAGE
+fi
+
+WMENU_ARGS="-l $DISPLAY_LINES"
+
+selected=$(echo "$windows" | cut -d'|' -f1 | wmenu $WMENU_ARGS -p "Switch to:" -i -f "Source Sans 3 Bold 12.5" -S $color1 -n $color1 -M $color1 -N $background)
 
 if [ ! -z "$selected" ]; then
     full_line=$(echo "$windows" | awk -F'|' -v sel="$selected" '$1 == sel {print; exit}')
