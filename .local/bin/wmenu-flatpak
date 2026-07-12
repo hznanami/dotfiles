@@ -1,0 +1,22 @@
+#!/bin/bash
+
+. "${HOME}/.cache/wal/colors.sh"
+
+apps=$(flatpak list --app --columns=application,name | while read -r app name; do
+    echo "$name ($app)"
+done)
+
+if [ -z "$apps" ]; then
+    echo "No Flatpak applications found" >&2
+    exit 1
+fi
+
+chosen=$(echo "$apps" | wmenu -i -p "Flatpak:" -f "Source Sans 3 Bold 13.5" -S $color6 -s $background -n $color6 -M $color6 -N $background -m $background)
+
+if [ -z "$chosen" ]; then
+    exit 0
+fi
+
+app_id=$(echo "$chosen" | sed -n 's/.*(\(.*\))/\1/p')
+
+flatpak run "$app_id" &
