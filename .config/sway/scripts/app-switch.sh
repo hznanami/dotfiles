@@ -19,7 +19,7 @@ fi
 
 WMENU_ARGS="-l $DISPLAY_LINES"
 
-selected=$(echo "$windows" | cut -d'|' -f1 | wmenu $WMENU_ARGS -p "Switch to:" -i -f "Source Sans 3 Bold 12.5" -S $color1 -n $color1 -M $color1 -N $background)
+selected=$(echo "$windows" | cut -d'|' -f1 | wmenu $WMENU_ARGS -p "Switch to:" -i -f "Source Sans 3 Bold 13.5" -S $color6 -s $background -n $color6 -M $color6 -N $background -m $background)
 
 if [ ! -z "$selected" ]; then
     full_line=$(echo "$windows" | awk -F'|' -v sel="$selected" '$1 == sel {print; exit}')
