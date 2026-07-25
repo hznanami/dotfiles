@@ -2,9 +2,11 @@
 . "${HOME}/.cache/wal/colors-wmenu-sh"
 
 windows=$(swaymsg -t get_tree --raw | jq -r '
-  .. | select(.pid? and (.app_id != null or .window_properties != null)) | 
-  {name: .name, id: .id, app_id: (.app_id // .window_properties.class), workspace: (.workspace // .output)} | 
-  "\(.app_id) - \(.name)  #\(.id)|\(.id)|\(.workspace // "")"
+  .. | objects | select(.type == "workspace") as $ws |
+  $ws | recurse(.nodes[], .floating_nodes[]) |
+  select(.pid? and (.app_id != null or .window_properties != null)) |
+  {name: .name, id: .id, app_id: (.app_id // .window_properties.class), workspace: $ws.name} |
+  "[\(.workspace)]  \(.app_id) - \(.name)  #\(.id)|\(.id)|\(.workspace)"
 ')
 
 TOTAL_ITEMS=$(echo "$windows" | wc -l)
