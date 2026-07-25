@@ -2,8 +2,8 @@
 . "${HOME}/.cache/wal/colors-wmenu-sh"
 
 windows=$(swaymsg -t get_tree --raw | jq -r '
-  .. | select(.pid? and .app_id != null) | 
-  {name: .name, id: .id, app_id: .app_id, workspace: (.workspace // .output)} | 
+  .. | select(.pid? and (.app_id != null or .window_properties != null)) | 
+  {name: .name, id: .id, app_id: (.app_id // .window_properties.class), workspace: (.workspace // .output)} | 
   "\(.app_id) - \(.name)  #\(.id)|\(.id)|\(.workspace // "")"
 ')
 
