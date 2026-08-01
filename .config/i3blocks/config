@@ -4,7 +4,7 @@ separator_block_width=15
 markup=pango
 
 # [mpdupdate]
-# command= i3blocks-mpdupdate
+# command= scripts/i3blocks-mpdupdate
 # # -2 will respawn the command as soon as it terminates
 # interval=0
 # signal=9
@@ -12,38 +12,38 @@ markup=pango
 # modules
 ########
 # [mpdupdate]
-# command= i3blocks-mpdupdate
+# command= scripts/i3blocks-mpdupdate
 # interval=once
 # signal=9
 
 # [playerctl]
-# command= i3blocks-playerctl
+# command= scripts/i3blocks-playerctl
 # interval=5
 # singal=9
 
 [mpd]
-command= i3blocks-mpd
+command= scripts/i3blocks-mpd
 interval=5
 signal=8
 
 [volume]
-command= sleep 2 && i3blocks-volume
+command= sleep 2 && scripts/i3blocks-volume
 interval=once
 signal=1
 
 [wifi]
-command= i3blocks-wifi
+command= scripts/i3blocks-wifi
 interval=10
 signal=11
 separator_block_width=0
 
 [battery]
-command= i3blocks-battery
+command= scripts/i3blocks-battery
 interval=5
 signal=12
 
 ########
 [time]
-command= i3blocks-time
+command= scripts/i3blocks-time
 interval=5
 signal=17
