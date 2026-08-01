@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+VM_DIR="$HOME/vm"
+
+cd "$VM_DIR" || { echo "Error: Cannot enter directory $VM_DIR" >&2; exit 1; }
+
+shopt -s nullglob
+confs=( *.conf )
+shopt -u nullglob
+
+if [ ${#confs[@]} -eq 0 ]; then
+    echo "Error: No .conf files found in $VM_DIR" >&2
+    exit 1
+fi
+
+options=()
+for conf in "${confs[@]}"; do
+    options+=( "${conf%.conf}" )
+done
+
+total_items=${#options[@]}
+max_lines=10
+if [ "$total_items" -lt "$max_lines" ]; then
+    display_lines=$total_items
+else
+    display_lines=$max_lines
+fi
+
+if [ -f "${HOME}/.cache/wal/colors-wmenu-sh" ]; then
+    . "${HOME}/.cache/wal/colors-wmenu-sh"
+else
+    color6=""
+    background=""
+fi
+
+selected=$(printf "%s\n" "${options[@]}" | wmenu -l "$display_lines" -p "Select VM:" -i -f "Source Sans 3 Bold 13.5" -S "$color6" -s "$background" -n "$color6" -M "$color6" -N "$background" -m "$background")
+
+if [ -z "$selected" ]; then
+    echo "No VM selected, exiting."
+    exit 0
+fi
+
+echo "Starting VM: $selected"
+exec quickemu --vm "$VM_DIR/${selected}.conf"
