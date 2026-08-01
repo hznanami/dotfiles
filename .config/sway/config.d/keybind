@@ -349,6 +349,9 @@ bindsym $mod+period exec foot -T floating_term ncmpcpp
 # Flatpak applications
 bindsym $mod+Shift+d exec wmenu-flatpak
 
+# Launch a virtual machine
+bindsym $mod+y exec vm-launcher
+
 # mpd
 bindsym $mod+F9 exec mpd && pkill -SIGRTMIN+8 i3blocks # Start mpd daemon
 bindsym $mod+F10 exec mpd --kill && pkill -SIGRTMIN+8 i3blocks # Stop mpd daemon
