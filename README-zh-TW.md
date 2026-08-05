@@ -61,6 +61,7 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 | 主題配色          | [pywal16](https://github.com/eylles/pywal16)    |
 | BitTorrent用戶端  | [rtorrent](https://github.com/rakshasa/rtorrent)    |
 | 沙盒工具          | [bubblewrap](https://github.com/containers/bubblewrap)    |
+| 虛擬化            | [qemu](https://www.qemu.org/) & [quickemu](https://github.com/quickemu-project/quickemu)   |
 | 提權工具          | [doas](https://github.com/Duncaen/OpenDoas)    |
 | Dotfiles管理      | [stow](https://github.com/aspiers/stow) & [git](https://github.com/git/git)    |
 | 初始化系統        | [openrc](https://github.com/OpenRC/openrc)    |

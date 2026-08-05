@@ -64,6 +64,7 @@ List of programs and tools I use
 | Color Theme              | [pywal16](https://github.com/eylles/pywal16)    |
 | BitTorrent client        | [rtorrent](https://github.com/rakshasa/rtorrent)    |
 | Sandbox tool             | [bubblewrap](https://github.com/containers/bubblewrap)    |
+| Virtualization           | [qemu](https://www.qemu.org/) & [quickemu](https://github.com/quickemu-project/quickemu)   |
 | Privilege escalation tool| [doas](https://github.com/Duncaen/OpenDoas)    |
 | Dotfiles Manager         | [stow](https://github.com/aspiers/stow) & [git](https://github.com/git/git)    |
 | Init system              | [openrc](https://github.com/OpenRC/openrc)    |
