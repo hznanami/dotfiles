@@ -1,0 +1,226 @@
+{
+  "log": {
+       "disabled": true,
+       "level": "warn"
+  },
+  "certificate": { "store": "mozilla" },
+  "dns": {
+    "servers": [
+      {
+        "type": "udp",
+        "tag": "dns-remote",
+        "detour": "proxy",
+        "server": "1.1.1.1"
+      },
+      {
+	"tag": "dns-default",
+	"type": "https",
+	"server": "223.5.5.5"
+      }
+    ],
+    "rules": [
+      {
+        "rule_set": "geosite-cn",
+        "server": "dns-default"
+      }
+    ],
+    "final": "dns-remote",
+    "strategy": "ipv4_only",
+    "disable_expire": true
+  },
+  "inbounds": [
+//    {
+//      "type": "tun",
+//      "tag": "tun-in",
+//      "interface_name": "tun0",
+//      "mtu": 1350,
+//      "address": "172.19.0.1/30",
+//      "auto_route": true,
+//      "auto_redirect": true,
+//      "strict_route": false,
+//      "stack": "system"
+//    },
+    {
+      "tag": "mixed-in",
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 2080
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "proxy",
+      "outbounds": [
+        "reality-us",
+        "hy2-us",
+        "reality-jp",
+        "hy2-jp",
+	"ss-jp"
+      ],
+      "default": "reality-us"
+    },
+    {
+      "type": "vless",
+      "tag": "reality-us",
+      "domain_strategy": "ipv4_only",
+      "server": "",
+      "server_port": 22378,
+      "uuid": "",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "",
+          "short_id": ""
+        }
+      },
+      "domain_resolver": {
+	      "server": "dns-remote",
+	      "strategy": "ipv4_only"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "reality-jp",
+      "domain_strategy": "ipv4_only",
+      "server": "",
+      "server_port": 32378,
+      "uuid": "",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "",
+          "short_id": ""
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hy2-us",
+      "domain_strategy": "ipv4_only",
+      "server": "",
+      "server_port": 9443,
+      "password": "",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hy2-jp",
+      "domain_strategy": "ipv4_only",
+      "server": "",
+      "server_port": 8443,
+      "password": "",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "alpn": "h3"
+      },
+      "domain_resolver": {
+        "server": "dns-remote",
+        "strategy": "ipv4_only"
+      }
+    },
+    {
+        "type": "shadowsocks",
+        "tag": "ss-jp",
+        "server": "",
+        "tcp_fast_open": true,
+        "tcp_multi_path": true,
+        "server_port": 8080,
+        "method": "2022-blake3-aes-128-gcm",
+        "password": ""
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "action": "sniff",
+        "inbound": ["mixed-in"]
+      },
+      {
+        "type": "logical",
+        "mode": "or",
+        "rules": [
+            {
+                "protocol": "dns"
+            },
+            {
+                "port": 53
+            }
+        ],
+        "action": "hijack-dns"
+      },
+      {
+        "ip_is_private": true,
+        "rule_set": [
+          "geoip-cn",
+          "geosite-cn"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "type": "logical",
+        "mode": "or",
+        "rules": [
+            {
+                "port": 853
+            },
+            {
+                "network": "udp",
+                "port": 443
+            },
+            {
+                "protocol": "stun"
+            }
+        ],
+        "action": "reject"
+    }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geosite-cn",
+        "url": "https://github.com/SagerNet/sing-geosite/raw/rule-set/geosite-cn.srs",
+        "download_detour": "proxy"
+      },
+      {
+        "type": "remote",
+        "tag": "geoip-cn",
+        "url": "https://github.com/SagerNet/sing-geoip/raw/rule-set/geoip-cn.srs",
+        "download_detour": "proxy"
+      }
+    ],
+    "final": "proxy",
+    "auto_detect_interface": true,
+    "default_domain_resolver": "dns-default"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true
+    }
+  }
+}
