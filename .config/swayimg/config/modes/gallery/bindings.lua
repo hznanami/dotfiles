@@ -67,3 +67,15 @@ swayimg.gallery.on_key("l", function()
     swayimg.gallery.switch_image("right")
 end)
 
+swayimg.gallery.on_key("Shift+w", function()
+    local image = swayimg.gallery.get_image()
+    if not image or not image.path then return end
+
+    local escaped_path = "'" .. image.path:gsub("'", "'\\''") .. "'"
+    local filename = image.path:match("([^/]+)$") or image.path
+
+    os.execute(string.format("~/.config/sway/scripts/select-wallpaper-swayimg.sh %s", escaped_path))
+    os.execute(string.format("notify-send -r 107 '%s has been set as wallpaper'", filename))
+
+    swayimg.exit()
+end)

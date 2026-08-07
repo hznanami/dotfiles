@@ -27,6 +27,7 @@
 !.config/sway/scripts/random-wallpaper.sh
 !.config/sway/scripts/select-wallpaper.sh
 !.config/sway/scripts/refresh.sh
+!.config/sway/scripts/select-wallpaper-swayimg.sh
 .config/wal/colorschemes/
 .config/wal/templates/colors-wmenu-sh
 .config/mako/config
