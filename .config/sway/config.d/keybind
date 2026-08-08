@@ -22,8 +22,8 @@ set $menu wmenu-run
 include $HOME/.cache/wal/colors-wmenu
 
 # Switch Wallpaper
-bindsym $mod+Shift+p exec swayimg --gallery ~/Pictures/wallpaper
-bindsym $mod+p exec foot -T floating_term --window-size-pixels=1280x520 $HOME/.config/sway/scripts/select-wallpaper.sh
+bindsym $mod+p exec swayimg --gallery ~/Pictures/wallpaper
+bindsym $mod+Shift+p exec foot -T floating_term --window-size-pixels=1280x520 $HOME/.config/sway/scripts/select-wallpaper.sh
 
 ### Input configuration
 #
