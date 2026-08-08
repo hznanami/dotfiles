@@ -7,4 +7,4 @@ sed -i "13s/#[0-9a-fA-F]\+.*$/$color6/g" "$THEME"
 sed -i "15,19s/#[0-9a-fA-F]\+.*$/$color6/g" "$THEME"
 sed -i "34s/#[0-9a-fA-F]\+.*$/$background/g" "$THEME"
 sed -i "43s/#[0-9a-fA-F]\+.*$/${color14}4D/g" "$THEME"
-fcitx5 -r
+fcitx5 -rd
