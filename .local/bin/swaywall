@@ -3,8 +3,10 @@
 WALLPAPER_DIR="${HOME}/Pictures/wallpaper"
 
 if [ ! -d "$WALLPAPER_DIR" ]; then
-    notify-send -u critical "swaywall" "Wallpaper directory not found!"
+    notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper -u critical "Wallpaper directory not found!"
     exit 1
 fi
+
+notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper "swaywall" "Selecting wallpaper..."
 
 exec swayimg --gallery "$WALLPAPER_DIR"
