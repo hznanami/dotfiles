@@ -14,7 +14,7 @@
 $HOME/.config/sway/scripts/update-mako-theme.sh &
 
 # Lauch fcitx5
-$HOME/.config/sway/scripts/fcitx5-pywal.sh &
+$HOME/.config/sway/scripts/fcitx5-pywal.sh > /dev/null 2>&1 &
 
 # Lauch statusbar (waybar)
 #${SCRIPTSDIR}/Waybar.sh &
