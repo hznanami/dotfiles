@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+WALLPAPER_DIR="${HOME}/Pictures/wallpaper"
+
+if [ ! -d "$WALLPAPER_DIR" ]; then
+    notify-send -u critical "swaywall" "Wallpaper directory not found!"
+    exit 1
+fi
+
+exec swayimg --gallery "$WALLPAPER_DIR"
