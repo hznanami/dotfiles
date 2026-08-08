@@ -26,3 +26,7 @@ swayimg.viewer.set_text("bottomleft", {          -- bottom left text block schem
   "Scale: {scale}"
 })
 
+-- force set scale mode on window resize (useful for tiling compositors)
+swayimg.on_window_resize(function()
+  swayimg.viewer.set_fix_scale("optimal")
+end)

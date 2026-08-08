@@ -18,11 +18,6 @@ end)
 -- Other configuration examples
 --
 
--- force set scale mode on window resize (useful for tiling compositors)
-swayimg.on_window_resize(function()
-  swayimg.viewer.set_fix_scale("optimal")
-end)
-
 -- bind the Delete key in slide show mode to delete the current file and display a status message
 swayimg.slideshow.on_key("Delete", function()
   local image = swayimg.slideshow.get_image()
