@@ -1,5 +1,5 @@
 -- Gallery mode
-swayimg.gallery.set_aspect("fill")                  -- thumbnail aspect ratio
+swayimg.gallery.set_aspect("fit")                  -- thumbnail aspect ratio
 swayimg.gallery.set_thumb_size(200)                 -- thumbnail size in pixels
 swayimg.gallery.set_padding_size(5)                 -- padding between thumbnails
 swayimg.gallery.set_border_size(5)                  -- border size for selected thumbnail
