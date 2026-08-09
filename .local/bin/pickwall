@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# swaywall - Launch swayimg gallery with current wallpaper highlighted
+# pickwall - Launch swayimg gallery with current wallpaper highlighted
 
 WALLPAPER_DIR="$HOME/Pictures/wallpaper"
 CONFIG_FILE="$HOME/.config/sway/config.d/output"
 
 if [ ! -d "$WALLPAPER_DIR" ]; then
-    notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper -u critical "swaywall" "Wallpaper directory not found!"
+    notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper -u critical "pickwall" "Wallpaper directory not found!"
     exit 1
 fi
 
@@ -21,9 +21,9 @@ fi
 # Send notification (include current wallpaper name if available)
 if [ -n "$CURRENT_WALLPAPER" ]; then
     WALL_NAME=$(basename "$CURRENT_WALLPAPER")
-    notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper "swaywall" "Selecting wallpaper (current: $WALL_NAME)"
+    notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper "pickwall" "Selecting wallpaper (current: $WALL_NAME)"
 else
-    notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper "swaywall" "Selecting wallpaper..."
+    notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper "pickwall" "Selecting wallpaper..."
 fi
 
 # Launch gallery with current wallpaper file (to highlight it)
