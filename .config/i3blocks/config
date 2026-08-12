@@ -27,8 +27,7 @@ interval=5
 signal=8
 
 [volume]
-command= sleep 2 && scripts/volume
-interval=once
+command= scripts/volume
 signal=1
 
 [wifi]
