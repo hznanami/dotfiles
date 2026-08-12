@@ -21,7 +21,7 @@ fi
 # Send notification (include current wallpaper name if available)
 if [ -n "$CURRENT_WALLPAPER" ]; then
     WALL_NAME=$(basename "$CURRENT_WALLPAPER")
-    notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper "pickwall" "Selecting wallpaper (current: $WALL_NAME)"
+    notify-send -t 3000 -h string:x-canonical-private-synchronous:swayimg-wallpaper "pickwall" "Selecting wallpaper (current: $WALL_NAME)"
 else
     notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper "pickwall" "Selecting wallpaper..."
 fi
