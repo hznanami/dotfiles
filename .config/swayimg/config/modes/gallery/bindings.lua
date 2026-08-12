@@ -71,7 +71,7 @@ swayimg.gallery.on_key("Shift+w", function()
 
     os.execute("notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper 'Switching wallpaper...'")
     os.execute(string.format("~/.config/sway/scripts/select-wallpaper-swayimg.sh %s", escaped_path))
-    os.execute(string.format("notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper '%s has been set as wallpaper'", filename))
+    os.execute(string.format("notify-send -h string:x-canonical-private-synchronous:swayimg-wallpaper '[%s] has been set as wallpaper'", filename))
 
     swayimg.exit()
 end)
