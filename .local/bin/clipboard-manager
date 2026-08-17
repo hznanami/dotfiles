@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+tolower() { tr '[:upper:]' '[:lower:]'; }
+delete() { cliphist delete; }
+copy() { cliphist decode | wl-copy; }
+
+while true; do
+    item=$(cliphist list | fuzzel -d --prompt='History > ')
+    [ -z "${item}" ] && exit 130
+    choice=$(printf 'Copy\nDelete' | fuzzel -d --prompt='History > ' | tolower)
+    [ -z "${choice}" ] && exit 130
+    printf '%b' "$item" | "${choice}"
+    [ "${choice}" = 'copy' ] && exit 0
+done

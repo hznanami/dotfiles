@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Wpick
+Comment=Wayland Wallpaper Picker
+Exec=env NO_AT_BRIDGE=1 wpick.py
+Icon=wayland
+Terminal=false
+Categories=Utility;

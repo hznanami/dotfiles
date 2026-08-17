@@ -1,0 +1,169 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "exclusive": true,
+    "gtk-layer-shell": true,
+    "margin-bottom": -1,
+    "passthrough": false,
+    "spacing": 5,
+    "height": 36,
+    "modules-left": [
+        "custom/os_button",
+	"group/apps",
+	"wlr/taskbar"
+    ],
+    "modules-center": [],
+    "modules-right": [
+	"ext/workspaces",
+        "tray",
+        "pulseaudio",
+        "network",
+        "battery",
+        "clock",
+	"custom/show_desktop"
+    ],
+//    "custom/show_desktop": {
+//	    "format": "󰇄 ",
+//	    "spacing": 3,
+//	    "on-click": "/home/vm/.config/waybar/scripts/show_desktop.sh"
+//    },
+    "custom/show_desktop": {
+	    "format": " ",
+	    "spacing": 3,
+	    "on-click": "/home/vm/.config/waybar/scripts/show_desktop.sh",
+	    "tooltip-format": "Show Desktop"
+    },
+    "ext/workspaces": {
+        "format": "{icon}",
+	"format-icons":	{
+	    "default": ""
+	},
+        "sort-by-number": true,
+        "on-click": "activate"
+    },
+    "custom/os_button": {
+        "format": "{icon}",
+        "format-icons": "",
+	"active-only": true,
+        "on-click": "/home/vm/.config/waybar/scripts/start_fuzzel.sh",
+        "on-click-right": "/home/vm/.config/waybar/scripts/power_menu.sh",
+	"tooltip-format": "Start"
+    },
+  "group/apps": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/app1",
+      "custom/app2",
+      "custom/app3"
+    ]
+  },
+  "custom/app1": {
+    "format": "",
+    "on-click": "foot lf",
+    "tooltip": true,
+    "tooltip-format": "Lf"
+  },
+  "custom/app2": {
+    "format": "",
+    "on-click": "foot",
+    "tooltip": true,
+    "tooltip-format": "Foot"
+  },
+  "custom/app3": {
+    "format": "",
+    "on-click": "flatpak run io.github.ungoogled_software.ungoogled_chromium",
+    "tooltip": true,
+    "tooltip-format": "Chromium"
+  },
+    "wlr/taskbar": {
+	"format": "{icon} {title:.17}",
+        "icon-size": 18,
+        "on-click-middle": "close",
+        "tooltip-format": "{title}",
+        "on-click": "minimize-raise",
+	"on-click-right": "maximize",
+	"truncate": true
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 3
+    },
+    "clock": {
+        "format": "{:%I:%M}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode": "month",
+            "mode-mon-col": 3,
+            "weeks-pos": "right",
+            "on-scroll": 1,
+            "format": {
+                "months": "<span color='#ffead3'><b>{}</b></span>",
+                "days": "<span color='#ecc6d9'><b>{}</b></span>",
+                "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+                "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+                "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+            }
+        },
+        "actions": {
+            "on-click-right": "mode",
+            "on-click-forward": "tz_up",
+            "on-click-backward": "tz_down",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        }
+    },
+    "network": {
+        "format-wifi": " {icon}",
+        "format-ethernet": "󰈀",
+	"tooltip-format": "{ifname}",
+	"tooltip-format-ethernet": "{ifname} 󰈀 ",
+	"tooltip-format-wifi": "{essid} ({signalStrength}%) 󰤨 ",
+        "format-disconnected": "󰌙",
+        "format-icons": [
+            "󰤯 ",
+            "󰤟 ",
+            "󰤢 ",
+            "󰤢 ",
+            "󰤨 "
+        ]
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": [
+            "󰂎",
+            "󰁺",
+            "󰁻",
+            "󰁼",
+            "󰁽",
+            "󰁾",
+            "󰁿",
+            "󰂀",
+            "󰂁",
+            "󰂂",
+            "󰁹"
+        ]
+    },
+    "pulseaudio": {
+        "max-volume": 100,
+        "scroll-step": 5,
+        "format": "{icon}",
+        "tooltip-format": "{volume}%",
+        "format-muted": "x",
+        "format-icons": {
+            "default": [
+                " ",
+                " ",
+                " "
+            ]
+        },
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+    }
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu >
+    <menu id="root-menu" label="Applications">
+        <menu id="Internet" label="Internet">
+            <item label="Ungoogled Chromium" icon="/var/lib/flatpak/exports/share/icons/hicolor/48x48/apps/io.github.ungoogled_software.ungoogled_chromium.png">
+                <action name="Execute">
+                    <command>/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=/app/bin/chromium --file-forwarding io.github.ungoogled_software.ungoogled_chromium @@u %U @@</command>
+                </action>
+            </item>
+        </menu> <!-- Internet --> <menu id="Multimedia" label="Multimedia" icon="/usr/share/icons/Adwaita/symbolic/devices/audio-speakers-symbolic.svg">
+            <item label="Mpv Media Player" icon="/usr/share/icons/hicolor/32x32/apps/mpv.png">
+                <action name="Execute">
+                    <command>mpv --player-operation-mode=pseudo-gui --</command>
+                </action>
+            </item>
+        </menu> <!-- Multimedia -->
+        <menu id="Settings" label="Settings" icon="/usr/share/icons/Adwaita/symbolic/legacy/preferences-desktop-appearance-symbolic.svg">
+            <item label="Fcitx 5 Configuration" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/bin/fcitx5-configtool</command>
+                </action>
+            </item>
+        </menu> <!-- Settings -->
+        <menu id="System" label="System" icon="/usr/share/icons/Adwaita/symbolic/categories/applications-system-symbolic.svg">
+            <item label="Alpinebox" icon="/home/vm/.local/share/icons/distrobox/alpine.png">
+                <action name="Execute">
+                    <command>foot /home/vm/.local/bin/distrobox enter  alpinebox</command>
+                </action>
+            </item>
+            <item label="Archlinuxbox" icon="/home/vm/.local/share/icons/distrobox/arch.png">
+                <action name="Execute">
+                    <command>foot /home/vm/.local/bin/distrobox enter  archlinuxbox</command>
+                </action>
+            </item>
+            <item label="Btop++" icon="/usr/share/icons/hicolor/48x48/apps/btop.png">
+                <action name="Execute">
+                    <command>foot btop</command>
+                </action>
+            </item>
+            <item label="Fcitx 5" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/bin/fcitx5</command>
+                </action>
+            </item>
+            <item label="Fcitx 5 Wayland Launcher (Experimental)" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/libexec/fcitx5-wayland-launcher --reopen</command>
+                </action>
+            </item>
+            <item label="Foot" icon="/usr/share/icons/hicolor/48x48/apps/foot.png">
+                <action name="Execute">
+                    <command>foot</command>
+                </action>
+            </item>
+            <item label="Foot Client" icon="/usr/share/icons/hicolor/48x48/apps/foot.png">
+                <action name="Execute">
+                    <command>footclient</command>
+                </action>
+            </item>
+            <item label="Foot Server" icon="/usr/share/icons/hicolor/48x48/apps/foot.png">
+                <action name="Execute">
+                    <command>foot --server</command>
+                </action>
+            </item>
+            <item label="Xwayland">
+                <action name="Execute">
+                    <command>/usr/bin/Xwayland -decorate -displayfd 1</command>
+                </action>
+            </item>
+        </menu> <!-- System -->
+        <menu id="Utilities" label="Utilities" icon="/usr/share/icons/Adwaita/symbolic/categories/applications-utilities-symbolic.svg">
+            <item label="Alpinebox" icon="/home/vm/.local/share/icons/distrobox/alpine.png">
+                <action name="Execute">
+                    <command>foot /home/vm/.local/bin/distrobox enter  alpinebox</command>
+                </action>
+            </item>
+            <item label="Archlinuxbox" icon="/home/vm/.local/share/icons/distrobox/arch.png">
+                <action name="Execute">
+                    <command>foot /home/vm/.local/bin/distrobox enter  archlinuxbox</command>
+                </action>
+            </item>
+            <item label="Fcitx 5" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/bin/fcitx5</command>
+                </action>
+            </item>
+            <item label="Fcitx 5 Wayland Launcher (Experimental)" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/libexec/fcitx5-wayland-launcher --reopen</command>
+                </action>
+            </item>
+            <item label="Neovim" icon="/usr/share/icons/hicolor/128x128/apps/nvim.png">
+                <action name="Execute">
+                    <command>foot nvim</command>
+                </action>
+            </item>
+        </menu> <!-- Utilities -->
+        <separator />
+        <item label="Terminal" icon="foot">
+            <action name="Execute">
+                <command>foot</command>
+            </action>
+        </item>
+        <item label="Clipboard">
+            <action name="Execute">
+                <command>sh -c 'cliphist list | fuzzel --dmenu | cliphist decode | wl-copy'</command>
+            </action>
+        </item>
+        <item label="SetWallpaper" icon="/usr/share/icons/Adwaita/symbolic/legacy/preferences-desktop-wallpaper-symbolic.svg">
+            <action name="Execute">
+                <command>wpick.py</command>
+            </action>
+        </item>
+        <item label="Reconfigure" icon="/usr/share/icons/Adwaita/symbolic/actions/system-reboot-symbolic.svg">
+            <action name="Reconfigure">
+            </action>
+        </item>
+        <item label="Exit" icon="/usr/share/icons/Adwaita/symbolic/actions/system-log-out-symbolic.svg">
+            <action name="Exit">
+            </action>
+        </item>
+    </menu>
+</openbox_menu>

@@ -1,0 +1,3 @@
+#!/bin/sh
+tput cpu 0 0
+tput ed
