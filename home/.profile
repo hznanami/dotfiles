@@ -29,3 +29,12 @@ fi
 PATH="/sbin:$PATH"
 export FZF_COMPLETION_TRIGGER='\\'
 export FZF_DEFAULT_OPTS='--color=16 --bind=ctrl-d:half-page-down,ctrl-u:half-page-up,ctrl-f:page-down,ctrl-b:page-up'
+
+# Auto-launch Labwc on TTY1 login
+if [ "$(tty)" = "/dev/tty1" ]; then
+    read -p "Start Labwc? (Labwc will start in 5s) [Y/n]: " -n 1 -r -t 5
+    echo
+    if [[ -z "$REPLY" || "$REPLY" =~ ^[Yy]$ ]]; then
+        exec dbus-run-session labwc
+    fi
+fi
