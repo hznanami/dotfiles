@@ -9,3 +9,10 @@ home/.config/fcitx/
 home/.config/fcitx5/crash.log
 home/.config/fcitx5/profile_*
 home/.config/pulse/
+
+home/.local/bin/chafa
+home/.local/bin/lf
+home/.local/bin/distrobox*
+home/.local/bin/labwc
+home/.local/bin/set-wallpaper
+home/.local/bin/waybar
