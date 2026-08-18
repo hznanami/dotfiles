@@ -1,0 +1,45 @@
+sort=-time
+background-color=#191919
+width=300
+height=500
+border-size=3
+border-color=#3a3a3a
+border-radius=0
+icons=1
+default-timeout=15000
+font="Source Han Sans SC" 10
+ignore-timeout=0
+text-color=#ffffff
+text-alignment=left
+anchor=bottom-right
+margin=0
+outer-margin=10
+
+[urgency=low]
+width=230
+height=300
+margin=25,30
+padding=12,20
+font="Source Han Sans SC" 20
+text-alignment=center
+anchor=top-right
+default-timeout=5000
+max-icon-size=50
+
+[app-name=wp-vol]
+layer=overlay
+history=0
+anchor=bottom-center
+# Group all volume notifications together
+group-by=app-name
+# Hide the group-index
+format=<b>%s</b>\n%b
+outer-margin=20
+text-alignment=center
+text-color=#ffffff
+font="Source Han Sans SC" 15
+progress-color=#646464
+
+[app-name=volume group-index=0]
+# Only show last notification
+invisible=0
