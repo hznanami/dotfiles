@@ -33,6 +33,9 @@
     <keybind key="W-s">
 	<action name="Execute" command="/home/vm/.config/waybar/scripts/start_fuzzel.sh"/>
     </keybind>
+    <keybind key="W-S-s">
+	<action name="Execute" command="/home/vm/.config/waybar/scripts/power_menu.sh"/>
+    </keybind>
     <keybind key="W-e">
       <action name="Execute" command="foot lf"/>
     </keybind>
