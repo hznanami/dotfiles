@@ -215,6 +215,9 @@ class WallpaperWindow(Gtk.Window):
 settings = Gtk.Settings.get_default()
 settings.set_property("gtk-application-prefer-dark-theme", True)
 
+# Set the application name
+GLib.set_prgname("wpick")
+
 win = WallpaperWindow()
 win.connect("destroy", Gtk.main_quit)
 win.show_all()
