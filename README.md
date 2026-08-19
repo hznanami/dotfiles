@@ -111,22 +111,25 @@ the desktop file (optional) `home/.local/share/applications/wpick.desktop`, and 
 
 This program also requires the following additional dependencies: `python3-gi` and `gir1.2-gtk-3.0`
 
+> [!NOTE]
+> The following operations require root privileges.
+
 Debian (minimal installation):
 
 ```sh
-root# apt install --no-install-recommends python3-gi gir1.2-gtk-3.0
+apt install --no-install-recommends python3-gi gir1.2-gtk-3.0
 ```
 
 ArchLinux (or derivatives):
 
 ```sh
-root# pacman -S --needed python-gobject gtk3
+pacman -S --needed python-gobject gtk3
 ```
 
 Gentoo:
 
 ```sh
-root# emerge --ask --verbose dev-python/pygobject x11-libs/gtk+
+emerge --ask --verbose dev-python/pygobject x11-libs/gtk+
 ```
 
 <br>

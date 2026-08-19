@@ -110,22 +110,25 @@ git checkout dot-debian
 
 此外，該程式還需要安裝以下額外相依套件：`python3-gi`、`gir1.2-gtk-3.0`
 
+> [!NOTE]
+> 以下操作需要root權限。
+
 Debian（最小化安裝）：
 
 ```sh
-root# apt install --no-install-recommends python3-gi gir1.2-gtk-3.0
+apt install --no-install-recommends python3-gi gir1.2-gtk-3.0
 ```
 
 ArchLinux（或其衍生版本）：
 
 ```sh
-root# pacman -S --needed python-gobject gtk3
+pacman -S --needed python-gobject gtk3
 ```
 
 Gentoo：
 
 ```sh
-root# emerge --ask --verbose dev-python/pygobject x11-libs/gtk+
+emerge --ask --verbose dev-python/pygobject x11-libs/gtk+
 ```
 
 <br>

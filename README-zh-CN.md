@@ -110,21 +110,24 @@ desktop文件（可选）`home/.local/share/applications/wpick.desktop`、图标
 
 另外该程序需要安装以下额外依赖：`python3-gi`、`gir1.2-gtk-3.0`
 
+> [!NOTE]
+> 以下操作需要root权限
+
 Debian（最小化安装）:
 
 ```sh
-root# apt install --no-install-recommends python3-gi gir1.2-gtk-3.0
+apt install --no-install-recommends python3-gi gir1.2-gtk-3.0
 ```
 
 ArchLinux（或衍生版本）：
 
 ```sh
-root# pacman -S --needed python-gobject gtk3
+pacman -S --needed python-gobject gtk3
 ```
 
 Gentoo：
 ```sh
-root# emerge --ask --verbose dev-python/pygobject x11-libs/gtk+
+emerge --ask --verbose dev-python/pygobject x11-libs/gtk+
 ```
 
 <br>
