@@ -59,7 +59,7 @@
   },
   "custom/app1": {
     "format": "",
-    "on-click": "foot lf",
+    "on-click": "foot -T lf lf",
     "tooltip": true,
     "tooltip-format": "Lf"
   },
