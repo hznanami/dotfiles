@@ -94,6 +94,41 @@ For details, see:
 | Privilege Escalation Tool | [doas](https://github.com/Duncaen/OpenDoas) |
 | Dotfiles Manager | [stow](https://github.com/aspiers/stow) & [git](https://github.com/git/git) |
 
+### About waybar
+![waybar](./demo/gif/waybar-1.gif)
+
+The required packages are `waybar` and `fuzzel`. waybar must be version `0.14.0` or newer. If your waybar version is older than this,
+the `ext/workspaces` configuration is not supported, which means you will not be able to switch workspaces by clicking the workspace buttons.
+
+You can customize the waybar configuration to suit your needs. For example, you can replace fuzzel with your preferred launcher,
+change the programs launched by the shortcuts, change the icons, and so on.
+
+### About Wallpaper Switching
+![switch-wallpaper](./demo/gif/switch-wallpaper-1.gif)
+
+The following files are required: the source file `home/.config/labwc/scripts/wpick.py`, the shortcut launcher script `home/.local/bin/wpick`,
+the desktop file (optional) `home/.local/share/applications/wpick.desktop`, and the icon files (optional) `home/.local/share/icons/*`
+
+This program also requires the following additional dependencies: `python3-gi` and `gir1.2-gtk-3.0`
+
+Debian (minimal installation):
+
+```sh
+root# apt install --no-install-recommends python3-gi gir1.2-gtk-3.0
+```
+
+ArchLinux (or derivatives):
+
+```sh
+root# pacman -S --needed python-gobject gtk3
+```
+
+Gentoo:
+
+```sh
+root# emerge --ask --verbose dev-python/pygobject x11-libs/gtk+
+```
+
 <br>
 
 ## Projects Used

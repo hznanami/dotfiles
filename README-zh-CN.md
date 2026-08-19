@@ -94,6 +94,39 @@ git checkout dot-debian
 | 权限提升工具 | [doas](https://github.com/Duncaen/OpenDoas) |
 | Dotfiles管理器 | [stow](https://github.com/aspiers/stow) 与 [git](https://github.com/git/git) |
 
+### 关于waybar
+![waybar](./demo/gif/waybar-1.gif)
+
+需要用到的软件包为：`waybar`、`fuzzel`，其中waybar版本要`0.14.0`以上，如果你的waybar版本低于此版本，
+则不支持此配置的`ext/workspaces`，也就无法通过点击工作区按钮来切换工作区。
+
+可以自定义修改waybar配置来符合你的需求，比如fuzzel可以更换你喜爱的启动器、更换快捷启动的程序、更改图标等等。
+
+### 关于壁纸切换
+![switch-wallpaper](./demo/gif/switch-wallpaper-1.gif)
+
+需要用到的文件：源码`home/.config/labwc/scripts/wpick.py`、快捷启动脚本`home/.local/bin/wpick`、
+desktop文件（可选）`home/.local/share/applications/wpick.desktop`、图标文件（可选）`home/.local/share/icons/*`
+
+另外该程序需要安装以下额外依赖：`python3-gi`、`gir1.2-gtk-3.0`
+
+Debian（最小化安装）:
+
+```sh
+root# apt install --no-install-recommends python3-gi gir1.2-gtk-3.0
+```
+
+ArchLinux（或衍生版本）：
+
+```sh
+root# pacman -S --needed python-gobject gtk3
+```
+
+Gentoo：
+```sh
+root# emerge --ask --verbose dev-python/pygobject x11-libs/gtk+
+```
+
 <br>
 
 ## 使用到的项目
