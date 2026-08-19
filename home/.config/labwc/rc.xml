@@ -47,6 +47,16 @@
 	    <command>clipboard-manager</command>
     	</action>
     </keybind>
+    <keybind key="W-F7">
+      <action name="Execute">
+	      <command>sh -c 'grim -g "$(slurp)" ~/Pictures/screenshot/Screenshot-$(date +%F-%H%M%S).png &amp;&amp; notify-send "grim" "Screenshot taken."'</command>
+      </action>
+    </keybind>
+    <keybind key="W-F8">
+      <action name="Execute">
+	      <command>sh -c 'grim ~/Pictures/screenshot/Screenshot-$(date +%F-%H%M%S).png &amp;&amp; notify-send "grim" "Screenshot taken."'</command>
+      </action>
+    </keybind>
     <!--
       Remove a previously defined keybind
       A shorter alternative is <keybind key="W-F4" />
