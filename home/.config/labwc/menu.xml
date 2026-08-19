@@ -108,7 +108,7 @@
         </item>
         <item label="SetWallpaper" icon="/usr/share/icons/Adwaita/symbolic/legacy/preferences-desktop-wallpaper-symbolic.svg">
             <action name="Execute">
-                <command>wpick.py</command>
+                <command>wpick</command>
             </action>
         </item>
         <item label="Reconfigure" icon="/usr/share/icons/Adwaita/symbolic/actions/system-reboot-symbolic.svg">
