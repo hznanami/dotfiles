@@ -115,4 +115,7 @@ alias ex=exit
 # zoxide
 eval "$(zoxide init bash)"
 
+# set terminal title to the current directory
+PROMPT_COMMAND+=('printf "\033]0;%s\007" "${PWD##*/}"')
+
 export GPG_TTY=$(tty)
