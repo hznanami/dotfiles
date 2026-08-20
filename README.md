@@ -129,7 +129,7 @@ You can also customize the waybar configuration to suit your needs. For example,
 The following files are required: the source file `home/.config/labwc/scripts/wpick.py`, the shortcut launcher script `home/.local/bin/wpick`,
 the desktop file (optional) `home/.local/share/applications/wpick.desktop`, and the icon files (optional) `home/.local/share/icons/*`
 
-This program also requires the following additional dependencies: `pygobject` and `gtk3`
+This program also requires the following additional dependencies: `pygobject`, `gtk3`, `swaybg`, and `python3` (most of them are already installed as dependencies, so normally you don't need to worry about them).
 
 > [!NOTE]
 > The following operations require root privileges.
@@ -137,19 +137,19 @@ This program also requires the following additional dependencies: `pygobject` an
 Debian (minimal installation):
 
 ```sh
-apt install --no-install-recommends python3-gi gir1.2-gtk-3.0
+apt install --no-install-recommends python3-gi gir1.2-gtk-3.0 swaybg python3-minimal
 ```
 
 ArchLinux (or derivatives):
 
 ```sh
-pacman -S --needed python-gobject gtk3
+pacman -S --needed python-gobject gtk3 swaybg python
 ```
 
-Gentoo:
+Gentoo (`python` is already a required dependency of portage, so it does not need to be installed again):
 
 ```sh
-emerge --ask --verbose dev-python/pygobject x11-libs/gtk+
+emerge --ask --verbose dev-python/pygobject x11-libs/gtk+ gui-apps/swaybg
 ```
 
 <br>

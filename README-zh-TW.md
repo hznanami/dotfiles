@@ -129,7 +129,7 @@ Gentoo使用者需要自己手動拉取原始碼編譯，因為overlays沒有套
 需要使用的檔案：原始碼 `home/.config/labwc/scripts/wpick.py`、快捷啟動腳本 `home/.local/bin/wpick`、
 桌面檔案（可選）`home/.local/share/applications/wpick.desktop`、圖示檔案（可選）`home/.local/share/icons/*`
 
-此外，該程式還需要安裝以下額外相依套件：`pygobject`、`gtk3`
+另外此程式需要安裝以下額外相依套件：`pygobject`、`gtk3`、`swaybg`、`python3`（大部分會作為相依套件安裝，正常情況下可以不用理會）
 
 > [!NOTE]
 > 以下操作需要root權限。
@@ -137,19 +137,19 @@ Gentoo使用者需要自己手動拉取原始碼編譯，因為overlays沒有套
 Debian（最小化安裝）：
 
 ```sh
-apt install --no-install-recommends python3-gi gir1.2-gtk-3.0
+apt install --no-install-recommends python3-gi gir1.2-gtk-3.0 swaybg python3-minimal
 ```
 
-ArchLinux（或其衍生版本）：
+ArchLinux（或衍生版本）：
 
 ```sh
-pacman -S --needed python-gobject gtk3
+pacman -S --needed python-gobject gtk3 swaybg python
 ```
 
-Gentoo：
+Gentoo（`python`是portage的必要相依套件，不需要重新安裝）：
 
 ```sh
-emerge --ask --verbose dev-python/pygobject x11-libs/gtk+
+emerge --ask --verbose dev-python/pygobject x11-libs/gtk+ gui-apps/swaybg
 ```
 
 <br>
