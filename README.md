@@ -129,7 +129,7 @@ You can also customize the waybar configuration to suit your needs. For example,
 The following files are required: the source file `home/.config/labwc/scripts/wpick.py`, the shortcut launcher script `home/.local/bin/wpick`,
 the desktop file (optional) `home/.local/share/applications/wpick.desktop`, and the icon files (optional) `home/.local/share/icons/*`
 
-This program also requires the following additional dependencies: `python3-gi` and `gir1.2-gtk-3.0`
+This program also requires the following additional dependencies: `pygobject` and `gtk3`
 
 > [!NOTE]
 > The following operations require root privileges.

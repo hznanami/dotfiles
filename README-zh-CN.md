@@ -128,7 +128,7 @@ Gentoo用户需要自己手动拉取源码编译，因为overlays没有包
 需要用到的文件：源码`home/.config/labwc/scripts/wpick.py`、快捷启动脚本`home/.local/bin/wpick`、
 desktop文件（可选）`home/.local/share/applications/wpick.desktop`、图标文件（可选）`home/.local/share/icons/*`
 
-另外该程序需要安装以下额外依赖：`python3-gi`、`gir1.2-gtk-3.0`
+另外该程序需要安装以下额外依赖：`pygobject`、`gtk3`
 
 > [!NOTE]
 > 以下操作需要root权限
