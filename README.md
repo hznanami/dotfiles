@@ -100,8 +100,28 @@ For details, see:
 The required packages are `waybar` and `fuzzel`. waybar must be version `0.14.0` or newer. If your waybar version is older than this,
 the `ext/workspaces` configuration is not supported, which means you will not be able to switch workspaces by clicking the workspace buttons.
 
-You can customize the waybar configuration to suit your needs. For example, you can replace fuzzel with your preferred launcher,
-change the programs launched by the shortcuts, change the icons, and so on.
+The bottom-right corner of this waybar configuration is used for quickly showing the desktop. This feature requires `wlrctl`.
+
+> [!NOTE]
+> The following operations require root privileges.
+
+Debian (minimal installation):
+
+```sh
+apt install --no-install-recommends wlrctl
+```
+
+ArchLinux (or derivatives):
+
+This uses the AUR. Using `paru` as an example:
+
+```sh
+paru -S wlrctl
+```
+
+Gentoo users need to fetch the source code and compile it manually, because there is no package available in overlays.
+
+You can also customize the waybar configuration to suit your needs. For example, `fuzzel` can be replaced with your preferred launcher, the programs launched by shortcuts can be changed, the icons can be changed, and so on.
 
 ### About Wallpaper Switching
 ![switch-wallpaper](./demo/gif/switch-wallpaper-1.gif)

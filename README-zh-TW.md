@@ -100,7 +100,28 @@ git checkout dot-debian
 需要使用的套件為`waybar`、`fuzzel`，其中waybar版本需要為`0.14.0`以上。如果你的waybar版本低於此版本，
 則不支援此設定中的`ext/workspaces`，也就無法透過點擊工作區按鈕來切換工作區。
 
-你可以自行修改waybar設定以符合你的需求。例如可以將fuzzel替換成你喜歡的啟動器、更換快捷啟動的程式、修改圖示等等。
+這個waybar設定的右下角是用來快速顯示桌面的功能，這個功能需要用到`wlrctl`。
+
+> [!NOTE]
+> 以下操作需要root權限。
+
+Debian（最小化安裝）：
+
+```sh
+apt install --no-install-recommends wlrctl
+```
+
+ArchLinux（或衍生版本）：
+
+需要用到AUR，以`paru`為例：
+
+```sh
+paru -S wlrctl
+```
+
+Gentoo使用者需要自己手動拉取原始碼編譯，因為overlays沒有套件。
+
+另外也可以自訂修改waybar設定來符合你的需求，比如`fuzzel`可以更換成你喜歡的啟動器、更換快捷啟動的程式、更改圖示等等。
 
 ### 關於桌布切換
 ![switch-wallpaper](./demo/gif/switch-wallpaper-1.gif)
