@@ -121,7 +121,7 @@ Gentoo用户需要自己手动拉取源码编译，因为overlays没有包
 
 
 ### 关于壁纸切换
-![switch-wallpaper](./demo/gif/switch-wallpaper-1.gif)
+![switch-wallpaper](./demo/gif/switch-wallpaper-2.gif)
 
 需要用到的文件：源码`home/.config/labwc/scripts/wpick.py`、快捷启动脚本`home/.local/bin/wpick`、
 desktop文件（可选）`home/.local/share/applications/wpick.desktop`、图标文件（可选）`home/.local/share/icons/*`

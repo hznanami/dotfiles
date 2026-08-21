@@ -122,7 +122,7 @@ Gentoo users need to fetch the source code and compile it manually, because ther
 You can also customize the waybar configuration to suit your needs. For example, `fuzzel` can be replaced with your preferred launcher, the programs launched by shortcuts can be changed, the icons can be changed, and so on.
 
 ### About Wallpaper Switching
-![switch-wallpaper](./demo/gif/switch-wallpaper-1.gif)
+![switch-wallpaper](./demo/gif/switch-wallpaper-2.gif)
 
 The following files are required: the source file `home/.config/labwc/scripts/wpick.py`, the shortcut launcher script `home/.local/bin/wpick`,
 the desktop file (optional) `home/.local/share/applications/wpick.desktop`, and the icon files (optional) `home/.local/share/icons/*`

@@ -122,7 +122,7 @@ Gentoo使用者需要自己手動拉取原始碼編譯，因為overlays沒有套
 另外也可以自訂修改waybar設定來符合你的需求，比如`fuzzel`可以更換成你喜歡的啟動器、更換快捷啟動的程式、更改圖示等等。
 
 ### 關於桌布切換
-![switch-wallpaper](./demo/gif/switch-wallpaper-1.gif)
+![switch-wallpaper](./demo/gif/switch-wallpaper-2.gif)
 
 需要使用的檔案：原始碼 `home/.config/labwc/scripts/wpick.py`、快捷啟動腳本 `home/.local/bin/wpick`、
 桌面檔案（可選）`home/.local/share/applications/wpick.desktop`、圖示檔案（可選）`home/.local/share/icons/*`
