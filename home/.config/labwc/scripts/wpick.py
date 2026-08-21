@@ -19,10 +19,23 @@ THUMB_DIR.mkdir(parents=True, exist_ok=True)
 
 CURRENT = CACHE_DIR / "current"
 
+MODE_FILE = CACHE_DIR / "mode"
+DEFAULT_MODE = "fill"
+MODES = ("fill","fit","center","stretch","tile")
+
 # Specify the number of wallpapers to load at one time
 LOAD_COUNT = 20
 
 IMAGE_EXT = (".jpg",".jpeg",".png",".webp",".bmp",)
+
+def get_mode():
+    try:
+        mode = MODE_FILE.read_text().strip()
+        if mode in MODES:
+            return mode
+    except Exception:
+        pass
+    return DEFAULT_MODE
 
 def get_thumbnail(img):
     thumb = THUMB_DIR / (img.stem + ".thumb.jpg")
@@ -54,10 +67,25 @@ class WallpaperWindow(Gtk.Window):
             orientation=Gtk.Orientation.VERTICAL
         )
         self.add(main_box)
+        top_box = Gtk.Box(
+            orientation=Gtk.Orientation.HORIZONTAL,
+            spacing=5
+        )
         self.search_entry = Gtk.SearchEntry()
         self.search_entry.set_placeholder_text("Search wallpapers...")
         self.search_entry.connect("search-changed",self.search_wallpapers)
-        main_box.pack_start(self.search_entry,False,False,5)
+        top_box.pack_start(self.search_entry,True,True,0)
+        
+        self.mode_combo = Gtk.ComboBoxText()
+        for mode in MODES:
+            self.mode_combo.append_text(mode.capitalize())
+        current_mode = get_mode()
+        self.mode_combo.set_active(
+            MODES.index(current_mode)
+        )
+        self.mode_combo.connect("changed",self.change_mode)
+        top_box.pack_start(self.mode_combo,False,False,0)
+        main_box.pack_start(top_box,False,False,5)
         
         scroll = Gtk.ScrolledWindow()
         main_box.pack_start(scroll,True,True,0)
@@ -168,13 +196,14 @@ class WallpaperWindow(Gtk.Window):
         except Exception:
             pass
 
+        mode = get_mode()
         subprocess.Popen(
             [
                 "swaybg",
                 "-i",
                 str(CURRENT),
                 "-m",
-                "fill",
+                mode,
             ],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
@@ -210,6 +239,17 @@ class WallpaperWindow(Gtk.Window):
         self.load_button.set_sensitive(True)
         self.load_button.set_label("Load More Wallpapers")
         self.load_more()
+
+    def change_mode(self, combo):
+        index = combo.get_active()
+        if index < 0:
+            return
+        mode = MODES[index]
+        try:
+            MODE_FILE.write_text(mode + "\n")
+        except Exception as e:
+            print(e)
+            return
 
 # Set dark mode. If you don't need it, please comment out or remove the two lines below
 settings = Gtk.Settings.get_default()
