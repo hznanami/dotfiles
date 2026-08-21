@@ -127,7 +127,9 @@ Gentoo使用者需要自己手動拉取原始碼編譯，因為overlays沒有套
 需要使用的檔案：原始碼 `home/.config/labwc/scripts/wpick.py`、快捷啟動腳本 `home/.local/bin/wpick`、
 桌面檔案（可選）`home/.local/share/applications/wpick.desktop`、圖示檔案（可選）`home/.local/share/icons/*`
 
-另外此程式需要安裝以下額外相依套件：`pygobject`、`gtk3`、`swaybg`、`python3`（大部分會作為相依套件安裝，正常情況下可以不用理會）
+另外此程式只支援swaybg
+
+此程式需要安裝以下額外相依套件：`pygobject`、`gtk3`、`swaybg`、`python3`（大部分已作為相依套件安裝，正常情況下可以不用管）
 
 > [!NOTE]
 > 以下操作需要root權限。
