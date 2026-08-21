@@ -4,7 +4,7 @@
 
 Personal dotfiles for my Debian 13 desktop environment.
 
-![main-screenshot](./demo/screenshot/screenshot-1.png)
+![main-screenshot](./demo/screenshot/screenshot-2.png)
 <br>
 
 ## Usage

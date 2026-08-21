@@ -4,7 +4,7 @@
 
 我的Debian 13桌面环境配置文件。
 
-![main-screenshot](./demo/screenshot/screenshot-1.png)
+![main-screenshot](./demo/screenshot/screenshot-2.png)
 <br>
 
 ## 使用方法
