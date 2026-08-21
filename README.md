@@ -4,9 +4,7 @@
 
 Personal dotfiles for my Debian 13 desktop environment.
 
-> [!NOTE]
-> Screenshots and demo videos will be added in the future.
-
+![main-screenshot](./demo/screenshot/screenshot-1.png)
 <br>
 
 ## Usage

@@ -4,9 +4,7 @@
 
 我的Debian 13桌面环境配置文件。
 
-> [!NOTE]
-> 截图和演示视频将在后续添加。
-
+![main-screenshot](./demo/screenshot/screenshot-1.png)
 <br>
 
 ## 使用方法

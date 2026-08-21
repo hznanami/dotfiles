@@ -4,9 +4,7 @@
 
 我的Debian 13桌面環境設定檔。
 
-> [!NOTE]
-> 截圖與示範影片將會在之後補上。
-
+![main-screenshot](./demo/screenshot/screenshot-1.png)
 <br>
 
 ## 使用方式
