@@ -159,10 +159,16 @@ Step 2:
 Set the autostart for labwc to:
 
 ```sh
-swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m fill >/dev/null 2>&1 &
+# Set wallpaper with wpick.
+MODE_FILE="$HOME/.cache/labwc/wallpaper/mode"
+if [ ! -f "$MODE_FILE" ]; then
+   echo fill > "$MODE_FILE"
+fi
+MODE=$(cat "$MODE_FILE")
+swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m "$MODE" >/dev/null 2>&1 &
 ```
 
-`current` is a symbolic link file created by the wallpaper switching program based on the selected wallpaper. The wallpaper switching program sets the background mode of swaybg to `fill`, which should be kept consistent with the setting in autostart. If you need to change it, please modify both `wpick.py` and autostart.
+`current` is a symbolic link created and updated by the wallpaper switching program based on the selected wallpaper. If the `mode` file does not exist, a file with the default value `fill` will be created. The value in this file can be changed by the wallpaper program when manually switching the background mode.
 <br>
 
 ## Projects Used

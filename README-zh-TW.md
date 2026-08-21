@@ -159,10 +159,16 @@ emerge --ask --verbose dev-python/pygobject x11-libs/gtk+ gui-apps/swaybg
 將labwc的autostart設定為：
 
 ```sh
-swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m fill >/dev/null 2>&1 &
+# Set wallpaper with wpick.
+MODE_FILE="$HOME/.cache/labwc/wallpaper/mode"
+if [ ! -f "$MODE_FILE" ]; then
+   echo fill > "$MODE_FILE"
+fi
+MODE=$(cat "$MODE_FILE")
+swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m "$MODE" >/dev/null 2>&1 &
 ```
 
-其中`current`為符號連結檔案，由桌布切換程式根據所選擇的桌布建立連結；而桌布切換程式中設定swaybg的背景模式為`fill`（填滿），並與autostart保持一致。如果需要更改，請自行修改wpick.py和autostart
+其中`current`為符號連結，由桌布切換程式根據所選擇的桌布建立及更新；當`mode`檔案不存在時，會建立一個預設值為`fill`的檔案。該檔案中的值可以由桌布程式在手動切換背景模式時進行更改
 <br>
 
 ## 使用到的項目
