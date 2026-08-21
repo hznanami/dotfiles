@@ -127,7 +127,7 @@ Gentoo使用者需要自己手動拉取原始碼編譯，因為overlays沒有套
 需要使用的檔案：原始碼 `home/.config/labwc/scripts/wpick.py`、快捷啟動腳本 `home/.local/bin/wpick`、
 桌面檔案（可選）`home/.local/share/applications/wpick.desktop`、圖示檔案（可選）`home/.local/share/icons/*`
 
-另外，此程式預設識別的桌布路徑為`$HOME/Pictures/wallpaper`（可以自行修改`wpick.py`來更改路徑），且此程式只支援swaybg
+另外，此程式預設識別的桌布路徑為`$HOME/Pictures/wallpaper`（可以自行修改`wpick.py`來更改路徑），且此程式只支援`swaybg`
 
 此程式需要安裝以下額外相依套件：`pygobject`、`gtk3`、`swaybg`、`python3`（大部分已作為相依套件安裝，正常情況下可以不用管）
 
@@ -168,7 +168,7 @@ MODE=$(cat "$MODE_FILE")
 swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m "$MODE" >/dev/null 2>&1 &
 ```
 
-其中`current`為符號連結，由桌布切換程式根據所選擇的桌布建立及更新；當`mode`檔案不存在時，會建立一個預設值為`fill`的檔案。該檔案中的值可以由桌布程式在手動切換背景模式時進行更改
+其中`current`為符號連結，由桌布切換程式根據所選擇的桌布建立及更新；當`mode`檔案不存在時，會建立一個預設值為**fill**的檔案。該檔案中的值可以由桌布程式在手動切換背景模式時進行更改
 <br>
 
 ## 使用到的項目
