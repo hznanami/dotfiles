@@ -126,7 +126,7 @@ Gentoo用户需要自己手动拉取源码编译，因为overlays没有包
 需要用到的文件：源码`home/.config/labwc/scripts/wpick.py`、快捷启动脚本`home/.local/bin/wpick`、
 desktop文件（可选）`home/.local/share/applications/wpick.desktop`、图标文件（可选）`home/.local/share/icons/*`
 
-另外该程序只支持swaybg
+另外该程序默认识别的壁纸路径为`$HOME/Pictures/wallpaper`（可自行通过修改`wpick.py`来更改路径）,且该程序只支持swaybg
 
 该程序需要安装以下额外依赖：`pygobject`、`gtk3`、`swaybg`、`python3`（大部分已作为依赖安装，正常情况可以不用管）
 

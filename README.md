@@ -127,7 +127,7 @@ You can also customize the waybar configuration to suit your needs. For example,
 The following files are required: the source file `home/.config/labwc/scripts/wpick.py`, the shortcut launcher script `home/.local/bin/wpick`,
 the desktop file (optional) `home/.local/share/applications/wpick.desktop`, and the icon files (optional) `home/.local/share/icons/*`
 
-This program only supports swaybg.
+The default wallpaper path recognized by this program is `$HOME/Pictures/wallpaper` (you can change the path by modifying `wpick.py`), and this program only supports swaybg.
 
 This program requires the following additional dependencies: `pygobject`, `gtk3`, `swaybg`, and `python3` (most of them are already installed as dependencies, so normally you don't need to worry about them).
 
