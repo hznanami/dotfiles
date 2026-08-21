@@ -131,6 +131,8 @@ This program only supports swaybg.
 
 This program requires the following additional dependencies: `pygobject`, `gtk3`, `swaybg`, and `python3` (most of them are already installed as dependencies, so normally you don't need to worry about them).
 
+Step 1:
+
 > [!NOTE]
 > The following operations require root privileges.
 
@@ -152,6 +154,15 @@ Gentoo (`python` is already a required dependency of portage, so it does not nee
 emerge --ask --verbose dev-python/pygobject x11-libs/gtk+ gui-apps/swaybg
 ```
 
+Step 2:
+
+Set the autostart for labwc to:
+
+```sh
+swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m fill >/dev/null 2>&1 &
+```
+
+`current` is a symbolic link file created by the wallpaper switching program based on the selected wallpaper. The wallpaper switching program sets the background mode of swaybg to `fill`, which should be kept consistent with the setting in autostart. If you need to change it, please modify both `wpick.py` and autostart.
 <br>
 
 ## Projects Used

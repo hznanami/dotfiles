@@ -1,7 +1,7 @@
 # Example autostart file
 
 # Set background color.
-swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m fill >/dev/null 2>&1 &
+swaybg -i "$HOME/.cache/labwc/wallpaper/current" >/dev/null 2>&1 &
 
 # Configure output directives such as mode, position, scale and transform.
 # Use wlr-randr to get your output names
