@@ -227,6 +227,12 @@ cp -r home/.local/share/icons ~/.local/share
 ```
 
 完成以上步驟後，就可以在launcher或命令列啟動wpick程式
+
+
+### 系統啟動與關閉流程展示
+![system](./demo/gif/system-1.gif)
+
+這裡為了方便錄製，使用KVM/QEMU來啟動Debian，與實體機並沒有太大區別。
 <br>
 
 ## 使用到的項目

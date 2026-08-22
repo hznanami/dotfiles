@@ -227,6 +227,12 @@ cp -r home/.local/share/icons ~/.local/share
 ```
 
 After completing the steps above, you can launch the wpick program from the launcher or from the command line.
+
+
+### System Startup and Shutdown Process
+![system](./demo/gif/system-1.gif)
+
+For convenience, KVM/QEMU is used here to boot Debian for the recording. The process is not significantly different from that on a physical machine.
 <br>
 
 ## Projects Used
