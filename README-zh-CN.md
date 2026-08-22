@@ -97,10 +97,13 @@ git checkout dot-debian
 
 需要用到的软件包为：`waybar`、`fuzzel`，其中waybar版本要`0.14.0`以上，如果你的waybar版本低于此版本，
 则不支持此配置的`ext/workspaces`，也就无法通过点击工作区按钮来切换工作区。
-该waybar配置的右下角为快速显示桌面，此功能需要用到`wlrctl`
+
+该waybar配置的右下角为快速显示桌面，`labwc`在**0.20.0**以上原生支持`ToggleShowDesktop`（切换显示桌面）功能，如果你的labwc为0.20.0以上就使用`wtype`工具（需要自行更改waybar配置取消备用注释），否则需要用到`wlrctl`，如果使用wlrctl只能使用显示桌面功能。
 
 > [!NOTE]
 > 以下操作需要root权限
+
+#### **labwc < 0.20.0** 请使用以下命令：
 
 Debian（最小化安装）:
 
@@ -116,6 +119,26 @@ paru -S wlrctl
 ```
 
 Gentoo用户需要自己手动拉取源码编译，因为overlays没有包
+
+#### **labwc >= 0.20.0** 请使用以下命令：
+
+Debian（最小化安装）:
+
+```sh
+apt install --no-install-recommends wtype
+```
+
+ArchLinux（或衍生版本）：
+
+```sh
+pacman -S --needed wtype
+```
+
+Gentoo：
+
+```sh
+emerge --ask --verbose gui-apps/wtype
+```
 
 另外可以自定义修改waybar配置来符合你的需求，比如fuzzel可以更换你喜爱的启动器、更换快捷启动的程序、更改图标等等。
 

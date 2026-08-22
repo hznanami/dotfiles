@@ -98,10 +98,12 @@ For details, see:
 The required packages are `waybar` and `fuzzel`. waybar must be version `0.14.0` or newer. If your waybar version is older than this,
 the `ext/workspaces` configuration is not supported, which means you will not be able to switch workspaces by clicking the workspace buttons.
 
-The bottom-right corner of this waybar configuration is used for quickly showing the desktop. This feature requires `wlrctl`.
+The bottom-right corner of this waybar configuration is used to quickly show the desktop. `labwc` natively supports `ToggleShowDesktop` (toggle show desktop) in version **0.20.0** and later. If you are using labwc 0.20.0 or later, use the `wtype` tool (you need to manually modify the waybar configuration and uncomment the alternative configuration). Otherwise, you need to use `wlrctl`. When using wlrctl, only the show desktop function is available.
 
 > [!NOTE]
 > The following operations require root privileges.
+
+#### **labwc < 0.20.0** use the following commands:
 
 Debian (minimal installation):
 
@@ -111,13 +113,33 @@ apt install --no-install-recommends wlrctl
 
 ArchLinux (or derivatives):
 
-This uses the AUR. Using `paru` as an example:
+The AUR is required. Using paru as an example:
 
 ```sh
 paru -S wlrctl
 ```
 
-Gentoo users need to fetch the source code and compile it manually, because there is no package available in overlays.
+Gentoo users need to manually fetch the source code and compile it because there is no package available in overlays.
+
+#### **labwc >= 0.20.0** use the following commands:
+
+Debian (minimal installation):
+
+```sh
+apt install --no-install-recommends wtype
+```
+
+ArchLinux (or derivatives):
+
+```sh
+pacman -S --needed wtype
+```
+
+Gentoo:
+
+```sh
+emerge --ask --verbose gui-apps/wtype
+```
 
 You can also customize the waybar configuration to suit your needs. For example, `fuzzel` can be replaced with your preferred launcher, the programs launched by shortcuts can be changed, the icons can be changed, and so on.
 
