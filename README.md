@@ -131,7 +131,7 @@ The default wallpaper path recognized by this program is `$HOME/Pictures/wallpap
 
 This program requires the following additional dependencies: `pygobject`, `gtk3`, `swaybg`, and `python3` (most of them are already installed as dependencies, so normally you don't need to worry about them).
 
-Step 1:
+**Step 1:**
 
 > [!NOTE]
 > The following operations require root privileges.
@@ -154,7 +154,7 @@ Gentoo (`python` is already a required dependency of portage, so it does not nee
 emerge --ask --verbose dev-python/pygobject x11-libs/gtk+ gui-apps/swaybg
 ```
 
-Step 2:
+**Step 2:**
 
 Set the autostart for labwc to:
 
@@ -170,7 +170,7 @@ swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m "$MODE" >/dev/null 2>&1 &
 
 `current` is a symbolic link created and updated by the wallpaper switching program based on the selected wallpaper. If the `mode` file does not exist, a file with the default value **fill** will be created. The value in this file can be changed by the wallpaper program when manually switching the background mode.
 
-Step 3:
+**Step 3:**
 
 Place the source file `wpick.py`, the shortcut launcher script `wpick`, the desktop file `wpick.desktop` (optional), and the icon files (optional) in the specified locations:
 

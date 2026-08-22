@@ -130,7 +130,7 @@ desktop文件（可选）`home/.local/share/applications/wpick.desktop`、图标
 
 该程序需要安装以下额外依赖：`pygobject`、`gtk3`、`swaybg`、`python3`（大部分已作为依赖安装，正常情况可以不用管）
 
-步骤一：
+**步骤一：**
 
 > [!NOTE]
 > 以下操作需要root权限
@@ -152,7 +152,7 @@ Gentoo （python作为portage的必要依赖，不需要重新安装）：
 emerge --ask --verbose dev-python/pygobject x11-libs/gtk+ gui-apps/swaybg
 ```
 
-步骤二：
+**步骤二：**
 
 设定labwc的autostart为：
 
@@ -168,7 +168,7 @@ swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m "$MODE" >/dev/null 2>&1 &
 
 其中`current`为软链接文件，由壁纸切换程序根据选择的壁纸进行链接更改；当`mode`文件不存在时则会创建一个默认值为**fill**的文件，该文件里的值由壁纸软件通过手动切换背景模式来更改
 
-步骤三：
+**步骤三：**
 
 将源码文件`wpick.py`、快捷启动脚本`wpick`、desktop文件`wpick.desktop`（可选）、图标文件（可选）放到指定位置：
 

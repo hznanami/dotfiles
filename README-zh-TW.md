@@ -131,7 +131,7 @@ Gentoo使用者需要自己手動拉取原始碼編譯，因為overlays沒有套
 
 此程式需要安裝以下額外相依套件：`pygobject`、`gtk3`、`swaybg`、`python3`（大部分已作為相依套件安裝，正常情況下可以不用管）
 
-步驟一：
+**步驟一：**
 
 > [!NOTE]
 > 以下操作需要root權限。
@@ -154,7 +154,7 @@ Gentoo（`python`是portage的必要相依套件，不需要重新安裝）：
 emerge --ask --verbose dev-python/pygobject x11-libs/gtk+ gui-apps/swaybg
 ```
 
-步驟二：
+**步驟二：**
 
 將labwc的autostart設定為：
 
@@ -170,7 +170,7 @@ swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m "$MODE" >/dev/null 2>&1 &
 
 其中`current`為符號連結，由桌布切換程式根據所選擇的桌布建立及更新；當`mode`檔案不存在時，會建立一個預設值為**fill**的檔案。該檔案中的值可以由桌布程式在手動切換背景模式時進行更改
 
-步驟三：
+**步驟三：**
 
 將原始碼檔案`wpick.py`、快捷啟動腳本`wpick`、desktop檔案`wpick.desktop`（選用）、圖示檔案（選用）放到指定位置：
 
