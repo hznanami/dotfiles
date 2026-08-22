@@ -169,6 +169,41 @@ swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m "$MODE" >/dev/null 2>&1 &
 ```
 
 `current` is a symbolic link created and updated by the wallpaper switching program based on the selected wallpaper. If the `mode` file does not exist, a file with the default value **fill** will be created. The value in this file can be changed by the wallpaper program when manually switching the background mode.
+
+Step 3:
+
+Place the source file `wpick.py`, the shortcut launcher script `wpick`, the desktop file `wpick.desktop` (optional), and the icon files (optional) in the specified locations:
+
+You can use the stow tool to manage these files, or you can use the following commands.
+Switch to the cloned directory
+```sh
+cd dotfiles
+```
+
+Copy `wpick.py`. Note that this step requires checking whether PATH contains `.local/bin`. If not, add it yourself or use another path.
+```sh
+mkdir -p ~/.config/labwc/scripts
+cp home/.config/labwc/scripts/wpick.py ~/.config/labwc/scripts
+```
+
+Copy the launcher script `wpick`
+```sh
+mkdir -p ~/.local/bin
+cp home/.local/bin/wpick ~/.local/bin
+```
+
+Copy the desktop file (optional)
+```sh
+mkdir -p ~/.local/share/applications
+cp home/.local/share/applications/wpick.desktop ~/.local/share/applications
+```
+
+Copy the icon files (optional)
+```sh
+cp -r home/.local/share/icons ~/.local/share
+```
+
+After completing the steps above, you can launch the wpick program from the launcher or from the command line.
 <br>
 
 ## Projects Used

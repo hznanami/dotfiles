@@ -169,6 +169,41 @@ swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m "$MODE" >/dev/null 2>&1 &
 ```
 
 其中`current`為符號連結，由桌布切換程式根據所選擇的桌布建立及更新；當`mode`檔案不存在時，會建立一個預設值為**fill**的檔案。該檔案中的值可以由桌布程式在手動切換背景模式時進行更改
+
+步驟三：
+
+將原始碼檔案`wpick.py`、快捷啟動腳本`wpick`、desktop檔案`wpick.desktop`（選用）、圖示檔案（選用）放到指定位置：
+
+你可以使用stow工具來管理這些檔案，或者也可以使用以下命令
+切換到克隆下來的目錄
+```sh
+cd dotfiles
+```
+
+複製wpick.py，注意這一步需要確認PATH是否包含".local/bin"，如果沒有，請自行加上，或者改用其他路徑
+```sh
+mkdir -p ~/.config/labwc/scripts
+cp home/.config/labwc/scripts/wpick.py ~/.config/labwc/scripts
+```
+
+複製啟動腳本wpick
+```sh
+mkdir -p ~/.local/bin
+cp home/.local/bin/wpick ~/.local/bin
+```
+
+複製desktop檔案（選用）
+```sh
+mkdir -p ~/.local/share/applications
+cp home/.local/share/applications/wpick.desktop ~/.local/share/applications
+```
+
+複製圖示檔案（選用）
+```sh
+cp -r home/.local/share/icons ~/.local/share
+```
+
+完成以上步驟後，就可以在launcher或命令列啟動wpick程式
 <br>
 
 ## 使用到的項目
