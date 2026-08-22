@@ -31,6 +31,9 @@
 	    "format": " ",
 	    "spacing": 3,
 	    "on-click": "/home/vm/.config/waybar/scripts/show_desktop.sh",
+	    // If labwc >= 0.20.0, uncomment the "on-click" line below and comment out the previous line.
+	    // If the `ToggleShowDesktop` shortcut is not `mod+d`, change it to match your shortcut accordingly.
+	    // "on-click": "wtype -M logo -k d -m logo",
 	    "tooltip-format": "Show Desktop"
     },
     "ext/workspaces": {
