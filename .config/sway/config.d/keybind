@@ -155,8 +155,10 @@ bindsym $mod+Shift+p exec foot -T floating_term --window-size-pixels=1280x520 fz
     bindsym $mod+Backspace workspace back_and_forth
 
     # Next and Prev workspace
+    bindsym $mod+Tab workspace next
     bindsym $mod+BracketRight workspace next
     bindsym $mod+Alt+l workspace next
+    bindsym $mod+Shift+Tab workspace prev
     bindsym $mod+BracketLeft workspace prev
     bindsym $mod+Alt+h workspace prev
 
