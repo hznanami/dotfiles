@@ -35,6 +35,10 @@ if [ "$(tty)" = "/dev/tty1" ]; then
     read -p "Start Labwc? (Labwc will start in 5s) [Y/n]: " -n 1 -r -t 5
     echo
     if [[ -z "$REPLY" || "$REPLY" =~ ^[Yy]$ ]]; then
-        exec dbus-run-session labwc
+	exec labwc
+	# For users not using systemd, it is recommended to start labwc
+	# with dbus-run-session labwc or another suitable method,
+	# and comment out or remove the existing labwc startup command.
+        # exec dbus-run-session labwc
     fi
 fi
