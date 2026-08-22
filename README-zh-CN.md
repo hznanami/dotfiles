@@ -173,6 +173,7 @@ swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m "$MODE" >/dev/null 2>&1 &
 将源码文件`wpick.py`、快捷启动脚本`wpick`、desktop文件`wpick.desktop`（可选）、图标文件（可选）放到指定位置：
 
 你可以使用stow工具来管理这些文件，或者也可以使用以下命令
+
 切换克隆下来的目录
 ```sh
 cd dotfiles

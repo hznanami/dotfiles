@@ -175,6 +175,7 @@ swaybg -i "$HOME/.cache/labwc/wallpaper/current" -m "$MODE" >/dev/null 2>&1 &
 Place the source file `wpick.py`, the shortcut launcher script `wpick`, the desktop file `wpick.desktop` (optional), and the icon files (optional) in the specified locations:
 
 You can use the stow tool to manage these files, or you can use the following commands.
+
 Switch to the cloned directory
 ```sh
 cd dotfiles
