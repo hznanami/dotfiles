@@ -152,13 +152,12 @@ bindsym $mod+Shift+p exec foot -T floating_term --window-size-pixels=1280x520 fz
     # We just use 1-10 as the default.
 
     # Back and forth workspace switching
-    bindsym $mod+Tab workspace back_and_forth
+    bindsym $mod+Backspace workspace back_and_forth
 
     # Next and Prev workspace
     bindsym $mod+BracketRight workspace next
     bindsym $mod+Alt+l workspace next
     bindsym $mod+BracketLeft workspace prev
-    bindsym $mod+Backspace workspace prev
     bindsym $mod+Alt+h workspace prev
 
 	# Select workspace
