@@ -103,7 +103,7 @@ The bottom-right corner of this waybar configuration is used to quickly show the
 > [!NOTE]
 > The following operations require root privileges.
 
-#### **labwc < 0.20.0** use the following commands:
+#### labwc < 0.20.0 use the following commands:
 
 Debian (minimal installation):
 
@@ -121,7 +121,7 @@ paru -S wlrctl
 
 Gentoo users need to manually fetch the source code and compile it because there is no package available in overlays.
 
-#### **labwc >= 0.20.0** use the following commands:
+#### labwc >= 0.20.0 use the following commands:
 
 Debian (minimal installation):
 

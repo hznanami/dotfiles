@@ -103,7 +103,7 @@ git checkout dot-debian
 > [!NOTE]
 > 以下操作需要root權限
 
-#### **labwc < 0.20.0**請使用以下命令：
+#### labwc < 0.20.0 請使用以下命令：
 
 Debian（最小化安裝）：
 
@@ -121,7 +121,7 @@ paru -S wlrctl
 
 Gentoo使用者需要自行手動拉取原始碼編譯，因為overlays沒有套件。
 
-#### **labwc >= 0.20.0**請使用以下命令：
+#### labwc >= 0.20.0 請使用以下命令：
 
 Debian（最小化安裝）：
 
