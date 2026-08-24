@@ -41,7 +41,10 @@ return {
                     {
                         icon = "  ",
                         desc = "File Browser",
-                        action = "Yazi",
+                        action = function()
+                            require("lazy").load({ plugins = { "tfm.nvim" } })
+                            require("tfm").open()
+                        end,
                         key = 'b',
                     },
                     {
