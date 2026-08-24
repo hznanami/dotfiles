@@ -7,8 +7,8 @@ return {
     -- lazy = true,
     opts = {},
     keys = {
-        { "<leader>ff", ":FzfLua files<CR>", silent = true },
-        { "<leader>fb", ":FzfLua buffers<CR>", silent = true },
-        { "<leader>fc", ":FzfLua colorschemes<CR>", silent = true },
+        { "<leader>ff", ":FzfLua files<CR>", silent = true, desc = "Find files" },
+        { "<leader>fb", ":FzfLua buffers<CR>", silent = true, desc = "Find buffers" },
+        { "<leader>fc", ":FzfLua colorschemes<CR>", silent = true, desc = "Find colorschemes" },
     },
 }

@@ -7,11 +7,11 @@ return {
     event = "VeryLazy",
     lazy = false,
     keys = {
-        { "<leader>bh", ":BufferLineCyclePrev<CR>", silent = true },
-        { "<leader>bl", ":BufferLineCycleNext<CR>", silent = true },
-        { "<leader>bd", ":bdelete<CR>", silent = true },
-        { "<leader>bo", ":BufferLineCloseOthers<CR>", silent = true },
-        { "<leader>bb", ":BufferLinePick<CR>", silent = true },
-        { "<leader>bc", ":BufferLinePickClose<CR>", silent = true },
+        { "<leader>bh", ":BufferLineCyclePrev<CR>", silent = true, desc = "Previous buffer" },
+        { "<leader>bl", ":BufferLineCycleNext<CR>", silent = true, desc = "Next buffer" },
+        { "<leader>bd", ":bdelete<CR>", silent = true, desc = "Delete buffer" },
+        { "<leader>bo", ":BufferLineCloseOthers<CR>", silent = true, desc = "Close other buffers" },
+        { "<leader>bb", ":BufferLinePick<CR>", silent = true, desc = "Pick buffer" },
+        { "<leader>bc", ":BufferLinePickClose<CR>", silent = true, desc = "Pick and close buffer" },
     },
 }
