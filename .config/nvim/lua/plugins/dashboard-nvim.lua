@@ -48,6 +48,12 @@ return {
                         key = 'b',
                     },
                     {
+                        icon = "󰋚  ",
+                        desc = "Recent Files",
+                        action = "lua require('fzf-lua').oldfiles()",
+                        key = "r",
+                    },
+                    {
                         icon = "  ",
                         desc = "Lazy Profile",
                         action = "Lazy profile",
