@@ -45,17 +45,17 @@ return {
         {
             "<leader>eh",
             ":TfmSplit<CR>",
-            desc = "TFM - horizontal split",
+            desc = "Horizontal split",
         },
         {
             "<leader>ev",
             ":TfmVsplit<CR>",
-            desc = "TFM - vertical split",
+            desc = "Vertical split",
         },
         {
             "<leader>et",
             ":TfmTabedit<CR>",
-            desc = "TFM - new tab",
+            desc = "New tab",
         },
     },
 }
