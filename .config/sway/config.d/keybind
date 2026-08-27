@@ -198,12 +198,12 @@ bindsym $mod+Shift+p exec foot -T floating_term --window-size-pixels=1280x520 fz
     # You can send windows there and get them back later.
 
     # Move the currently focused window to the scratchpad
-    bindsym $mod+minus floating enable,resize set 1600px 900px,move scratchpad
-    bindsym $mod+Shift+minus move scratchpad
+    bindsym $mod+minus floating enable,resize set 1600px 900px,move scratchpad,exec pkill -SIGRTMIN+10 i3blocks
+    bindsym $mod+Shift+minus move scratchpad,exec pkill -SIGRTMIN+10 i3blocks
 
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
-    bindsym $mod+equal scratchpad show
+    bindsym $mod+equal scratchpad show,exec pkill -SIGRTMIN+10 i3blocks
 #
 # Resizing containers:
 #
