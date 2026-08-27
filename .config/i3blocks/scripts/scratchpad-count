@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# pywal16
+if [[ -f "$HOME/.cache/wal/colors.sh" ]]; then
+    source "$HOME/.cache/wal/colors.sh"
+    color="$color6"
+else
+    color=""
+fi
+
+count=$(swaymsg -t get_tree 2>/dev/null | jq '
+    [recurse(.nodes[]?, .floating_nodes[]?)
+     | select(.scratchpad_state? != null and .scratchpad_state != "none")]
+    | length
+' 2>/dev/null)
+
+if [[ "$count" =~ ^[0-9]+$ ]] && (( count > 0 )); then
+    if [[ -n "$color" ]]; then
+        printf "<span foreground='%s'>   %s</span>\n" "$color" "$count"
+    else
+        printf "   %s\n" "$count"
+    fi
+fi

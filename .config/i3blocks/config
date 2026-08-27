@@ -20,6 +20,11 @@ markup=pango
 # command= scripts/playerctl
 # interval=5
 # singal=9
+#
+[scratchpad]
+command= scripts/scratchpad-count
+interval=10
+signal=10
 
 [mpd]
 command= scripts/mpd
