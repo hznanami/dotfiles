@@ -6,7 +6,7 @@ return {
     event = "User IceLoad",
     opts = {
         options = {
-            theme = "pywal16-nvim",
+            theme = require("gruvbox-material.lualine").theme("medium"),
             component_separators = { left = "", right = "" },
             section_separators = { left = "", right = "" },
         },
