@@ -25,6 +25,11 @@ return {
                 keys = "<Leader>e",
                 desc = "TFM Open",
             },
+            {
+                mode = "n",
+                keys = "<Leader>t",
+                desc = "Terminal",
+            },
         },
     },
 }
