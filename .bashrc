@@ -38,7 +38,7 @@ alias ex=exit
 
 # History
 HISTSIZE=2000
-HISTFILESIZE=40000
+HISTFILESIZE=900000
 HISTCONTROL=ignoreboth      # ignore identical or empty lines in history
 
 # Import colorscheme from 'wal' asynchronously
