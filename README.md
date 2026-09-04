@@ -69,21 +69,6 @@ List of programs and tools I use
 
 <br>
 
-## Wallpapers used in screenshots 
-Screenshot 1:
-- <https://www.pixiv.net/artworks/98623904>
-
-Screenshot 2:
-- <https://www.pixiv.net/artworks/47305056>
-
-Screenshot 3:
-- <https://www.pixiv.net/artworks/117800137>
-
-Screenshot 4:
-- <https://www.pixiv.net/artworks/112924536>
-
-<br>
-
 ## Projects Used
 
 [gnuunixchad](https://github.com/gnuunixchad/dotfiles) - Referenced and used a portion of the configuration and scripts with custom modifications

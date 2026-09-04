@@ -66,21 +66,6 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 
 <br>
 
-## 截图中使用到的壁纸 
-截图一：
-- <https://www.pixiv.net/artworks/98623904>
- 
-截图二：
-- <https://www.pixiv.net/artworks/47305056>
- 
-截图三：
-- <https://www.pixiv.net/artworks/117800137>
- 
-截图四：
-- <https://www.pixiv.net/artworks/112924536>
-
-<br>
-
 ## 使用到的项目
 
 [gnuunixchad](https://github.com/gnuunixchad/dotfiles) - 参考并使用了部分配置和脚本，并进行了自定义修改
