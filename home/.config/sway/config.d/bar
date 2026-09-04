@@ -17,7 +17,7 @@ bar {
     	separator $color6
         background $backgroundF2
         # inactive_workspace $color680 $color680 #5c5c5c
-        inactive_workspace $backgroundE6 $backgroundE6 $color6
+        inactive_workspace $backgroundF2 $backgroundF2 $color6
 	    # active_workspace #323232 #323232 #eeeeee
     }
 }
