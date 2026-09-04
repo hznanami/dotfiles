@@ -1,8 +1,5 @@
 # dotfiles
-<img src="demo/screenshot/screenshot1.png"/>
-<img src="demo/screenshot/screenshot2.png"/>
-<img src="demo/screenshot/screenshot3.png"/>
-<img src="demo/screenshot/screenshot4.png"/>
+<img src="demo/screenshot/screenshot-1.png"/>
 
 <br>
 

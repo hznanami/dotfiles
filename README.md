@@ -2,10 +2,7 @@
 
 [简体中文(zh-CN)](README-zh-CN.md) - [繁體中文(zh-TW)](README-zh-TW.md)
 
-<img src="demo/screenshot/screenshot1.png"/>
-<img src="demo/screenshot/screenshot2.png"/>
-<img src="demo/screenshot/screenshot3.png"/>
-<img src="demo/screenshot/screenshot4.png"/>
+<img src="demo/screenshot/screenshot-1.png"/>
 
 <br>
 
