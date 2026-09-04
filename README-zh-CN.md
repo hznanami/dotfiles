@@ -1,4 +1,7 @@
 # dotfiles
+
+[English](README.md) - [繁體中文 (zh-TW)](README-zh-TW.md)
+
 <img src="demo/screenshot/screenshot-1.png"/>
 <br>
 
