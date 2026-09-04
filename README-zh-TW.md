@@ -2,7 +2,7 @@
 
 [English](README.md) - [简体中文 (zh-CN)](README-zh-CN.md)
 
-<img src="demo/screenshot/screenshot-1.png"/>
+![main-screenshot](demo/screenshot/screenshot-1.png)
 <br>
 
 ## 使用方法

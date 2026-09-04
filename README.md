@@ -2,7 +2,7 @@
 
 [简体中文(zh-CN)](README-zh-CN.md) - [繁體中文(zh-TW)](README-zh-TW.md)
 
-<img src="demo/screenshot/screenshot-1.png"/>
+![main-screenshot](demo/screenshot/screenshot-1.png)
 <br>
 
 ## Usage
