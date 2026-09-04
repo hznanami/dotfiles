@@ -3,7 +3,6 @@
 [简体中文(zh-CN)](README-zh-CN.md) - [繁體中文(zh-TW)](README-zh-TW.md)
 
 <img src="demo/screenshot/screenshot-1.png"/>
-
 <br>
 
 ## Usage
@@ -31,7 +30,6 @@ The configuration files in this repository can be:
 1. Symlinked to your home directory
 2. Managed with a dotfiles manager like GNU [Stow](https://github.com/aspiers/stow)
 3. Manually copied to the appropriate locations
-
 <br>
 
 ## Programs
@@ -65,7 +63,6 @@ List of programs and tools I use
 | Privilege escalation tool| [doas](https://github.com/Duncaen/OpenDoas)    |
 | Dotfiles Manager         | [stow](https://github.com/aspiers/stow) & [git](https://github.com/git/git)    |
 | Init system              | [openrc](https://github.com/OpenRC/openrc)    |
-
 
 <br>
 

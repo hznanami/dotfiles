@@ -1,6 +1,5 @@
 # dotfiles
 <img src="demo/screenshot/screenshot-1.png"/>
-
 <br>
 
 ## 使用方法
@@ -28,7 +27,6 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 1. 連結到您的主目錄
 2. 使用點檔案管理器（如 GNU [Stow](https://github.com/aspiers/stow)）進行管理
 3. 手動複製到適當位置
-
 <br>
 
 ## 程序
@@ -63,7 +61,6 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 | Dotfiles管理      | [stow](https://github.com/aspiers/stow) & [git](https://github.com/git/git)    |
 | 初始化系統        | [openrc](https://github.com/OpenRC/openrc)    |
 
-
 <br>
 
 ## 使用到的項目
@@ -71,6 +68,3 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 [gnuunixchad](https://github.com/gnuunixchad/dotfiles) - 參考並使用了部分配置和腳本，並進行了自訂修改
 
 [BreadOnPenguins](https://github.com/BreadOnPenguins/scripts) - 參考並使用了部分腳本，並作了修改
-
-
-
