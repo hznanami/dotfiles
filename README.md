@@ -41,7 +41,7 @@ List of programs and tools I use
 | Winodws Manager          | [sway](https://github.com/swaywm/sway)    |
 | Shell                    | [bash](https://www.gnu.org/software/bash/bash.html)    |
 | Terminal                 | [foot](https://codeberg.org/dnkl/foot)    |
-| Bar                      | swaybar    |
+| Bar                      | [swaybar](https://github.com/swaywm/sway/tree/master/swaybar)    |
 | Status bar               | [i3blocks](https://github.com/vivien/i3blocks)    |
 | Wallpaper utility        | [swaybg](https://github.com/swaywm/swaybg)    |
 | Editor                   | [neovim](https://github.com/neovim/neovim)    |
