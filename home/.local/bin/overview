@@ -1,0 +1,3 @@
+#!/bin/bash
+# Window overview and selection for Sway (see https://github.com/RadioNoiseE/windows)
+swaymsg -t get_tree | jq ".. | objects | select(.foreign_toplevel_identifier==\"$(windows -o DP-2)\") | .id" | xargs -I? swaymsg [con_id=?] focus
