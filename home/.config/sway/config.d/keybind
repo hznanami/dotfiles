@@ -203,7 +203,11 @@ bindsym $mod+Shift+p exec foot -T floating_term --window-size-pixels=1280x520 fz
 
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
-    bindsym $mod+equal scratchpad show,exec pkill -SIGRTMIN+10 i3blocks
+    # bindsym $mod+equal scratchpad show,exec pkill -SIGRTMIN+10 i3blocks
+
+    # Select and restore scratchpad window with wmenu
+    bindsym $mod+equal exec --no-startup-id descratcher-wmenu
+
 #
 # Resizing containers:
 #

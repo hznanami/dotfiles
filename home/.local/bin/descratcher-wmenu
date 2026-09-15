@@ -1,0 +1,26 @@
+#!/bin/sh
+# Show and select windows currently in Sway scratchpad.
+# Uses wmenu as the selector and restores the selected window.
+# Requires: sway-descratch (https://codeberg.org/scip/sway-descratch), wmenu,
+# pywal16 (optional, for colors), i3blocks (optional, for status bar).
+if [ -f "${HOME}/.cache/wal/colors-wmenu-sh" ]; then
+    . "${HOME}/.cache/wal/colors-wmenu-sh"
+else
+    color6=""
+    background=""
+fi
+
+items=$(descratch)
+total_items=$(printf "%s\n" "$items" | wc -l)
+max_lines=10
+
+if [ "$total_items" -lt "$max_lines" ]; then
+    display_lines=$total_items
+else
+    display_lines=$max_lines
+fi
+
+printf "%s\n" "$items" \
+    | wmenu -l "$display_lines" -p "Select window from scratchpad to show:" -i -f "Source Sans 3 Bold 13.5" -S "$color6" -s "$background" -n "$color6" -M "$color6" -N "$background" -m "$background" \
+    | cut -d' ' -f1 | xargs -I{} --no-run-if-empty "descratch" {} \
+    && pkill -SIGRTMIN+10 i3blocks
