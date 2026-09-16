@@ -31,48 +31,44 @@ end)
 -- bind mouse vertical scroll button with pressed Ctrl to zoom in the image at mouse pointer coordinates
 swayimg.viewer.on_mouse("ScrollUp", function()
   local pos = swayimg.get_mouse_pos()
-  local scale = swayimg.viewer.get_scale()
+  local scale = swayimg.viewer.scale
   scale = scale + scale / 10
   swayimg.viewer.set_abs_scale(scale, pos.x, pos.y);
 end)
 
 swayimg.viewer.on_mouse("ScrollDown", function()
   local pos = swayimg.get_mouse_pos()
-  local scale = swayimg.viewer.get_scale()
+  local scale = swayimg.viewer.scale
   scale = scale - scale / 10
   swayimg.viewer.set_abs_scale(scale, pos.x, pos.y);
 end)
 
 swayimg.viewer.on_key("i", function()
-    local scale = swayimg.viewer.get_scale()
+    local scale = swayimg.viewer.scale
     scale = scale + scale / 10
     swayimg.viewer.set_abs_scale(scale);
 end)
 
 swayimg.viewer.on_key("o", function()
-    local scale = swayimg.viewer.get_scale()
+    local scale = swayimg.viewer.scale
     scale = scale - scale / 10
     swayimg.viewer.set_abs_scale(scale);
 end)
 
 swayimg.viewer.on_key("n", function()
-    swayimg.viewer.switch_image("next")
+    swayimg.viewer.open("next")
 end)
 
 swayimg.viewer.on_key("p", function()
-    swayimg.viewer.switch_image("prev")
+    swayimg.viewer.open("prev")
 end)
 
 swayimg.viewer.on_key("Tab", function()
-  if swayimg.text.visible() then
-    swayimg.text.hide()
-  else
-    swayimg.text.show()
-  end
+    swayimg.text.visible = not swayimg.text.visible
 end)
 
 swayimg.viewer.on_key("return", function()
-    swayimg.set_mode("gallery")
+    swayimg.mode = "gallery"
 end)
 
 swayimg.viewer.on_key("z", function()

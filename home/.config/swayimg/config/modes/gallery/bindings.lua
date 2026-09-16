@@ -7,11 +7,11 @@ end)
 
 -- bind Enter key to open image in viewer
 swayimg.gallery.on_key("Return", function()
-  swayimg.set_mode("viewer")
+  swayimg.mode = "viewer"
 end)
 -- bind the left arrow key to select thumbnail on the left side
 swayimg.gallery.on_key("Left", function()
-  swayimg.gallery.switch_image("left")
+  swayimg.gallery.select("left")
 end)
 
 --
@@ -28,7 +28,7 @@ end)
 -- set a custom window title in gallery mode
 swayimg.gallery.on_image_change(function()
   local image = swayimg.gallery.get_image()
-  swayimg.set_title("Gallery: "..image.path)
+  swayimg.title = "Gallery: "..image.path
 end)
 
 -- print paths to all marked files by pressing Ctrl-p in gallery mode
@@ -42,24 +42,20 @@ swayimg.gallery.on_key("Ctrl-p", function()
 end)
 
 swayimg.gallery.on_key("Tab", function()
-  if swayimg.text.visible() then
-    swayimg.text.hide()
-  else
-    swayimg.text.show()
-  end
+    swayimg.text.visible = not swayimg.text.visible
 end)
 
 swayimg.gallery.on_key("h", function()
-    swayimg.gallery.switch_image("left")
+    swayimg.gallery.select("left")
 end)
 swayimg.gallery.on_key("j", function()
-    swayimg.gallery.switch_image("down")
+    swayimg.gallery.select("down")
 end)
 swayimg.gallery.on_key("k", function()
-    swayimg.gallery.switch_image("up")
+    swayimg.gallery.select("up")
 end)
 swayimg.gallery.on_key("l", function()
-    swayimg.gallery.switch_image("right")
+    swayimg.gallery.select("right")
 end)
 
 swayimg.gallery.on_key("Shift+w", function()
