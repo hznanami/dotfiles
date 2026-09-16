@@ -23,7 +23,7 @@ markup=pango
 #
 [scratchpad]
 command= scripts/scratchpad-count
-interval=10
+interval=0
 signal=10
 
 [mpd]
