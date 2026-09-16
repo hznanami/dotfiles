@@ -8,11 +8,7 @@ else
     color=""
 fi
 
-count=$(swaymsg -t get_tree 2>/dev/null | jq '
-    [recurse(.nodes[]?, .floating_nodes[]?)
-     | select(.scratchpad_state? != null and .scratchpad_state != "none")]
-    | length
-' 2>/dev/null)
+count=$(descratch | wc -l)
 
 if [[ "$count" =~ ^[0-9]+$ ]] && (( count > 0 )); then
     if [[ -n "$color" ]]; then
