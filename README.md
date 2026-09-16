@@ -71,3 +71,7 @@ List of programs and tools I use
 [gnuunixchad](https://github.com/gnuunixchad/dotfiles) - Referenced and used a portion of the configuration and scripts with custom modifications
 
 [BreadOnPenguins](https://github.com/BreadOnPenguins/scripts) - A portion of the script was referenced and used with modifications
+
+[windows](https://github.com/RadioNoiseE/windows) - The implementation of [`overview`](home/.local/bin/overview) in sway is based on this project
+
+[sway-descratch](https://codeberg.org/scip/sway-descratch) - [`descrather-wmenu`](home/.local/bin/descratcher-wmenu) is modified based on this project's `descrather-rofi.sh`, and uses the compiled binary provided by this project
