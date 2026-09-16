@@ -29,6 +29,6 @@ swayimg.viewer.text = {
 }
 
 -- force set scale mode on window resize (useful for tiling compositors)
-swayimg.on_window_resize(function()
-  swayimg.viewer.set_fix_scale("optimal")
-end)
+-- swayimg.on_window_resize(function()
+--   swayimg.viewer.set_fix_scale("optimal")
+-- end)
