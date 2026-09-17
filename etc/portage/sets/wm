@@ -1,0 +1,20 @@
+# sway
+gui-wm/sway
+gui-apps/swaybg
+gui-apps/swaylock
+gui-apps/foot
+gui-apps/mako
+gui-apps/wmenu
+gui-libs/xdg-desktop-portal-wlr
+sys-apps/xdg-desktop-portal-gtk
+x11-misc/i3blocks
+# x11-misc/i3status
+gui-apps/wtype
+
+# labwc
+# gui-wm/labwc
+# gui-apps/sfwbar
+# gui-apps/waybar
+# gui-apps/fuzzel
+# gui-apps/wlr-randr
+# dev-python/pygobject

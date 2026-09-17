@@ -1,0 +1,72 @@
+# network
+net-misc/dhcpcd
+net-wireless/iwd
+net-wireless/iw
+net-firewall/nftables
+net-analyzer/realitlscanner
+# net-misc/yt-dlp
+net-analyzer/mtr
+net-analyzer/traceroute
+
+# proxy
+net-proxy/sing-box
+
+# admin
+app-admin/doas
+
+# app admin
+app-admin/sysklogd
+app-admin/stow
+# app-admin/eclean-kernel
+
+# shell
+app-shells/bash-completion
+# app-shells/dash
+app-shells/fzf
+app-text/tree
+
+# filesystem
+sys-fs/e2fsprogs
+sys-fs/dosfstools
+sys-block/io-scheduler-udev-rules
+
+# gentoo portage
+app-portage/gentoolkit
+app-eselect/eselect-repository
+# app-eselect/eselect-notify-send
+
+# process
+sys-process/cronie
+# sys-process/lsof
+
+# libs
+x11-libs/libnotify
+
+# arch
+app-arch/7zip
+
+# misc
+app-misc/brightnessctl
+# x11-misc/read-edid
+
+# vcs
+dev-vcs/git
+dev-vcs/rcs
+
+# power
+sys-power/tlp
+
+# emulation
+app-emulation/qemu
+app-emulation/quickemu
+
+# kernel tools
+sys-kernel/modprobed-db
+
+# apps
+# x11-apps/xrdb
+sys-apps/flatpak
+sys-apps/con2fbmap
+x11-misc/prime-run
+app-cdr/iat
+# sys-apps/drm_info

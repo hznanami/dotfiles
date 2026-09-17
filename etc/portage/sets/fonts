@@ -1,0 +1,15 @@
+# System Fonts
+# UI fonts
+media-fonts/source-serif
+media-fonts/source-sans
+media-fonts/source-han-sans
+media-fonts/source-han-serif
+media-fonts/source-han-mono
+
+# Terminal fonts
+media-fonts/jetbrains-mono
+# media-fonts/fira-code
+
+# Icons
+media-fonts/nerdfonts
+# media-fonts/fontawesome

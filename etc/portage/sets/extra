@@ -1,0 +1,48 @@
+# editor
+app-editors/neovim
+
+# misc
+# app-misc/fastfetch
+x11-misc/pywal16
+app-misc/cliphist
+app-misc/lf
+
+# media
+media-video/mpv
+media-video/ffmpegthumbnailer
+media-sound/mpd
+media-sound/rmpc
+media-sound/cava
+media-sound/mpc
+media-sound/ncmpcpp
+media-gfx/chafa
+
+# apps
+gui-apps/wf-recorder
+gui-apps/grim
+gui-apps/slurp
+gui-apps/wl-clipboard
+gui-apps/clipman
+
+# p2p
+net-p2p/rtorrent
+net-p2p/qbittorrent
+# net-p2p/transmission
+
+# i18n
+app-i18n/fcitx
+app-i18n/fcitx-gtk
+# app-i18n/fcitx-qt
+app-i18n/fcitx-rime
+app-i18n/librime-lua
+
+# shell
+app-shells/zoxide
+
+# process
+sys-process/btop
+sys-process/nvtop
+
+# libs
+# dev-util/vulkan-utility-libraries
+# media-libs/vulkan-layers
