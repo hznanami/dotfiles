@@ -1,0 +1,46 @@
+# misc
+app-misc/brightnessctl
+app-misc/cliphist
+gui-apps/clipman
+app-misc/lf
+
+# kernel
+# sys-kernel/dracut
+sys-kernel/installkernel
+sys-boot/uefi-mkconfig
+
+# i18n
+app-i18n/librime-lua
+
+# fonts
+media-fonts/source-han-mono
+media-fonts/source-han-serif
+media-fonts/nerdfonts
+
+# desktop
+# gui-wm/labwc
+# gui-apps/sfwbar
+# gui-libs/libsfdo
+# gui-apps/fuzzel
+# gui-apps/wlr-randr
+# sys-apps/drm_info
+gui-apps/wtype
+x11-misc/pywal16
+media-gfx/swayimg
+gui-apps/wf-recorder
+
+# media
+media-sound/rmpc
+
+# shell
+app-shells/zoxide
+
+# emulation
+app-emulation/quickemu
+
+# network
+net-proxy/sing-box
+net-analyzer/realitlscanner
+
+# system
+sys-apps/con2fbmap
