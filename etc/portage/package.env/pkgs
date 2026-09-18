@@ -4,6 +4,6 @@
 # sys-kernel/gentoo-kernel gcc-custom.conf
 
 # llvm
-www-client/librewolf lto-llvm.conf
-x11-misc/matugen lto-llvm.conf
-media-sound/rmpc lto-llvm.conf
+# www-client/librewolf lto-llvm.conf
+# x11-misc/matugen lto-llvm.conf
+# media-sound/rmpc lto-llvm.conf
