@@ -1,0 +1,9 @@
+# drivers
+>=x11-drivers/nvidia-drivers-590
+
+# proxy
+>=net-proxy/sing-box-1.14
+
+# Unnecessary dependencies
+www-client/w3m
+virtual/w3m
