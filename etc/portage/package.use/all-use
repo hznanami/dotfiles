@@ -54,7 +54,6 @@ net-libs/gnutls pkcs11 tools
 x11-libs/libxkbcommon X
 
 # browser
-# media-libs/libglvnd X
 # www-client/librewolf -jpegxl openh264 pulseaudio eme-free wasm-sandbox
 # media-libs/libvpx postproc
 # dev-qt/qtwebengine bindist alsa pulseaudio screencast -vaapi
@@ -90,8 +89,8 @@ net-p2p/qbittorrent -dbus -gui webui
 gui-wm/sway tray X
 gui-libs/wlroots lcms liftoff X
 gui-apps/swaybg gdk-pixbuf
-x11-misc/i3blocks -contrib
 x11-libs/gdk-pixbuf jpeg
+x11-misc/i3blocks -contrib
 # gui-apps/sfwbar iwd mpd network notification
 # gui-apps/waybar mpd tray network wifi
 sys-apps/flatpak X
@@ -111,3 +110,4 @@ app-misc/lf static
 # dev-libs/libdbusmenu gtk3
 dev-libs/boost icu
 # dev-lang/php gd fpm
+# media-libs/libglvnd X
