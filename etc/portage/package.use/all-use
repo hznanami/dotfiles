@@ -1,0 +1,114 @@
+# Package USE Flags and Dependencies
+# media
+media-gfx/chafa tools webp jpegxl
+media-video/ffmpeg opus x264 x265 -vpx vaapi nvenc -pulseaudio -truetype
+media-libs/x265 -12bit
+media-gfx/imagemagick jpeg
+# media-gfx/ueberzugpp opencv
+media-gfx/swayimg jpeg png webp drm lua_single_target_lua5-4
+media-sound/mpd -mpg123 -curl -network -ffmpeg flac
+media-sound/ncmpcpp visualizer
+media-video/mpv nvenc lcms -xv -libmpv -openal -egl -drm
+media-gfx/imagemagick -svg
+media-libs/openal -gui
+media-video/pipewire -bluetooth sound-server flatpak
+# media-gfx/imv jpegxl webp
+media-libs/libsdl2 gles2
+media-libs/libepoxy X
+
+# arch
+app-arch/7zip -rar
+
+# complier
+llvm-core/clang xml
+llvm-core/llvm xml
+sys-devel/gcc lto pgo
+
+# text
+app-text/xmlto text
+
+# i18n
+app-i18n/fcitx-gtk -gtk4
+app-i18n/fcitx-qt qt6
+app-i18n/librime-lua -lua_single_target_lua5-1 lua_single_target_luajit
+
+# fonts
+media-fonts/source-han-sans l10n_zh-TW l10n_ja
+media-fonts/source-han-serif l10n_zh-TW l10n_ja
+media-fonts/nerdfonts jetbrainsmono
+media-libs/freetype harfbuzz
+
+# kernel
+sys-kernel/gentoo-kernel savedconfig
+sys-kernel/gentoo-kernel-bin initramfs
+
+# libs
+x11-libs/gtk+ X
+# dev-libs/libdbusmenu gtk3
+dev-cpp/gtkmm X
+x11-libs/cairo X
+# dev-cpp/cairomm X
+sys-kernel/installkernel efistub -dracut
+sys-apps/iproute2 -iptables
+net-libs/gnutls pkcs11 tools
+# x11-libs/cairo X aqua
+x11-libs/libxkbcommon X
+
+# browser
+# media-libs/libglvnd X
+# www-client/librewolf -jpegxl openh264 pulseaudio eme-free wasm-sandbox
+# media-libs/libvpx postproc
+# dev-qt/qtwebengine bindist alsa pulseaudio screencast -vaapi
+
+# drivers
+x11-drivers/nvidia-drivers -tools -persistenced
+media-libs/mesa X
+
+# init system
+sys-apps/openrc -netifrc
+
+# qt
+dev-qt/qtbase X xml opengl wayland cups gtk libproxy
+dev-qt/qttools opengl
+# dev-python/pyqt6 webchannel
+
+# emulation
+app-emulation/qemu gtk spice pipewire virgl virtfs xattr opengl io-uring -oss sdl alsa pulseaudio usbredir
+app-emulation/quickemu python_single_target_python3_13
+net-misc/spice-gtk webdav mjpeg
+
+# portage
+# app-eselect/eselect-php fpm
+
+# proxy
+net-proxy/sing-box -clash-api -wireguard -tailscale -ccm -cloudflared -ocm -acme -dhcp -quic
+
+# p2p
+# net-p2p/transmission cli
+net-p2p/qbittorrent -dbus -gui webui
+
+# desktop
+gui-wm/sway tray X
+gui-libs/wlroots lcms liftoff X
+gui-apps/swaybg gdk-pixbuf
+x11-misc/i3blocks -contrib
+x11-libs/gdk-pixbuf jpeg
+# gui-apps/sfwbar iwd mpd network notification
+# gui-apps/waybar mpd tray network wifi
+sys-apps/flatpak X
+sys-apps/xdg-desktop-portal flatpak
+x11-misc/pywal16 python_targets_python3_13
+# gui-wm/labwc X icons svg
+# gui-apps/fuzzel png svg
+# x11-libs/pango X
+
+# power
+sys-power/tlp -rdw -ppd
+
+# misc
+app-misc/lf static
+
+# other
+# dev-libs/libdbusmenu gtk3
+dev-libs/boost icu
+# dev-lang/php gd fpm
