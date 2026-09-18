@@ -51,7 +51,6 @@ x11-libs/cairo X
 sys-kernel/installkernel efistub -dracut
 sys-apps/iproute2 -iptables
 net-libs/gnutls pkcs11 tools
-# x11-libs/cairo X aqua
 x11-libs/libxkbcommon X
 
 # browser
