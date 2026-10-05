@@ -1,0 +1,51 @@
+general {
+        output_format = "i3bar"
+        colors = false
+        interval = 10
+}
+
+order += "path_exists scratchpad"
+order += "run_watch mpd"
+order += "volume master"
+order += "wireless wlan0"
+order += "battery 0"
+order += "cpu_temperature 0"
+order += "time"
+
+wireless wlan0 {
+        format_up = "󰖩  %quality"
+        format_down = "󰖪  down"
+}
+
+battery 0 {
+        format = "%status %percentage"
+        format_percentage = "%.0f%s"
+        status_chr = "󰂄 "
+        status_bat = "🔋 BAT"
+        status_unk = "? UNK"
+        status_full = "󰁹 FULL"
+        status_idle = " "
+        path = "/sys/class/power_supply/BAT%d/uevent"
+        low_threshold = 10
+}
+
+time {
+        format = "󰥔  %_I:%M"
+}
+
+volume master {
+        format = "    %volume"
+        format_muted = "   muted"
+}
+
+path_exists scratchpad {
+       format = "   scratchpad yes" 
+       format_down = "" 
+       path = "/tmp/scratchpad"
+}
+
+run_watch mpd{
+        pidfile = "~/.config/mpd/mpd.pid"
+        format = "mpd online"
+        format_down = ""
+}
