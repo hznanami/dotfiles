@@ -42,7 +42,7 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 | Shell             | [bash](https://www.gnu.org/software/bash/bash.html)    |
 | 終端              | [foot](https://codeberg.org/dnkl/foot)    |
 | Bar               | [swaybar](https://github.com/swaywm/sway/tree/master/swaybar)    |
-| Bar狀態           | [i3blocks](https://github.com/vivien/i3blocks)    |
+| Bar狀態           | [i3status](https://github.com/i3/i3status)    |
 | 壁紙工具          | [swaybg](https://github.com/swaywm/swaybg)    |
 | 編輯器            | [neovim](https://github.com/neovim/neovim)    |
 | 檔案管理器        | [lf](https://github.com/gokcehan/lf)    |
