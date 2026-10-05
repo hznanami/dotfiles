@@ -13,7 +13,7 @@ bar {
     colors {
     	font pango:Source Sans 3 Semibold 11
         focused_workspace  $color6 $color6 $background
-        statusline #eeeeee
+        statusline $color6
     	separator $color6
         background $backgroundF2
         # inactive_workspace $color680 $color680 #5c5c5c
