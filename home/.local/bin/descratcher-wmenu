@@ -20,7 +20,12 @@ else
     display_lines=$max_lines
 fi
 
-printf "%s\n" "$items" \
-    | wmenu -l "$display_lines" -p "Select window from scratchpad to show:" -i -f "Source Sans 3 Bold 13.5" -S "$color6" -s "$background" -n "$color6" -M "$color6" -N "$background" -m "$background" \
-    | cut -d' ' -f1 | xargs -I{} --no-run-if-empty "descratch" {} \
-    && pkill -SIGRTMIN+10 i3blocks
+choice=$(printf "%s\n" "$items" \
+    | wmenu -l "$display_lines" -p "Select window from scratchpad to show:" -i -f "Source Sans 3 Bold 13.5" -S "$color6" -s "$background" -n "$color6" -M "$color6" -N "$background" -m "$background")
+
+[ -z "$choice" ] && exit 0
+printf "%s\n" "$choice" | cut -d' ' -f1 | xargs -I{} --no-run-if-empty "descratch" {}
+
+if [ "$total_items" -eq 1 ]; then
+    rm /tmp/scratchpad && killall -USR1 i3status
+fi
