@@ -199,7 +199,7 @@ bindsym $mod+Shift+p exec foot -T floating_term --window-size-pixels=1280x520 fz
 
     # Move the currently focused window to the scratchpad
     # bindsym $mod+minus floating enable,resize set 1600px 900px,move scratchpad,exec pkill -SIGRTMIN+10 i3blocks
-    bindsym $mod+minus move scratchpad,exec pkill -SIGRTMIN+10 i3blocks
+    bindsym $mod+minus move scratchpad;exec touch /tmp/scratchpad && killall -USR1 i3status
 
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
@@ -361,14 +361,14 @@ bindsym $mod+y exec vm-launcher
 bindsym $mod+Shift+o exec overview
 
 # mpd
-bindsym $mod+F9 exec mpd && pkill -SIGRTMIN+8 i3blocks # Start mpd daemon
-bindsym $mod+F10 exec mpd --kill && pkill -SIGRTMIN+8 i3blocks # Stop mpd daemon
+bindsym $mod+F9 exec mpd && killall -USR1 i3status # Start mpd daemon
+bindsym $mod+F10 exec mpd --kill && killall -USR1 i3status # Stop mpd daemon
 
 # Music control
-bindsym $mod+m exec mpc toggle && pkill -SIGRTMIN+8 i3blocks
-bindsym $mod+Shift+m exec mpc stop && pkill -SIGRTMIN+8 i3blocks
-bindsym $mod+Shift+semicolon exec mpc prev && pkill -SIGRTMIN+8 i3blocks
-bindsym $mod+Shift+apostrophe exec mpc next && pkill -SIGRTMIN+8 i3blocks
+bindsym $mod+m exec mpc toggle
+bindsym $mod+Shift+m exec mpc stop
+bindsym $mod+Shift+semicolon exec mpc prev
+bindsym $mod+Shift+apostrophe exec mpc next
 bindsym $mod+semicolon exec mpc seek -5 # Fast-forward 5s
 bindsym $mod+apostrophe exec mpc seek +5 # Rewind 5s
 
