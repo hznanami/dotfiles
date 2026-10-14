@@ -16,12 +16,24 @@
 	"tag": "dns-default",
 	"type": "https",
 	"server": "223.5.5.5"
+      },
+      {
+        "type": "fakeip",
+        "tag": "fakeip",
+        "inet4_range": "198.18.0.0/15"
       }
     ],
     "rules": [
       {
         "rule_set": "geosite-cn",
         "server": "dns-default"
+      },
+      {
+        "query_type": [
+          "A",
+          "AAAA"
+        ],
+        "server": "fakeip"
       }
     ],
     "final": "dns-remote",
