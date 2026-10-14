@@ -192,6 +192,7 @@
           "geoip-cn",
           "geosite-cn"
         ],
+        "action": "bypass",
         "outbound": "direct"
       },
       {
