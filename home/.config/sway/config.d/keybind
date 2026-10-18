@@ -357,8 +357,8 @@ bindsym $mod+Shift+d exec wmenu-flatpak
 # Launch a virtual machine
 bindsym $mod+y exec vm-launcher
 
-# Window overview and selection (see https://github.com/RadioNoiseE/windows)
-bindsym $mod+Shift+o exec overview
+# Window overview and selection (see https://github.com/agejevasv/swayview)
+bindsym Mod1+Tab exec pkill -x swayview || swayview
 
 # mpd
 bindsym $mod+F9 exec mpd && killall -USR1 i3status # Start mpd daemon
