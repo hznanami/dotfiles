@@ -1,5 +1,7 @@
 # Example autostart file
 
+wlr-randr --output Virtual-1 --mode 1920x1080 >/dev/null 2>&1 &
+
 # Set wallpaper with wpick.
 MODE_FILE="$HOME/.cache/labwc/wallpaper/mode"
 if [ ! -f "$MODE_FILE" ]; then
