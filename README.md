@@ -72,6 +72,6 @@ List of programs and tools I use
 
 [BreadOnPenguins](https://github.com/BreadOnPenguins/scripts) - A portion of the script was referenced and used with modifications
 
-[windows](https://github.com/RadioNoiseE/windows) - The implementation of [`overview`](home/.local/bin/overview) in sway is based on this project
+[swayview](https://github.com/agejevasv/swayview) - The implementation of `overview` in sway is based on this project
 
 [sway-descratch](https://codeberg.org/scip/sway-descratch) - [`descrather-wmenu`](home/.local/bin/descratcher-wmenu) is modified based on this project's `descrather-rofi.sh`, and uses the compiled binary provided by this project

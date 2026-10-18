@@ -72,6 +72,6 @@ git clone --recurse-submodules https://github.com/hznanami/dotfiles.git
 
 [BreadOnPenguins](https://github.com/BreadOnPenguins/scripts) - 參考並使用了部分腳本，並作了修改
 
-[windows](https://github.com/RadioNoiseE/windows) - sway中的[`overview`](home/.local/bin/overview)實作是基於此專案
+[swayview](https://github.com/agejevasv/swayview) - sway中的`overview`實作是基於此專案
 
 [sway-descratch](https://codeberg.org/scip/sway-descratch) - [`descrather-wmenu`](home/.local/bin/descratcher-wmenu)是基於此專案的`descrather-rofi.sh`修改而來，並使用了此專案編譯後的二進位檔
